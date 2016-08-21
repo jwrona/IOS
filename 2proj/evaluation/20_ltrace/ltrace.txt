@@ -1,0 +1,405 @@
+29965 (0, 0, 0, -1, 0x1f25bc2)                   = 0x3777023260
+29965 __libc_start_main(0x400cb4, 7, 0x7fffa47e5808, 0x401ed0, 0x401f60 <unfinished ...>
+29965 __errno_location()                         = 0x7fc28dbb46a0
+29965 strtol(0x7fffa47e76d3, 0x7fffa47e55f0, 10, 0x7fffa47e55f0, 0x401f60) = 2
+29965 __errno_location()                         = 0x7fc28dbb46a0
+29965 strtol(0x7fffa47e76d5, 0x7fffa47e55f0, 10, 0x7fffa47e55f0, 0x37775b2000) = 3
+29965 __errno_location()                         = 0x7fc28dbb46a0
+29965 strtol(0x7fffa47e76d7, 0x7fffa47e55f0, 10, 0x7fffa47e55f0, 0x37775b2000) = 1
+29965 __errno_location()                         = 0x7fc28dbb46a0
+29965 strtol(0x7fffa47e76d9, 0x7fffa47e55f0, 10, 0x7fffa47e55f0, 0x37775b2000) = 10
+29965 __errno_location()                         = 0x7fc28dbb46a0
+29965 strtol(0x7fffa47e76dc, 0x7fffa47e55f0, 10, 0x7fffa47e55f0, 0x37775b2000) = 10
+29965 __errno_location()                         = 0x7fc28dbb46a0
+29965 strcpy(0x7fffa47e565c, "out.txt")          = 0x7fffa47e565c
+29965 fopen("out.txt", "w")                      = 0x15a9010
+29965 setvbuf(0x15a9010, NULL, 2, 0)             = 0
+29965 shm_open(0x402174, 578, 432, 0, 0)         = 4
+29965 ftruncate(4, 208)                          = 0
+29965 mmap(0, 208, 3, 1, 4)                      = 0x7fc28dbd7000
+29965 sem_init(0x7fc28dbd7010, 1, 1, -1, 4)      = 0
+29965 sem_init(0x7fc28dbd7030, 1, 1, -1, 4)      = 0
+29965 sem_init(0x7fc28dbd7050, 1, 1, -1, 4)      = 0
+29965 sem_init(0x7fc28dbd7070, 1, 1, -1, 4)      = 0
+29965 sem_init(0x7fc28dbd7090, 1, 1, -1, 4)      = 0
+29965 sem_init(0x7fc28dbd70b0, 1, 1, -1, 4)      = 0
+29965 fork()                                     = 29966
+29965 fork( <unfinished ...>
+29966 <... fork resumed> )                       = 0
+29966 sem_wait(0x7fc28dbd70b0, 0x402058, 0x402000, 0x4020ff, 0x402057) = 0
+29966 fprintf(0x15a9010, "%d: %s: %d: %s\n", 1, "writer", 1, "new value" <unfinished ...>
+29965 <... fork resumed> )                       = 29967
+29967 <... fork resumed> )                       = 0
+29965 fork( <unfinished ...>
+29967 sem_wait(0x7fc28dbd70b0, 0x402058, 0x402000, 0x4020ff, 0x402057 <unfinished ...>
+29966 <... fprintf resumed> )                    = 24
+29966 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29965 <... fork resumed> )                       = 29968
+29965 fork( <unfinished ...>
+29968 <... fork resumed> )                       = 0
+29968 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29967 fprintf(0x15a9010, "%d: %s: %d: %s\n", 2, "writer", 2, "new value" <unfinished ...>
+29966 <... sem_post resumed> )                   = 0
+29966 getpid( <unfinished ...>
+29967 <... fprintf resumed> )                    = 24
+29966 <... getpid resumed> )                     = 29966
+29967 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29966 time(NULL)                                 = 1336927947
+29966 rand_r(0x7fffa47e555c, 0x989676, 29966, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... fork resumed> )                       = 0
+29969 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29968 fprintf(0x15a9010, "%d: %s: %d: %s\n", 3, "reader", 1, "ready" <unfinished ...>
+29967 <... sem_post resumed> )                   = 0
+29967 getpid( <unfinished ...>
+29965 <... fork resumed> )                       = 29969
+29967 <... getpid resumed> )                     = 29967
+29966 <... rand_r resumed> )                     = 0x20889aa6
+29965 fork( <unfinished ...>
+29966 nanosleep(0x7fffa47e5560, 0, 0x58dd8c, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29967 time(NULL <unfinished ...>
+29968 <... fprintf resumed> )                    = 20
+29967 <... time resumed> )                       = 1336927947
+29967 rand_r(0x7fffa47e555c, 0x989676, 29967, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... rand_r resumed> )                     = 0x441260a0
+29967 nanosleep(0x7fffa47e5560, 0, 0x1f5fa2, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29965 <... fork resumed> )                       = 29970
+29968 <... sem_post resumed> )                   = 0
+29969 <... sem_wait resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd7050, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29965 waitpid(29966, NULL, 0 <unfinished ...>
+29970 <... fork resumed> )                       = 0
+29968 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29968 sem_wait(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 fprintf(0x15a9010, "%d: %s: %d: %s\n", 4, "reader", 2, "ready" <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700) = 0
+29969 <... fprintf resumed> )                    = 20
+29968 sem_wait(0x7fc28dbd7090, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29968 sem_post(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29969 <... sem_post resumed> )                   = 0
+29970 fprintf(0x15a9010, "%d: %s: %d: %s\n", 5, "reader", 3, "ready" <unfinished ...>
+29969 sem_wait(0x7fc28dbd7050, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29968 sem_post(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... fprintf resumed> )                    = 20
+29970 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29968 sem_post(0x7fc28dbd7050, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... sem_post resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd7050, 1, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29970 sem_wait(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29970 <... sem_wait resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd70b0, 0x402091, 0x402001, 0x402001, 0x40208c <unfinished ...>
+29970 sem_wait(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29970 <... sem_wait resumed> )                   = 0
+29968 fprintf(0x15a9010, "%d: %s: %d: %s\n", 6, "reader", 1, "reads a value" <unfinished ...>
+29970 sem_post(0x7fc28dbd7010, 1, 2, -1, 0x7fc28dbb4700) = 0
+29970 sem_post(0x7fc28dbd7070, 1, 2, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... fprintf resumed> )                    = 28
+29968 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... sem_post resumed> )                   = 0
+29970 sem_post(0x7fc28dbd7050, 1, 2, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd70b0, 0x40209f, 0x402000, 0x402000, 0x40209a <unfinished ...>
+29970 <... sem_post resumed> )                   = 0
+29969 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd70b0, 0x402091, 0x402001, 0x402001, 0x40208c <unfinished ...>
+29969 sem_wait(0x7fc28dbd7070, 0, 0, 0, 0x7fc28dbd7050) = 0
+29968 <... sem_wait resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd7010, 0, 0, 0, 0x7fc28dbd7050 <unfinished ...>
+29968 fprintf(0x15a9010, "%d: %s: %d: %s: %d\n", 7, "reader", 1, "read", -1 <unfinished ...>
+29969 <... sem_wait resumed> )                   = 0
+29969 sem_post(0x7fc28dbd7010, 0, 3, 0, 0x7fc28dbd7050 <unfinished ...>
+29968 <... fprintf resumed> )                    = 23
+29969 <... sem_post resumed> )                   = 0
+29968 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 sem_post(0x7fc28dbd7070, 1, 3, 0, 0x7fc28dbd7050) = 0
+29969 sem_post(0x7fc28dbd7050, 1, 3, 0, 0x7fc28dbd7050 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29970 fprintf(0x15a9010, "%d: %s: %d: %s\n", 8, "reader", 3, "reads a value" <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd70b0, 0x402091, 0x402001, 0x402001, 0x40208c <unfinished ...>
+29970 <... fprintf resumed> )                    = 28
+29970 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd7010, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... sem_post resumed> )                   = 0
+29969 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd70b0, 0x40209f, 0x402000, 0x402000, 0x40209a <unfinished ...>
+29969 fprintf(0x15a9010, "%d: %s: %d: %s\n", 9, "reader", 2, "reads a value" <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29968 sem_post(0x7fc28dbd7010, 1, 2, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... fprintf resumed> )                    = 28
+29969 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29968 getpid( <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29969 <... sem_post resumed> )                   = 0
+29970 fprintf(0x15a9010, "%d: %s: %d: %s: %d\n", 10, "reader", 3, "read", -1 <unfinished ...>
+29969 sem_wait(0x7fc28dbd70b0, 0x40209f, 0x402000, 0x402000, 0x40209a <unfinished ...>
+29968 <... getpid resumed> )                     = 29968
+29970 <... fprintf resumed> )                    = 24
+29968 time(NULL <unfinished ...>
+29970 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... time resumed> )                       = 1336927947
+29970 <... sem_post resumed> )                   = 0
+29969 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd7010, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 fprintf(0x15a9010, "%d: %s: %d: %s: %d\n", 11, "reader", 2, "read", -1 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29970 sem_post(0x7fc28dbd7010, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... fprintf resumed> )                    = 24
+29970 <... sem_post resumed> )                   = 0
+29969 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 getpid( <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29970 <... getpid resumed> )                     = 29970
+29969 sem_wait(0x7fc28dbd7010, 1, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 time(NULL <unfinished ...>
+29969 <... sem_wait resumed> )                   = 0
+29970 <... time resumed> )                       = 1336927947
+29969 sem_post(0x7fc28dbd7090, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 rand_r(0x7fffa47e555c, 0x989676, 29970, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29970 <... rand_r resumed> )                     = 0x2edfb68f
+29969 sem_post(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 nanosleep(0x7fffa47e5560, 0, 0x61de4d, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29969 getpid( <unfinished ...>
+29968 rand_r(0x7fffa47e555c, 0x989676, 29968, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... nanosleep resumed> )                  = 0
+29969 <... getpid resumed> )                     = 29969
+29968 <... rand_r resumed> )                     = 0x67ac2a9a
+29969 time(NULL <unfinished ...>
+29968 nanosleep(0x7fffa47e5560, 0, 0x8e7c2f, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29967 sem_wait(0x7fc28dbd7030, 0, 0x1f5fa2, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... time resumed> )                       = 1336927947
+29969 rand_r(0x7fffa47e555c, 0x989676, 29969, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29969 <... rand_r resumed> )                     = 0xb35ec95
+29967 sem_wait(0x7fc28dbd7070, 0, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 nanosleep(0x7fffa47e5560, 0, 0x7b5837, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29967 sem_post(0x7fc28dbd7030, 0, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29966 <... nanosleep resumed> )                  = 0
+29966 sem_wait(0x7fc28dbd7030, 0, 0x58dd8c, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... sem_post resumed> )                   = 0
+29967 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29966 <... sem_wait resumed> )                   = 0
+29966 sem_post(0x7fc28dbd7030, 0, 2, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29967 fprintf(0x15a9010, "%d: %s: %d: %s\n", 12, "writer", 2, "ready" <unfinished ...>
+29966 <... sem_post resumed> )                   = 0
+29966 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29967 <... fprintf resumed> )                    = 21
+29967 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29966 <... sem_wait resumed> )                   = 0
+29967 sem_wait(0x7fc28dbd7090, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29966 fprintf(0x15a9010, "%d: %s: %d: %s\n", 13, "writer", 1, "ready" <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29967 sem_wait(0x7fc28dbd70b0, 0x40206f, 0x402001, 0x402001, 0x40206e <unfinished ...>
+29966 <... fprintf resumed> )                    = 21
+29966 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29966 <... sem_post resumed> )                   = 0
+29967 fprintf(0x15a9010, "%d: %s: %d: %s\n", 14, "writer", 2, "writes a value" <unfinished ...>
+29966 sem_wait(0x7fc28dbd7090, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... fprintf resumed> )                    = 30
+29967 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29967 sem_wait(0x7fc28dbd70b0, 0x40207e, 0x402001, 0x402001, 0x40207d) = 0
+29967 fprintf(0x15a9010, "%d: %s: %d: %s\n", 15, "writer", 2, "written") = 23
+29967 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29967 sem_post(0x7fc28dbd7090, 1, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29966 <... sem_wait resumed> )                   = 0
+29967 sem_wait(0x7fc28dbd7030, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29966 sem_wait(0x7fc28dbd70b0, 0x40206f, 0x402001, 0x402001, 0x40206e <unfinished ...>
+29967 <... sem_wait resumed> )                   = 0
+29966 <... sem_wait resumed> )                   = 0
+29967 sem_post(0x7fc28dbd7030, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29966 fprintf(0x15a9010, "%d: %s: %d: %s\n", 16, "writer", 1, "writes a value" <unfinished ...>
+29967 <... sem_post resumed> )                   = 0
+29967 fclose(0x15a9010 <unfinished ...>
+29966 <... fprintf resumed> )                    = 30
+29966 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29967 <... fclose resumed> )                     = 0
+29966 <... sem_post resumed> )                   = 0
+29967 munmap(0x7fc28dbd7000, 208, 0, 1, 0x7fc28dbb4700 <unfinished ...>
+29966 sem_wait(0x7fc28dbd70b0, 0x40207e, 0x402001, 0x402001, 0x40207d) = 0
+29966 fprintf(0x15a9010, "%d: %s: %d: %s\n", 17, "writer", 1, "written" <unfinished ...>
+29967 <... munmap resumed> )                     = 0
+29967 exit(0 <unfinished ...>
+29966 <... fprintf resumed> )                    = 23
+29967 +++ exited (status 0) +++
+29966 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <no return ...>
+29965 --- SIGCHLD (Child exited) ---
+29966 <... sem_post resumed> )                   = 0
+29966 sem_post(0x7fc28dbd7090, 1, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29966 sem_wait(0x7fc28dbd7030, 1, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29966 sem_post(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700) = 0
+29966 sem_post(0x7fc28dbd7030, 1, 0, -1, 0x7fc28dbb4700) = 0
+29966 fclose(0x15a9010)                          = 0
+29966 munmap(0x7fc28dbd7000, 208, 0, 1, 0x7fc28dbb4700) = 0
+29966 exit(0 <unfinished ...>
+29970 <... nanosleep resumed> )                  = 0
+29970 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <no return ...>
+29966 +++ exited (status 0) +++
+29970 <... sem_wait resumed> )                   = 0
+29965 --- SIGCHLD (Child exited) ---
+29970 fprintf(0x15a9010, "%d: %s: %d: %s\n", 18, "reader", 3, "ready" <unfinished ...>
+29965 <... waitpid resumed> )                    = 29966
+29965 waitpid(29967, NULL, 0 <unfinished ...>
+29970 <... fprintf resumed> )                    = 21
+29970 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29965 <... waitpid resumed> )                    = 29967
+29965 sem_wait(0x7fc28dbd7070, 0, 0, -1, 29965 <unfinished ...>
+29970 <... sem_post resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd7050, 1, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29965 <... sem_wait resumed> )                   = 0
+29965 sem_wait(0x7fc28dbd7090, 0, 0, -1, 29965 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29965 <... sem_wait resumed> )                   = 0
+29965 sem_post(0x7fc28dbd7090, 0, 0, -1, 29965)  = 0
+29965 sem_post(0x7fc28dbd7070, 1, 0, -1, 29965 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd7010, 0, 0, 0, 0x7fc28dbd7070 <unfinished ...>
+29965 <... sem_post resumed> )                   = 0
+29965 waitpid(29968, NULL, 0 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd7090, 0, 1, 0, 0x7fc28dbd7070) = 0
+29970 sem_post(0x7fc28dbd7010, 0, 0, 0, 0x7fc28dbd7070) = 0
+29970 sem_post(0x7fc28dbd7070, 1, 0, 0, 0x7fc28dbd7070) = 0
+29970 sem_post(0x7fc28dbd7050, 1, 0, 0, 0x7fc28dbd7070) = 0
+29970 sem_wait(0x7fc28dbd70b0, 0x402091, 0x402001, 0x402001, 0x40208c) = 0
+29970 fprintf(0x15a9010, "%d: %s: %d: %s\n", 19, "reader", 3, "reads a value" <unfinished ...>
+29969 <... nanosleep resumed> )                  = 0
+29969 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29970 <... fprintf resumed> )                    = 29
+29970 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29969 <... sem_wait resumed> )                   = 0
+29970 sem_wait(0x7fc28dbd70b0, 0x40209f, 0x402000, 0x402000, 0x40209a <unfinished ...>
+29969 fprintf(0x15a9010, "%d: %s: %d: %s\n", 20, "reader", 2, "ready") = 21
+29969 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... nanosleep resumed> )                  = 0
+29968 sem_wait(0x7fc28dbd70b0, 0x40206d, 0x402001, 0x402001, 0x402068 <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29968 <... sem_wait resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd7050, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 fprintf(0x15a9010, "%d: %s: %d: %s\n", 21, "reader", 1, "ready" <unfinished ...>
+29969 <... sem_wait resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... fprintf resumed> )                    = 21
+29969 <... sem_wait resumed> )                   = 0
+29968 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 sem_wait(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700) = 0
+29969 sem_post(0x7fc28dbd7010, 1, 2, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... sem_wait resumed> )                   = 0
+29970 fprintf(0x15a9010, "%d: %s: %d: %s: %d\n", 22, "reader", 3, "read", 0 <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29969 sem_post(0x7fc28dbd7070, 1, 2, -1, 0x7fc28dbb4700) = 0
+29970 <... fprintf resumed> )                    = 23
+29969 sem_post(0x7fc28dbd7050, 1, 2, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29970 <... sem_post resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd70b0, 0x402091, 0x402001, 0x402001, 0x40208c <unfinished ...>
+29970 sem_wait(0x7fc28dbd7010, 1, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_wait resumed> )                   = 0
+29970 <... sem_wait resumed> )                   = 0
+29969 fprintf(0x15a9010, "%d: %s: %d: %s\n", 23, "reader", 2, "reads a value" <unfinished ...>
+29970 sem_post(0x7fc28dbd7010, 1, 1, -1, 0x7fc28dbb4700) = 0
+29970 getpid( <unfinished ...>
+29969 <... fprintf resumed> )                    = 29
+29969 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... getpid resumed> )                     = 29970
+29970 time(NULL <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd70b0, 0x40209f, 0x402000, 0x402000, 0x40209a <unfinished ...>
+29970 <... time resumed> )                       = 1336927947
+29970 rand_r(0x7fffa47e555c, 0x989676, 29970, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_wait resumed> )                   = 0
+29969 fprintf(0x15a9010, "%d: %s: %d: %s: %d\n", 24, "reader", 2, "read", 0 <unfinished ...>
+29968 <... sem_post resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd7050, 1, 1, -1, 0x7fc28dbb4700 <unfinished ...>
+29970 <... rand_r resumed> )                     = 0x2edfb68f
+29970 nanosleep(0x7fffa47e5560, 0, 0x61de4d, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29969 <... fprintf resumed> )                    = 23
+29969 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd7070, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_post resumed> )                   = 0
+29969 sem_wait(0x7fc28dbd7010, 1, 0x15a90f0, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 <... sem_wait resumed> )                   = 0
+29968 sem_wait(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700 <unfinished ...>
+29969 <... sem_wait resumed> )                   = 0
+29969 sem_post(0x7fc28dbd7090, 1, 0, -1, 0x7fc28dbb4700) = 0
+29969 sem_post(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700) = 0
+29968 <... sem_wait resumed> )                   = 0
+29969 getpid( <unfinished ...>
+29968 sem_wait(0x7fc28dbd7090, 0, 1, 0, 0x7fc28dbd7010 <unfinished ...>
+29969 <... getpid resumed> )                     = 29969
+29968 <... sem_wait resumed> )                   = 0
+29969 time(NULL <unfinished ...>
+29968 sem_post(0x7fc28dbd7010, 0, 0, 0, 0x7fc28dbd7010 <unfinished ...>
+29969 <... time resumed> )                       = 1336927947
+29968 <... sem_post resumed> )                   = 0
+29969 rand_r(0x7fffa47e555c, 0x989676, 29969, -1, 0x7fc28dbb4700 <unfinished ...>
+29968 sem_post(0x7fc28dbd7070, 1, 0, 0, 0x7fc28dbd7010 <unfinished ...>
+29969 <... rand_r resumed> )                     = 0xb35ec95
+29968 <... sem_post resumed> )                   = 0
+29969 nanosleep(0x7fffa47e5560, 0, 0x7b5837, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29968 sem_post(0x7fc28dbd7050, 1, 0, 0, 0x7fc28dbd7010) = 0
+29968 sem_wait(0x7fc28dbd70b0, 0x402091, 0x402001, 0x402001, 0x40208c) = 0
+29968 fprintf(0x15a9010, "%d: %s: %d: %s\n", 25, "reader", 1, "reads a value") = 29
+29968 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29968 sem_wait(0x7fc28dbd70b0, 0x40209f, 0x402000, 0x402000, 0x40209a) = 0
+29968 fprintf(0x15a9010, "%d: %s: %d: %s: %d\n", 26, "reader", 1, "read", 0) = 23
+29968 sem_post(0x7fc28dbd70b0, 0, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29968 sem_wait(0x7fc28dbd7010, 1, 0x15a90f0, -1, 0x7fc28dbb4700) = 0
+29968 sem_post(0x7fc28dbd7090, 1, 0, -1, 0x7fc28dbb4700) = 0
+29968 sem_post(0x7fc28dbd7010, 1, 0, -1, 0x7fc28dbb4700) = 0
+29968 getpid()                                   = 29968
+29968 time(NULL)                                 = 1336927947
+29968 rand_r(0x7fffa47e555c, 0x989676, 29968, -1, 0x7fc28dbb4700) = 0x67ac2a9a
+29968 nanosleep(0x7fffa47e5560, 0, 0x8e7c2f, 0x989677, 0x7fc28dbb4700 <unfinished ...>
+29970 <... nanosleep resumed> )                  = 0
+29970 fclose(0x15a9010)                          = 0
+29970 munmap(0x7fc28dbd7000, 208, 0, 1, 0x7fc28dbb4700) = 0
+29970 exit(0 <no return ...>
+29970 +++ exited (status 0) +++
+29965 --- SIGCHLD (Child exited) ---
+29969 <... nanosleep resumed> )                  = 0
+29969 fclose(0x15a9010)                          = 0
+29969 munmap(0x7fc28dbd7000, 208, 0, 1, 0x7fc28dbb4700) = 0
+29969 exit(0 <no return ...>
+29969 +++ exited (status 0) +++
+29965 --- SIGCHLD (Child exited) ---
+29968 <... nanosleep resumed> )                  = 0
+29968 fclose(0x15a9010)                          = 0
+29968 munmap(0x7fc28dbd7000, 208, 0, 1, 0x7fc28dbb4700) = 0
+29968 exit(0 <no return ...>
+29968 +++ exited (status 0) +++
+29965 --- SIGCHLD (Child exited) ---
+29965 <... waitpid resumed> )                    = 29968
+29965 waitpid(29969, NULL, 0)                    = 29969
+29965 waitpid(29970, NULL, 0)                    = 29970
+29965 sem_destroy(0x7fc28dbd7010, 0, 0, -1, 29965) = 0
+29965 sem_destroy(0x7fc28dbd7030, 0, 0, -1, 29965) = 0
+29965 sem_destroy(0x7fc28dbd7050, 0, 0, -1, 29965) = 0
+29965 sem_destroy(0x7fc28dbd7070, 0, 0, -1, 29965) = 0
+29965 sem_destroy(0x7fc28dbd7090, 0, 0, -1, 29965) = 0
+29965 sem_destroy(0x7fc28dbd70b0, 0, 0, -1, 29965) = 0
+29965 munmap(0x7fc28dbd7000, 208, 0x7fc28dbd7000, -1, 29965) = 0
+29965 shm_unlink(0x402174, 208, 0x7fc28dbd7000, -1, 29965) = 0
+29965 close(4)                                   = 0
+29965 fclose(0x15a9010)                          = 0
+29965 +++ exited (status 0) +++

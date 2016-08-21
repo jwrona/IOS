@@ -1,0 +1,225 @@
+1: writer: 1: new value
+2: writer: 2: new value
+3: reader: 3: ready
+4: reader: 2: ready
+5: reader: 2: reads a value
+6: reader: 2: read: -1
+7: reader: 3: reads a value
+8: reader: 3: read: -1
+9: reader: 1: ready
+10: reader: 1: reads a value
+11: reader: 1: read: -1
+12: writer: 2: ready
+13: writer: 2: writes a value
+14: writer: 2: written
+15: writer: 2: new value
+16: writer: 2: ready
+17: writer: 2: writes a value
+18: writer: 2: written
+19: writer: 2: new value
+20: writer: 2: ready
+21: writer: 2: writes a value
+22: writer: 2: written
+23: writer: 2: new value
+24: reader: 3: ready
+25: reader: 3: reads a value
+26: reader: 3: read: 2
+27: writer: 1: ready
+28: writer: 1: writes a value
+29: writer: 1: written
+30: writer: 1: new value
+31: writer: 2: ready
+32: writer: 2: writes a value
+33: writer: 2: written
+34: writer: 2: new value
+35: writer: 2: ready
+36: writer: 2: writes a value
+37: writer: 2: written
+38: writer: 2: new value
+39: writer: 2: ready
+40: writer: 2: writes a value
+41: writer: 2: written
+42: writer: 2: new value
+43: writer: 2: ready
+44: writer: 2: writes a value
+45: writer: 2: written
+46: writer: 2: new value
+47: reader: 3: ready
+48: reader: 3: reads a value
+49: reader: 3: read: 2
+50: reader: 2: ready
+51: reader: 2: reads a value
+52: reader: 2: read: 2
+53: writer: 1: ready
+54: writer: 1: writes a value
+55: writer: 1: written
+56: writer: 1: new value
+57: writer: 2: ready
+58: writer: 2: writes a value
+59: writer: 2: written
+60: writer: 2: new value
+61: writer: 2: ready
+62: writer: 2: writes a value
+63: writer: 2: written
+64: writer: 2: new value
+65: writer: 2: ready
+66: writer: 2: writes a value
+67: writer: 2: written
+68: writer: 2: new value
+69: reader: 3: ready
+70: reader: 3: reads a value
+71: reader: 3: read: 2
+72: reader: 1: ready
+73: writer: 2: ready
+74: writer: 2: writes a value
+75: writer: 2: written
+76: writer: 2: new value
+77: reader: 1: reads a value
+78: reader: 1: read: 2
+79: writer: 2: ready
+80: writer: 2: writes a value
+81: writer: 2: written
+82: writer: 2: new value
+83: writer: 1: ready
+84: writer: 1: writes a value
+85: writer: 1: written
+86: writer: 1: new value
+87: writer: 2: ready
+88: writer: 2: writes a value
+89: writer: 2: written
+90: writer: 2: new value
+91: writer: 2: ready
+92: writer: 2: writes a value
+93: writer: 2: written
+94: writer: 2: new value
+95: reader: 3: ready
+96: reader: 3: reads a value
+97: reader: 3: read: 2
+98: writer: 2: ready
+99: writer: 2: writes a value
+100: writer: 2: written
+101: reader: 2: ready
+102: reader: 2: reads a value
+103: reader: 2: read: 2
+104: writer: 1: ready
+105: writer: 1: writes a value
+106: writer: 1: written
+107: writer: 1: new value
+108: reader: 3: ready
+109: reader: 3: reads a value
+110: reader: 3: read: 1
+111: writer: 1: ready
+112: writer: 1: writes a value
+113: writer: 1: written
+114: writer: 1: new value
+115: reader: 3: ready
+116: reader: 3: reads a value
+117: reader: 3: read: 1
+118: reader: 1: ready
+119: reader: 1: reads a value
+120: reader: 1: read: 1
+121: reader: 2: ready
+122: reader: 2: reads a value
+123: reader: 2: read: 1
+124: writer: 1: ready
+125: writer: 1: writes a value
+126: writer: 1: written
+127: writer: 1: new value
+128: reader: 3: ready
+129: reader: 3: reads a value
+130: reader: 3: read: 1
+131: writer: 1: ready
+132: writer: 1: writes a value
+133: writer: 1: written
+134: writer: 1: new value
+135: reader: 3: ready
+136: reader: 3: reads a value
+137: reader: 3: read: 1
+138: reader: 2: ready
+139: reader: 2: reads a value
+140: reader: 2: read: 1
+141: reader: 3: ready
+142: reader: 3: reads a value
+143: reader: 3: read: 1
+144: writer: 1: ready
+145: writer: 1: writes a value
+146: writer: 1: written
+147: writer: 1: new value
+148: reader: 1: ready
+149: reader: 1: reads a value
+150: reader: 1: read: 1
+151: reader: 3: ready
+152: reader: 3: reads a value
+153: reader: 3: read: 1
+154: writer: 1: ready
+155: writer: 1: writes a value
+156: writer: 1: written
+157: writer: 1: new value
+158: reader: 2: ready
+159: reader: 2: reads a value
+160: reader: 2: read: 1
+161: reader: 3: ready
+162: reader: 3: reads a value
+163: reader: 3: read: 1
+164: writer: 1: ready
+165: writer: 1: writes a value
+166: writer: 1: written
+167: writer: 1: new value
+168: reader: 3: ready
+169: reader: 3: reads a value
+170: reader: 3: read: 1
+171: reader: 1: ready
+172: reader: 1: reads a value
+173: reader: 1: read: 1
+174: writer: 1: ready
+175: writer: 1: writes a value
+176: writer: 1: written
+177: writer: 1: new value
+178: reader: 3: ready
+179: reader: 3: reads a value
+180: reader: 3: read: 1
+181: reader: 2: ready
+182: reader: 2: reads a value
+183: reader: 2: read: 1
+184: writer: 1: ready
+185: writer: 1: writes a value
+186: writer: 1: written
+187: writer: 1: new value
+188: reader: 3: ready
+189: reader: 3: reads a value
+190: reader: 3: read: 1
+191: writer: 1: ready
+192: writer: 1: writes a value
+193: writer: 1: written
+194: writer: 1: new value
+195: reader: 3: ready
+196: reader: 3: reads a value
+197: reader: 3: read: 1
+198: reader: 1: ready
+199: reader: 1: reads a value
+200: reader: 1: read: 1
+201: reader: 2: ready
+202: reader: 2: reads a value
+203: reader: 2: read: 1
+204: writer: 1: ready
+205: writer: 1: writes a value
+206: writer: 1: written
+207: writer: 1: new value
+208: reader: 3: ready
+209: reader: 3: reads a value
+210: reader: 3: read: 1
+211: reader: 3: ready
+212: reader: 3: reads a value
+213: reader: 3: read: 1
+214: writer: 1: ready
+215: writer: 1: writes a value
+216: writer: 1: written
+217: reader: 2: ready
+218: reader: 2: reads a value
+219: reader: 2: read: 0
+220: reader: 3: ready
+221: reader: 3: reads a value
+222: reader: 3: read: 0
+223: reader: 1: ready
+224: reader: 1: reads a value
+225: reader: 1: read: 0

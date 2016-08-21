@@ -1,0 +1,322 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0076)https://www.fit.vutbr.cz/study/courses/IOS/public/Lab/projekt2/projekt2.html -->
+<html dir="ltr" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-2">
+
+
+  
+  <title>
+    IOS: Projekt 2
+  </title>
+
+  <meta name="generator" content="DokuWiki Release 2009-12-25c &quot;Lemming&quot;">
+<meta name="robots" content="noindex,nofollow">
+<meta name="date" content="2010-02-22T10:23:58+0100">
+<meta name="keywords" content="vyuka,ios,start">
+<!--
+<link rel="search" type="application/opensearchdescription+xml" href="https://www.fit.vutbr.cz/%7Esmrcka/w/lib/exe/opensearch.php" title="AS'wiki">
+<link rel="start" href="https://www.fit.vutbr.cz/%7Esmrcka/w/">
+<link rel="contents" href="https://www.fit.vutbr.cz/%7Esmrcka/w/doku.php?id=vyuka:ios:start&amp;do=index" title="Index">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="https://www.fit.vutbr.cz/%7Esmrcka/w/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="https://www.fit.vutbr.cz/%7Esmrcka/w/feed.php?mode=list&amp;ns=vyuka:ios">
+<link rel="edit" title="Edit this page" href="https://www.fit.vutbr.cz/%7Esmrcka/w/doku.php?id=vyuka:ios:start&amp;do=edit">
+<link rel="alternate" type="text/html" title="Plain HTML" href="https://www.fit.vutbr.cz/%7Esmrcka/w/doku.php?do=export_xhtml&amp;id=vyuka:ios:start">
+<link rel="alternate" type="text/plain" title="Wiki Markup" href="https://www.fit.vutbr.cz/%7Esmrcka/w/doku.php?do=export_raw&amp;id=vyuka:ios:start">
+<link rel="canonical" href="https://www.fit.vutbr.cz/%7Esmrcka/w/doku.php?id=vyuka:ios:start">
+-->
+<link rel="stylesheet" media="all" type="text/css" href="./IOS  Projekt 2_files/css_003.css">
+<link rel="stylesheet" media="screen" type="text/css" href="./IOS  Projekt 2_files/css_002.css">
+<link rel="stylesheet" media="print" type="text/css" href="./IOS  Projekt 2_files/css.css">
+<script type="text/javascript" charset="utf-8"><!--//--><![CDATA[//><!--
+var NS='vyuka:ios';var SIG=' --- //[[smrcka@fit.vutbr.cz|Vyučující IOS]] 22.02.2010 10:23//';var JSINFO = {"id":"vyuka:ios:start","namespace":"vyuka:ios"};
+//--><!]]></script><link type="text/css" rel="stylesheet" href="data:text/css,">
+<script type="text/javascript" charset="utf-8" src="./IOS  Projekt 2_files/js.php"></script>
+
+  <link rel="shortcut icon" href="https://www.fit.vutbr.cz/~smrcka/w/lib/tpl/default/images/favicon.ico">
+
+  </head><body>
+<div class="dokuwiki">
+    
+  
+  <div class="page">
+    <!-- wikipage start -->
+    <!-- TOC START -->
+<!--
+<div class="toc">
+<div style="cursor: pointer;" class="tocheader toctoggle" id="toc__header"><span class="toc_close" style="cursor: pointer;" id="toc__toggle"><span>-</span></span>Table of Contents</div>
+<div id="toc__inside">
+
+<ul class="toc">
+<li class="level1"><div class="li"><span class="li"><a href="#ukol" class="toc">2. Úkol</a></span></div>
+<ul class="toc">
+<li class="level2"><div class="li"><span class="li"><a href="#common_part" class="toc">Společná část</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#varianta_a" class="toc">Varianta A</a></span></div></li>
+<li class="level2"><div class="li"><span class="li"><a href="#varianta_b" class="toc">Varianta B</a></span></div></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+-->
+<!-- TOC END -->
+
+
+
+<h1><a name="ukol" id="ukol">2. Projekt 2011/2012</a></h1>
+<div class="level1">
+
+<p>
+<strong> Podmínky vypracování </strong>
+</p>
+
+<ul>
+<li class="level1"><div class="li"> Projekt implementujte v jazyce C.</div>
+</li>
+<li class="level1"><div class="li"> Komentujte zdrojové kódy, programujte přehledně. Součástí hodnocení bude i kvalita zdrojového kódu.</div>
+</li>
+<li class="level1"><div class="li"> Kontrolujte, zda se všechny procesy ukončují korektně a zda při ukončování správně uvolňujete všechny alokované zdroje
+(např. pro prostředky System V můžete pomocí příkazu <code>ipcs</code> zjistit, jaké zdroje jsou v systému alokovány).</div>
+</li>
+<li class="level1"><div class="li"> Dodržujte syntax zadaných jmen, formát souborů a formát výstupních dat! Čtěte pozorně zadání a poznámky k vypracování u jednotlivých zadání.</div>
+</li>
+<li class="level1"><div class="li"> <strong>Dotazy k zadání:</strong> Veškeré nejasnosti a dotazy řešte pouze prostřednictvím diskuzního fóra k projektům.</div>
+</li>
+</ul>
+
+<p>
+<strong> Podmínky překladu </strong>
+</p>
+
+<ul>
+<li class="level1"><div class="li"> Pro překlad používejte nástroj <i>make</i>. Součástí odevzdání bude soubor <code>Makefile</code>.</div>
+</li>
+<li class="level1"><div class="li"> Překlad se provede příkazem <code>make</code> v adresáři, kde je umístěn soubor <code>Makefile</code>.</div>
+</li>
+<li class="level1"><div class="li">Po překladu vznikne spustitelný soubor se jménem <code>readerWriter</code>, který bude umístěn ve stejném adresáři 
+jako soubor <code>Makefile</code>.
+</div></li><li class="level1"><div class="li"> Zdrojové kódy překládejte s přepínači <code>-std=gnu99 -Wall -Wextra -Werror -pedantic</code>.</div>
+</li>
+</ul>
+
+<p>
+<strong> Odevzdání </strong>
+</p>
+
+<ul>
+<li class="level1"><div class="li"> Součástí odevzdání budou pouze soubory se zdrojovými kódy (<code>*.c</code>, příp. <code>*.h</code>) a soubor <code>Makefile</code>. Tyto soubory zabalte pomocí tar/gzip do archivu s názvem xlogin.tar.gz, kde xlogin je váš login.
+</div>
+</li>
+<li class="level1"><div class="li"> Archiv vytvořte tak, aby po rozbalení byl soubor Makefile umístěn ve stejném adresáři, jako je archiv. </div>
+</li>
+<li class="level1"><div class="li"> Archiv xlogin.tar.gz odevzdejte prostřednictvím informačního systému, termín <em>Projekt 2</em>.</div>
+</li>
+<li class="level1"><div class="li"> Pokud nebude dodržena forma odevzdání nebo projekt nepůjde přeložit, bude projekt hodnocen 0 body.</div>
+</li>
+<li class="level1"><div class="li"> <b>Archiv odevzdejte pomocí informačního systému v dostatečném předstihu</b> (odevzdaný soubor můžete před vypršením termínu snadno nahradit jeho novější verzí, kdykoliv budete potřebovat).
+</div>
+</li>
+</ul>
+
+<p>
+<strong> Opravy zadání </strong>
+</p><ul>
+<li class="level1"><div class="li"> Opravy zadání (chyby, překlepy, vyjasnění) jsou v textu <font color="red">zvýrazněny červeně</font>.
+</div>
+</li>
+<li class="level1"><div class="li"> 1. oprava byla provedena 2.4.2012: úprava ukázkového výstupu (bližší komentář viz fórum).</div></li>
+<li class="level1"><div class="li"> 2. oprava byla provedena 6.4.2012: oprava korektního pořadí akcí mezi procesy.</div></li>
+</ul>
+<p></p>
+
+</div>
+
+
+<h2>Zadání projektu</h2> 
+Implementujte sychronizační problém <i>čtenář -- písař</i>. V systému je <i>W</i> písařů, <i>R</i> čtenářů a sdílený prostor, 
+do kterého písaři zapisují a ze kterého čtenáři čtou data. Čtenáři mohou číst data souběžně, písař zapisuje s výlučným přístupem
+(tj. pokud zapisuje jeden písař, ostatní písaři nemohou zapisovat a čtenáři nemohou číst). Implementujte variantu s <i>prioritou písařů</i>,
+tj. požadavky na zápis se preferují před požadavky na čtení. Pokud se objeví požadavek na zápis, dokončí se již zahájené operace čtení (čtenáři) 
+a ihned poté se aktivuje písař. Písaři zapisují tak dlouho, dokud existují požadavky na zápis. Pokud nebude mít žádný písař požadavek na zápis,
+mohou čtenáři začíst číst.
+
+<h2>Spuštění programu:</h2>
+<pre class="code">$ ./readerWriter W R C SW SR OUT
+</pre>
+kde
+<pre>W   : počet písařů
+R   : počet čtenářů
+C   : počet cyklů
+SW  : rozsah pro simulaci zpracování písařem [ms]
+SR  : rozsah pro simulaci zpracování čtenářem [ms]
+OUT : název výstupního souboru, do kterého se budou ukládat generované informace. Pokud se místo názvu uvede znak -, budou se informace vypisovat na standardní výstup.
+</pre>
+<p></p>
+
+
+<h2>Implementační detaily</h2>
+<ul>
+    <li class="level1"><div class="li">Každému písaři a čtenáři odpovídá jeden proces. Po spuštění vytváří hlavní proces <i>W</i> procesů pro písaře
+                                       a <i>R</i> procesů pro čtenáře (po inicializaci bude tedy existovat <i>W</i>+<i>R</i>+1 procesů).</div></li>
+    <li class="level1"><div class="li">Každý proces písaře bude interně idenfikován celým číslem, začínajícím od 1. Podobně každý proces čtenáře bude idenfikován 
+                                       celým číslem, začínajícím od 1.</div></li>
+    <li class="level1"><div class="li">Každý proces vykonává své akce a současně zapisuje informace o akcích buď do souboru <i>OUT</i>, nebo na standardní
+                                       výstup, pokud je místo <i>OUT</i> uvedeno <i>-</i>. Přístup k výstupnímu zařízení (zápis informací) musí být výlučný; 
+                                       pokud zapisuje jeden proces a další chce také zapisovat, musí počkat na uvolnění zdroje.</div></li> 
+    <li class="level1"><div class="li">Součástí výstupních informací o akci je pořadové číslo <i>A</i> prováděné akce (viz popis výstupů). 
+                                       Akce se číslují od jedničky. </div></li>
+    <li class="level1"><div class="li">Pro implementaci sdíleného prostoru a čítače akcí použijte sdílenou paměť. 
+    <ul>
+    	<li class="level1"><div class="li"><i>Sdílený prostor:</i> Předpokládejte velikost sdíleného prostoru jedna položka typu <i>int</i>. 
+                                              Při vytvoření inicializujte její obsah na hodnotu <i>-1</i>.</div></li> 
+    	<li class="level1"><div class="li"><i>Čítač akcí:</i> Předpokládejte velikost paměti jedna položka typu <i>int</i>. 
+                                              Při vytvoření inicializujte její obsah na hodnotu <i>1</i>.
+                                              Před každým výpisem informací o akci se přečte číslo akce ze sdílené paměti, použije a zpět zapíše 
+                                              nová hodnota zvětšená o 1. Přístup k čítači musí být výlučný.</div></li> 
+    	<li class="level1"><div class="li"><i>Doporučení:</i> Sdílený prostor i čítač lze realizovat jako sdílenou paměť obsahující dvě položky (jednu pro
+					      sdílený prostor a jednu pro čítač).</div></li> 
+    </ul>
+    </div></li><li class="level1"><div class="li">Pro synchronizaci procesů použijte semafory (System V nebo POSIX).</div></li>
+    <li class="level1"><div class="li">Hlavní proces čeká na ukončení všech písařů. Poté zapíše do sdíleného prostoru hodnotu 0 a čeká na ukončení čtenářů.
+                                       Při úspěšném ukončení bude návratová hodnota 0.</div></li>
+    <li class="level1"><div class="li">Pokud některý ze vstupů nebude odpovídat očekávanému formátu, program vytiskne chybové hlášení na standardní chybový 
+                                       výstup a ukončí se s návratovou hodnotou 1.</div></li>
+    <li class="level1"><div class="li"> Pro generování unikátních klíčů (sdílená paměť apod.) použijte funkci ftok.</div></li>
+    <li class="level1"><div class="li"> C funkce: fork, wait, shmget, shmat, semget, semctl, sem_open, ...</div></li>
+</ul>
+
+<p>
+<strong>Proces písaře</strong> a výstupní formát tištěných informací:
+</p><ul>
+    <li class="level1"><div class="li"> tiskne informaci o výpočtu nové hodnoty: <pre>A: writer: I: new value</pre></div></li>
+    <li class="level1"><div class="li"> simuluje výpočet; uspí se na dobu, která je generována náhodně v rozmezí 0 až <i>SW</i> v ms (pokud 
+                                        je <i>SW=0</i>, proces se neuspí a ihned pokračuje dále)</div></li>
+    <li class="level1"><div class="li"> písař je připraven zapsat hodnotu (svou interní identifikaci), tiskne informaci: <pre>A: writer: I: ready</pre></div></li>
+    <li class="level1"><div class="li"> vkládá hodnotu (svou identifikaci) do sdíleného prostoru</div></li>
+    <ul>
+    <li class="level1"><div class="li"> těsně před vložením tiskne informaci: <pre>A: writer: I: writes a value</pre></div></li>
+    <li class="level1"><div class="li"> ihned po vložení tiskne informaci: <pre>A: writer: I: written</pre></div></li>
+    </ul>
+    <li class="level1"><div class="li"> pokud je počet vložení roven hodnotě <i>C</i>, proces se ukončí, jinak se celý opakuje</div></li>
+</ul>
+<p></p>
+
+<p>
+<strong>Proces čtenáře</strong> a výstupní formát tištěných informací:
+</p><ul>
+    <li class="level1"><div class="li"> čtenář je připraven přečíst hodnotu, tiskne informaci: <pre>A: reader: I: ready</pre></div></li>
+    <li class="level1"><div class="li"> čte hodnotu ze sdíleného prostoru (hodnotou je interní identifikaci písaře, který do sdíleného prostoru naposledy zapisoval)</div></li>
+    <ul>
+    <li class="level1"><div class="li"> těsně před čtením tiskne informaci: <pre>A: reader: I: reads a value</pre></div></li>
+    <li class="level1"><div class="li"> ihned po čtení tiskne informaci (<i>X</i> je přečtená hodnota): <pre>A: reader: I: read: X</pre></div></li>
+    </ul>
+    <li class="level1"><div class="li"> simuluje výpočet; uspí se na dobu, která je generována náhodně v rozmezí 0 až <i>SR</i> v ms (pokud 
+                                        je <i>SR=0</i>, proces se neuspí a ihned pokračuje dále)</div></li>
+    <li class="level1"><div class="li"> pokud je přečtená hodnota rovna <i>0</i>, proces se ukončí, jinak se celý opakuje</div></li>
+</ul>
+<p></p>
+
+<p>
+<strong>Poznámka k výstupu:</strong>
+</p><ul> 
+    <li class="level1"><div class="li"><i>A</i> je pořadové číslo prováděné akce.</div></li>
+    <li class="level1"><div class="li"><i>I</i> je interní identifikátor písaře (čtenáře).</div></li>
+</ul>
+<p></p>
+
+
+<h2>Ukázka spuštění a výstupů programu</h2>
+<p><strong>1)</strong> 1 písař, 3 čtenáři, systém se ukončí po 10 zápisech písaře, písař čeká v intervalu 0 až 20 ms, čtenář čeká v intervalu 0 30 ms a informace se budou ukládat do souboru out.txt.
+</p><pre class="code">$ ./readerWriter 1 3 10 20 30 out.txt
+</pre>
+<p></p>
+
+<p><strong>2)</strong> 1 písař, 1 čtenář, systém se ukončí po 1 zápise písaře, písař ani čtenář nečekají a informace se budou tisknout na standardní výstup.
+</p><pre class="code">$ ./readerWriter 1 1 1 0 0 -
+1: writer: 1: new value
+2: writer: 1: ready
+3: writer: 1: writes a value
+4: writer: 1: written
+5: reader: 1: ready
+6: reader: 1: reads a value
+7: reader: 1: read: 1
+<font color="red">8: reader: 1: ready
+9: reader: 1: reads a value
+10: reader: 1: read: 0</font>
+</pre>
+<p></p>
+
+<p><strong>2a)</strong> Možná varianta výstupu:
+</p><pre class="code">$ ./readerWriter 1 1 1 0 0 -
+1: reader: 1: ready
+2: reader: 1: reads a value
+3: reader: 1: read: -1
+4: writer: 1: new value
+5: writer: 1: ready
+6: writer: 1: writes a value
+7: writer: 1: written
+8: reader: 1: ready
+9: reader: 1: reads a value
+10: reader: 1: read: 1
+<font color="red">11: reader: 1: ready
+12: reader: 1: reads a value
+13: reader: 1: read: 0</font>
+</pre>
+<p></p>
+
+<p><strong>2b)</strong> Možná varianta výstupu:
+</p><pre class="code">$ ./readerWriter 1 1 1 0 0 -
+1: reader: 1: ready
+2: writer: 1: new value
+3: writer: 1: ready
+4: writer: 1: writes a value
+5: writer: 1: written
+6: reader: 1: reads a value
+7: reader: 1: read: 1
+<font color="red">8: reader: 1: ready
+9: reader: 1: reads a value
+10: reader: 1: read: 0</font>
+</pre>
+<p></p>
+
+<p><strong>Poznámka:</strong><br><br>
+Pořadí ve výstupu se může lišit v závislosti na časování procesů.
+V rámci jednoho procesu musí být zachováno správné pořadí, např. pro proces čtenáře je možná pouze tato sekvence:
+</p><pre>ready
+reads a value
+read
+</pre>
+<p></p>
+
+Také musí být zachováno korektní pořadí akcí mezi procesy, např. 
+<ul>
+<li class="level1"><div class="li">mezi <i>writes a value</i> a <i>written</i> procesu písaře nesmí být žádný <font color="red">z následujících výpisů:
+<i>writes a value</i>, <i>written</i>, <i>reads a value</i> a <i>read: X</i>,
+</font></div></li>  
+<li class="level1"><div class="li">mezi <i>reads a value</i> a <i>read: X</i> procesu čtenáře nesmí být žádný z následujících výpisů z procesů písařů:
+<i>writes a value</i> a <i>written</i>,</div></li>  
+<li class="level1"><div class="li">...</div></li> 
+</ul>
+
+
+<!--
+<p>
+<strong>Použití programu:</strong>
+
+</p>
+<pre class="code">$ ./findproc N
+findproc prints PID of every process that conforms to specific criteria
+usage: findproc criterion1 [criterion2 [...]]
+criteria:
+    -n regexp      the process name matches regexp
+    -a regexp      an argument of a process matches regexp
+    -c regexp      the current working directory matches regexp
+    -x file        the process executable file is the same as file
+</pre>
+-->
+
+</div>
+
+<br><hr><br>
+
+
+
+</div></body></html>

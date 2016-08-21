@@ -1,0 +1,3 @@
+= test: make
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -o readerWriter proj2.c -lrt -pthread
+: make OK

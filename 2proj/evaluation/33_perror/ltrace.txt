@@ -1,0 +1,29 @@
+30352 (0, 0, 0, -1, 0x1f25bc2)                   = 0x3777023260
+30352 __libc_start_main(0x400cb4, 7, 0x7fff09d13748, 0x401ed0, 0x401f60 <unfinished ...>
+30352 __errno_location()                         = 0x7f74d8ec26a0
+30352 strtol(0x7fff09d14687, 0x7fff09d13530, 10, 0x7fff09d13530, 0x401f60) = 1
+30352 __errno_location()                         = 0x7f74d8ec26a0
+30352 strtol(0x7fff09d14689, 0x7fff09d13530, 10, 0x7fff09d13530, 0x37775b2000) = 1
+30352 __errno_location()                         = 0x7f74d8ec26a0
+30352 strtol(0x7fff09d1468b, 0x7fff09d13530, 10, 0x7fff09d13530, 0x37775b2000) = 10
+30352 __errno_location()                         = 0x7f74d8ec26a0
+30352 strtol(0x7fff09d1468e, 0x7fff09d13530, 10, 0x7fff09d13530, 0x37775b2000) = 20
+30352 __errno_location()                         = 0x7f74d8ec26a0
+30352 strtol(0x7fff09d14691, 0x7fff09d13530, 10, 0x7fff09d13530, 0x37775b2000) = 20
+30352 __errno_location()                         = 0x7f74d8ec26a0
+30352 strcpy(0x7fff09d1359c, "-")                = 0x7fff09d1359c
+30352 shm_open(0x402174, 578, 432, 0x9d13500, 0x37775b2000) = 3
+30352 ftruncate(3, 208)                          = 0
+30352 mmap(0, 208, 3, 1, 3)                      = 0x7f74d8ee6000
+30352 sem_init(0x7f74d8ee6010, 1, 1, -1, 3)      = 0xffffffff
+30352 perror("sem_init mutexR")                  = <void>
+30352 sem_destroy(0x7f74d8ee6010, 0, 0x37775b3a80, -1, 0x7f74d8ec2700) = 0
+30352 sem_destroy(0x7f74d8ee6030, 0, 0x37775b3a80, -1, 0x7f74d8ec2700) = 0
+30352 sem_destroy(0x7f74d8ee6050, 0, 0x37775b3a80, -1, 0x7f74d8ec2700) = 0
+30352 sem_destroy(0x7f74d8ee6070, 0, 0x37775b3a80, -1, 0x7f74d8ec2700) = 0
+30352 sem_destroy(0x7f74d8ee6090, 0, 0x37775b3a80, -1, 0x7f74d8ec2700) = 0
+30352 sem_destroy(0x7f74d8ee60b0, 0, 0x37775b3a80, -1, 0x7f74d8ec2700) = 0
+30352 munmap(0x7f74d8ee6000, 208, 0x7f74d8ee6000, -1, 0x7f74d8ec2700) = 0
+30352 shm_unlink(0x402174, 208, 0x7f74d8ee6000, -1, 0x7f74d8ec2700) = 0
+30352 close(3)                                   = 0
+30352 +++ exited (status 2) +++

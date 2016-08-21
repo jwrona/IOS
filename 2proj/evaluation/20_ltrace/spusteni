@@ -1,0 +1,1 @@
+ltrace -f -o ltrace.txt ../readerWriter 2 3 1 10 10 out.txt <stdin >stdout 2>stderr; echo $? >errcode

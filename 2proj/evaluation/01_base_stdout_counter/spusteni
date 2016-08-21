@@ -1,0 +1,1 @@
+../readerWriter 1 1 10 10 10 - <stdin >stdout 2>stderr; echo $? >errcode

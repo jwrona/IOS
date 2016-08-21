@@ -1,0 +1,4541 @@
+1: writer: 1: new value
+2: reader: 3: ready
+3: reader: 3: reads a value
+4: reader: 3: read: -1
+5: reader: 2: ready
+6: reader: 2: reads a value
+7: reader: 2: read: -1
+8: writer: 2: new value
+9: reader: 1: ready
+10: reader: 1: reads a value
+11: reader: 1: read: -1
+12: reader: 1: ready
+13: reader: 1: reads a value
+14: reader: 1: read: -1
+15: reader: 1: ready
+16: reader: 1: reads a value
+17: reader: 1: read: -1
+18: reader: 1: ready
+19: reader: 1: reads a value
+20: reader: 1: read: -1
+21: reader: 1: ready
+22: reader: 1: reads a value
+23: reader: 1: read: -1
+24: reader: 1: ready
+25: reader: 1: reads a value
+26: reader: 1: read: -1
+27: reader: 2: ready
+28: reader: 2: reads a value
+29: reader: 2: read: -1
+30: reader: 1: ready
+31: reader: 1: reads a value
+32: reader: 1: read: -1
+33: reader: 1: ready
+34: reader: 1: reads a value
+35: reader: 1: read: -1
+36: reader: 1: ready
+37: reader: 1: reads a value
+38: reader: 1: read: -1
+39: reader: 3: ready
+40: reader: 3: reads a value
+41: reader: 3: read: -1
+42: writer: 1: ready
+43: writer: 1: writes a value
+44: writer: 1: written
+45: writer: 1: new value
+46: reader: 1: ready
+47: reader: 1: reads a value
+48: reader: 1: read: 1
+49: writer: 2: ready
+50: writer: 2: writes a value
+51: writer: 2: written
+52: writer: 2: new value
+53: reader: 1: ready
+54: reader: 1: reads a value
+55: reader: 1: read: 2
+56: reader: 1: ready
+57: reader: 1: reads a value
+58: reader: 1: read: 2
+59: reader: 2: ready
+60: reader: 2: reads a value
+61: reader: 2: read: 2
+62: reader: 1: ready
+63: reader: 1: reads a value
+64: reader: 1: read: 2
+65: reader: 1: ready
+66: reader: 1: reads a value
+67: reader: 1: read: 2
+68: reader: 1: ready
+69: reader: 1: reads a value
+70: reader: 1: read: 2
+71: reader: 1: ready
+72: reader: 1: reads a value
+73: reader: 1: read: 2
+74: reader: 1: ready
+75: reader: 1: reads a value
+76: reader: 1: read: 2
+77: reader: 3: ready
+78: reader: 3: reads a value
+79: reader: 3: read: 2
+80: reader: 1: ready
+81: reader: 1: reads a value
+82: reader: 1: read: 2
+83: reader: 2: ready
+84: reader: 2: reads a value
+85: reader: 2: read: 2
+86: reader: 1: ready
+87: reader: 1: reads a value
+88: reader: 1: read: 2
+89: writer: 1: ready
+90: writer: 1: writes a value
+91: writer: 1: written
+92: writer: 1: new value
+93: writer: 2: ready
+94: writer: 2: writes a value
+95: writer: 2: written
+96: writer: 2: new value
+97: reader: 1: ready
+98: reader: 1: reads a value
+99: reader: 1: read: 2
+100: reader: 1: ready
+101: reader: 1: reads a value
+102: reader: 1: read: 2
+103: reader: 1: ready
+104: reader: 1: reads a value
+105: reader: 1: read: 2
+106: reader: 1: ready
+107: reader: 1: reads a value
+108: reader: 1: read: 2
+109: reader: 1: ready
+110: reader: 1: reads a value
+111: reader: 1: read: 2
+112: reader: 2: ready
+113: reader: 2: reads a value
+114: reader: 2: read: 2
+115: reader: 1: ready
+116: reader: 1: reads a value
+117: reader: 1: read: 2
+118: reader: 1: ready
+119: reader: 1: reads a value
+120: reader: 1: read: 2
+121: reader: 3: ready
+122: reader: 3: reads a value
+123: reader: 3: read: 2
+124: reader: 1: ready
+125: reader: 1: reads a value
+126: reader: 1: read: 2
+127: reader: 1: ready
+128: reader: 1: reads a value
+129: reader: 1: read: 2
+130: writer: 2: ready
+131: writer: 2: writes a value
+132: writer: 2: written
+133: writer: 2: new value
+134: writer: 1: ready
+135: writer: 1: writes a value
+136: writer: 1: written
+137: writer: 1: new value
+138: reader: 1: ready
+139: reader: 1: reads a value
+140: reader: 1: read: 1
+141: reader: 1: ready
+142: reader: 1: reads a value
+143: reader: 1: read: 1
+144: reader: 2: ready
+145: reader: 2: reads a value
+146: reader: 2: read: 1
+147: reader: 1: ready
+148: reader: 1: reads a value
+149: reader: 1: read: 1
+150: reader: 1: ready
+151: reader: 1: reads a value
+152: reader: 1: read: 1
+153: reader: 1: ready
+154: reader: 1: reads a value
+155: reader: 1: read: 1
+156: reader: 1: ready
+157: reader: 1: reads a value
+158: reader: 1: read: 1
+159: reader: 1: ready
+160: reader: 1: reads a value
+161: reader: 1: read: 1
+162: reader: 3: ready
+163: reader: 3: reads a value
+164: reader: 3: read: 1
+165: reader: 1: ready
+166: reader: 1: reads a value
+167: reader: 1: read: 1
+168: reader: 2: ready
+169: reader: 2: reads a value
+170: reader: 2: read: 1
+171: reader: 1: ready
+172: reader: 1: reads a value
+173: reader: 1: read: 1
+174: writer: 2: ready
+175: writer: 2: writes a value
+176: writer: 2: written
+177: writer: 2: new value
+178: reader: 1: ready
+179: reader: 1: reads a value
+180: reader: 1: read: 2
+181: writer: 1: ready
+182: writer: 1: writes a value
+183: writer: 1: written
+184: writer: 1: new value
+185: reader: 1: ready
+186: reader: 1: reads a value
+187: reader: 1: read: 1
+188: reader: 1: ready
+189: reader: 1: reads a value
+190: reader: 1: read: 1
+191: reader: 1: ready
+192: reader: 1: reads a value
+193: reader: 1: read: 1
+194: reader: 1: ready
+195: reader: 1: reads a value
+196: reader: 1: read: 1
+197: reader: 2: ready
+198: reader: 2: reads a value
+199: reader: 2: read: 1
+200: reader: 1: ready
+201: reader: 1: reads a value
+202: reader: 1: read: 1
+203: reader: 3: ready
+204: reader: 3: reads a value
+205: reader: 3: read: 1
+206: reader: 1: ready
+207: reader: 1: reads a value
+208: reader: 1: read: 1
+209: reader: 1: ready
+210: reader: 1: reads a value
+211: reader: 1: read: 1
+212: reader: 1: ready
+213: reader: 1: reads a value
+214: reader: 1: read: 1
+215: reader: 1: ready
+216: reader: 1: reads a value
+217: reader: 1: read: 1
+218: writer: 2: ready
+219: writer: 2: writes a value
+220: writer: 2: written
+221: writer: 2: new value
+222: reader: 1: ready
+223: reader: 1: reads a value
+224: reader: 1: read: 2
+225: writer: 1: ready
+226: writer: 1: writes a value
+227: writer: 1: written
+228: writer: 1: new value
+229: reader: 2: ready
+230: reader: 2: reads a value
+231: reader: 2: read: 1
+232: reader: 1: ready
+233: reader: 1: reads a value
+234: reader: 1: read: 1
+235: reader: 1: ready
+236: reader: 1: reads a value
+237: reader: 1: read: 1
+238: reader: 1: ready
+239: reader: 1: reads a value
+240: reader: 1: read: 1
+241: reader: 1: ready
+242: reader: 1: reads a value
+243: reader: 1: read: 1
+244: reader: 3: ready
+245: reader: 3: reads a value
+246: reader: 3: read: 1
+247: reader: 1: ready
+248: reader: 1: reads a value
+249: reader: 1: read: 1
+250: reader: 1: ready
+251: reader: 1: reads a value
+252: reader: 1: read: 1
+253: reader: 2: ready
+254: reader: 2: reads a value
+255: reader: 2: read: 1
+256: reader: 1: ready
+257: reader: 1: reads a value
+258: reader: 1: read: 1
+259: reader: 1: ready
+260: reader: 1: reads a value
+261: reader: 1: read: 1
+262: writer: 2: ready
+263: writer: 2: writes a value
+264: writer: 2: written
+265: writer: 2: new value
+266: reader: 1: ready
+267: reader: 1: reads a value
+268: reader: 1: read: 2
+269: reader: 1: ready
+270: writer: 1: ready
+271: writer: 1: writes a value
+272: writer: 1: written
+273: writer: 1: new value
+274: reader: 1: reads a value
+275: reader: 1: read: 1
+276: reader: 1: ready
+277: reader: 1: reads a value
+278: reader: 1: read: 1
+279: reader: 1: ready
+280: reader: 1: reads a value
+281: reader: 1: read: 1
+282: reader: 2: ready
+283: reader: 2: reads a value
+284: reader: 2: read: 1
+285: reader: 1: ready
+286: reader: 1: reads a value
+287: reader: 1: read: 1
+288: reader: 3: ready
+289: reader: 3: reads a value
+290: reader: 3: read: 1
+291: reader: 1: ready
+292: reader: 1: reads a value
+293: reader: 1: read: 1
+294: reader: 1: ready
+295: reader: 1: reads a value
+296: reader: 1: read: 1
+297: reader: 1: ready
+298: reader: 1: reads a value
+299: reader: 1: read: 1
+300: reader: 1: ready
+301: reader: 1: reads a value
+302: reader: 1: read: 1
+303: writer: 2: ready
+304: writer: 2: writes a value
+305: writer: 2: written
+306: writer: 2: new value
+307: reader: 1: ready
+308: reader: 1: reads a value
+309: reader: 1: read: 2
+310: reader: 2: ready
+311: reader: 2: reads a value
+312: reader: 2: read: 2
+313: reader: 1: ready
+314: reader: 1: reads a value
+315: reader: 1: read: 2
+316: writer: 1: ready
+317: writer: 1: writes a value
+318: writer: 1: written
+319: writer: 1: new value
+320: reader: 1: ready
+321: reader: 1: reads a value
+322: reader: 1: read: 1
+323: reader: 1: ready
+324: reader: 1: reads a value
+325: reader: 1: read: 1
+326: reader: 3: ready
+327: reader: 3: reads a value
+328: reader: 3: read: 1
+329: reader: 1: ready
+330: reader: 1: reads a value
+331: reader: 1: read: 1
+332: reader: 1: ready
+333: reader: 1: reads a value
+334: reader: 1: read: 1
+335: reader: 1: ready
+336: reader: 1: reads a value
+337: reader: 1: read: 1
+338: reader: 2: ready
+339: reader: 2: reads a value
+340: reader: 2: read: 1
+341: reader: 1: ready
+342: reader: 1: reads a value
+343: reader: 1: read: 1
+344: reader: 1: ready
+345: reader: 1: reads a value
+346: reader: 1: read: 1
+347: writer: 2: ready
+348: writer: 2: writes a value
+349: writer: 2: written
+350: writer: 2: new value
+351: reader: 1: ready
+352: reader: 1: reads a value
+353: reader: 1: read: 2
+354: reader: 1: ready
+355: reader: 1: reads a value
+356: reader: 1: read: 2
+357: reader: 1: ready
+358: reader: 1: reads a value
+359: reader: 1: read: 2
+360: writer: 1: ready
+361: writer: 1: writes a value
+362: writer: 1: written
+363: writer: 1: new value
+364: reader: 1: ready
+365: reader: 1: reads a value
+366: reader: 1: read: 1
+367: reader: 2: ready
+368: reader: 2: reads a value
+369: reader: 2: read: 1
+370: reader: 3: ready
+371: reader: 3: reads a value
+372: reader: 3: read: 1
+373: reader: 1: ready
+374: reader: 1: reads a value
+375: reader: 1: read: 1
+376: reader: 1: ready
+377: reader: 1: reads a value
+378: reader: 1: read: 1
+379: reader: 1: ready
+380: reader: 1: reads a value
+381: reader: 1: read: 1
+382: reader: 1: ready
+383: reader: 1: reads a value
+384: reader: 1: read: 1
+385: reader: 1: ready
+386: reader: 1: reads a value
+387: reader: 1: read: 1
+388: reader: 1: ready
+389: reader: 1: reads a value
+390: reader: 1: read: 1
+391: writer: 2: ready
+392: writer: 2: writes a value
+393: writer: 2: written
+394: writer: 2: new value
+395: reader: 2: ready
+396: reader: 2: reads a value
+397: reader: 2: read: 2
+398: reader: 1: ready
+399: reader: 1: reads a value
+400: reader: 1: read: 2
+401: reader: 1: ready
+402: reader: 1: reads a value
+403: reader: 1: read: 2
+404: reader: 1: ready
+405: reader: 1: reads a value
+406: reader: 1: read: 2
+407: writer: 1: ready
+408: writer: 1: writes a value
+409: writer: 1: written
+410: writer: 1: new value
+411: reader: 3: ready
+412: reader: 3: reads a value
+413: reader: 3: read: 1
+414: reader: 1: ready
+415: reader: 1: reads a value
+416: reader: 1: read: 1
+417: reader: 1: ready
+418: reader: 1: reads a value
+419: reader: 1: read: 1
+420: reader: 1: ready
+421: reader: 1: reads a value
+422: reader: 1: read: 1
+423: reader: 2: ready
+424: reader: 2: reads a value
+425: reader: 2: read: 1
+426: reader: 1: ready
+427: reader: 1: reads a value
+428: reader: 1: read: 1
+429: reader: 1: ready
+430: reader: 1: reads a value
+431: reader: 1: read: 1
+432: reader: 1: ready
+433: reader: 1: reads a value
+434: reader: 1: read: 1
+435: writer: 2: ready
+436: writer: 2: writes a value
+437: writer: 2: written
+438: writer: 2: new value
+439: reader: 1: ready
+440: reader: 1: reads a value
+441: reader: 1: read: 2
+442: reader: 1: ready
+443: reader: 1: reads a value
+444: reader: 1: read: 2
+445: reader: 1: ready
+446: reader: 1: reads a value
+447: reader: 1: read: 2
+448: reader: 3: ready
+449: reader: 3: reads a value
+450: reader: 3: read: 2
+451: reader: 2: ready
+452: reader: 2: reads a value
+453: reader: 2: read: 2
+454: writer: 1: ready
+455: writer: 1: writes a value
+456: writer: 1: written
+457: writer: 1: new value
+458: reader: 1: ready
+459: reader: 1: reads a value
+460: reader: 1: read: 1
+461: reader: 1: ready
+462: reader: 1: reads a value
+463: reader: 1: read: 1
+464: reader: 1: ready
+465: reader: 1: reads a value
+466: reader: 1: read: 1
+467: reader: 1: ready
+468: reader: 1: reads a value
+469: reader: 1: read: 1
+470: reader: 1: ready
+471: reader: 1: reads a value
+472: reader: 1: read: 1
+473: reader: 1: ready
+474: reader: 1: reads a value
+475: reader: 1: read: 1
+476: reader: 2: ready
+477: reader: 2: reads a value
+478: reader: 2: read: 1
+479: writer: 2: ready
+480: writer: 2: writes a value
+481: writer: 2: written
+482: writer: 2: new value
+483: reader: 1: ready
+484: reader: 1: reads a value
+485: reader: 1: read: 2
+486: reader: 1: ready
+487: reader: 1: reads a value
+488: reader: 1: read: 2
+489: reader: 3: ready
+490: reader: 3: reads a value
+491: reader: 3: read: 2
+492: reader: 1: ready
+493: reader: 1: reads a value
+494: reader: 1: read: 2
+495: reader: 1: ready
+496: reader: 1: reads a value
+497: reader: 1: read: 2
+498: writer: 1: ready
+499: writer: 1: writes a value
+500: writer: 1: written
+501: writer: 1: new value
+502: reader: 1: ready
+503: reader: 1: reads a value
+504: reader: 1: read: 1
+505: reader: 1: ready
+506: reader: 1: reads a value
+507: reader: 1: read: 1
+508: reader: 2: ready
+509: reader: 2: reads a value
+510: reader: 2: read: 1
+511: reader: 1: ready
+512: reader: 1: reads a value
+513: reader: 1: read: 1
+514: reader: 1: ready
+515: reader: 1: reads a value
+516: reader: 1: read: 1
+517: reader: 1: ready
+518: reader: 1: reads a value
+519: reader: 1: read: 1
+520: reader: 1: ready
+521: reader: 1: reads a value
+522: reader: 1: read: 1
+523: writer: 2: ready
+524: writer: 2: writes a value
+525: writer: 2: written
+526: writer: 2: new value
+527: reader: 1: ready
+528: reader: 1: reads a value
+529: reader: 1: read: 2
+530: reader: 3: ready
+531: reader: 3: reads a value
+532: reader: 3: read: 2
+533: reader: 1: ready
+534: reader: 1: reads a value
+535: reader: 1: read: 2
+536: reader: 2: ready
+537: reader: 2: reads a value
+538: reader: 2: read: 2
+539: reader: 1: ready
+540: reader: 1: reads a value
+541: reader: 1: read: 2
+542: reader: 1: ready
+543: reader: 1: reads a value
+544: reader: 1: read: 2
+545: writer: 1: ready
+546: writer: 1: writes a value
+547: writer: 1: written
+548: writer: 1: new value
+549: reader: 1: ready
+550: reader: 1: reads a value
+551: reader: 1: read: 1
+552: reader: 1: ready
+553: reader: 1: reads a value
+554: reader: 1: read: 1
+555: reader: 1: ready
+556: reader: 1: reads a value
+557: reader: 1: read: 1
+558: reader: 1: ready
+559: reader: 1: reads a value
+560: reader: 1: read: 1
+561: reader: 2: ready
+562: reader: 2: reads a value
+563: reader: 2: read: 1
+564: reader: 1: ready
+565: reader: 1: reads a value
+566: reader: 1: read: 1
+567: writer: 2: ready
+568: writer: 2: writes a value
+569: writer: 2: written
+570: writer: 2: new value
+571: reader: 1: ready
+572: reader: 1: reads a value
+573: reader: 1: read: 2
+574: reader: 3: ready
+575: reader: 3: reads a value
+576: reader: 3: read: 2
+577: reader: 1: ready
+578: reader: 1: reads a value
+579: reader: 1: read: 2
+580: reader: 1: ready
+581: reader: 1: reads a value
+582: reader: 1: read: 2
+583: reader: 1: ready
+584: reader: 1: reads a value
+585: reader: 1: read: 2
+586: reader: 1: ready
+587: reader: 1: reads a value
+588: reader: 1: read: 2
+589: writer: 1: ready
+590: writer: 1: writes a value
+591: writer: 1: written
+592: writer: 1: new value
+593: reader: 2: ready
+594: reader: 2: reads a value
+595: reader: 2: read: 1
+596: reader: 1: ready
+597: reader: 1: reads a value
+598: reader: 1: read: 1
+599: reader: 1: ready
+600: reader: 1: reads a value
+601: reader: 1: read: 1
+602: reader: 1: ready
+603: reader: 1: reads a value
+604: reader: 1: read: 1
+605: reader: 1: ready
+606: reader: 1: reads a value
+607: reader: 1: read: 1
+608: writer: 2: ready
+609: writer: 2: writes a value
+610: writer: 2: written
+611: writer: 2: new value
+612: reader: 3: ready
+613: reader: 3: reads a value
+614: reader: 3: read: 2
+615: reader: 1: ready
+616: reader: 1: reads a value
+617: reader: 1: read: 2
+618: reader: 1: ready
+619: reader: 1: reads a value
+620: reader: 1: read: 2
+621: reader: 2: ready
+622: reader: 2: reads a value
+623: reader: 2: read: 2
+624: reader: 1: ready
+625: reader: 1: reads a value
+626: reader: 1: read: 2
+627: reader: 1: ready
+628: reader: 1: reads a value
+629: reader: 1: read: 2
+630: reader: 1: ready
+631: reader: 1: reads a value
+632: reader: 1: read: 2
+633: writer: 1: ready
+634: writer: 1: writes a value
+635: writer: 1: written
+636: writer: 1: new value
+637: reader: 1: ready
+638: reader: 1: reads a value
+639: reader: 1: read: 1
+640: reader: 1: ready
+641: reader: 1: reads a value
+642: reader: 1: read: 1
+643: reader: 1: ready
+644: reader: 1: reads a value
+645: reader: 1: read: 1
+646: reader: 2: ready
+647: reader: 2: reads a value
+648: reader: 2: read: 1
+649: reader: 1: ready
+650: reader: 1: reads a value
+651: reader: 1: read: 1
+652: reader: 3: ready
+653: reader: 3: reads a value
+654: reader: 3: read: 1
+655: writer: 2: ready
+656: writer: 2: writes a value
+657: writer: 2: written
+658: writer: 2: new value
+659: reader: 1: ready
+660: reader: 1: reads a value
+661: reader: 1: read: 2
+662: reader: 1: ready
+663: reader: 1: reads a value
+664: reader: 1: read: 2
+665: reader: 1: ready
+666: reader: 1: reads a value
+667: reader: 1: read: 2
+668: reader: 1: ready
+669: reader: 1: reads a value
+670: reader: 1: read: 2
+671: reader: 1: ready
+672: reader: 1: reads a value
+673: reader: 1: read: 2
+674: reader: 2: ready
+675: reader: 2: reads a value
+676: reader: 2: read: 2
+677: reader: 1: ready
+678: reader: 1: reads a value
+679: reader: 1: read: 2
+680: writer: 1: ready
+681: writer: 1: writes a value
+682: writer: 1: written
+683: writer: 1: new value
+684: reader: 1: ready
+685: reader: 1: reads a value
+686: reader: 1: read: 1
+687: reader: 1: ready
+688: reader: 1: reads a value
+689: reader: 1: read: 1
+690: reader: 1: ready
+691: reader: 1: reads a value
+692: reader: 1: read: 1
+693: reader: 3: ready
+694: reader: 3: reads a value
+695: reader: 3: read: 1
+696: reader: 1: ready
+697: reader: 1: reads a value
+698: reader: 1: read: 1
+699: writer: 2: ready
+700: writer: 2: writes a value
+701: writer: 2: written
+702: writer: 2: new value
+703: reader: 1: ready
+704: reader: 1: reads a value
+705: reader: 1: read: 2
+706: reader: 2: ready
+707: reader: 2: reads a value
+708: reader: 2: read: 2
+709: reader: 1: ready
+710: reader: 1: reads a value
+711: reader: 1: read: 2
+712: reader: 1: ready
+713: reader: 1: reads a value
+714: reader: 1: read: 2
+715: reader: 1: ready
+716: reader: 1: reads a value
+717: reader: 1: read: 2
+718: reader: 1: ready
+719: reader: 1: reads a value
+720: reader: 1: read: 2
+721: reader: 1: ready
+722: writer: 1: ready
+723: writer: 1: writes a value
+724: writer: 1: written
+725: writer: 1: new value
+726: reader: 1: reads a value
+727: reader: 1: read: 1
+728: reader: 1: ready
+729: reader: 1: reads a value
+730: reader: 1: read: 1
+731: reader: 2: ready
+732: reader: 2: reads a value
+733: reader: 2: read: 1
+734: reader: 3: ready
+735: reader: 3: reads a value
+736: reader: 3: read: 1
+737: reader: 1: ready
+738: reader: 1: reads a value
+739: reader: 1: read: 1
+740: reader: 1: ready
+741: reader: 1: reads a value
+742: reader: 1: read: 1
+743: writer: 2: ready
+744: writer: 2: writes a value
+745: writer: 2: written
+746: writer: 2: new value
+747: reader: 1: ready
+748: reader: 1: reads a value
+749: reader: 1: read: 2
+750: reader: 1: ready
+751: reader: 1: reads a value
+752: reader: 1: read: 2
+753: reader: 1: ready
+754: reader: 1: reads a value
+755: reader: 1: read: 2
+756: reader: 1: ready
+757: reader: 1: reads a value
+758: reader: 1: read: 2
+759: reader: 2: ready
+760: reader: 2: reads a value
+761: reader: 2: read: 2
+762: reader: 1: ready
+763: reader: 1: reads a value
+764: reader: 1: read: 2
+765: reader: 1: ready
+766: reader: 1: reads a value
+767: reader: 1: read: 2
+768: writer: 1: ready
+769: writer: 1: writes a value
+770: writer: 1: written
+771: writer: 1: new value
+772: reader: 1: ready
+773: reader: 1: reads a value
+774: reader: 1: read: 1
+775: reader: 3: ready
+776: reader: 3: reads a value
+777: reader: 3: read: 1
+778: reader: 1: ready
+779: reader: 1: reads a value
+780: reader: 1: read: 1
+781: reader: 1: ready
+782: reader: 1: reads a value
+783: reader: 1: read: 1
+784: writer: 2: ready
+785: writer: 2: writes a value
+786: writer: 2: written
+787: writer: 2: new value
+788: reader: 1: ready
+789: reader: 1: reads a value
+790: reader: 1: read: 2
+791: reader: 2: ready
+792: reader: 2: reads a value
+793: reader: 2: read: 2
+794: reader: 1: ready
+795: reader: 1: reads a value
+796: reader: 1: read: 2
+797: reader: 1: ready
+798: reader: 1: reads a value
+799: reader: 1: read: 2
+800: reader: 1: ready
+801: reader: 1: reads a value
+802: reader: 1: read: 2
+803: reader: 1: ready
+804: reader: 1: reads a value
+805: reader: 1: read: 2
+806: reader: 1: ready
+807: reader: 1: reads a value
+808: reader: 1: read: 2
+809: reader: 1: ready
+810: reader: 1: reads a value
+811: reader: 1: read: 2
+812: reader: 3: ready
+813: reader: 3: reads a value
+814: reader: 3: read: 2
+815: reader: 2: ready
+816: reader: 2: reads a value
+817: reader: 2: read: 2
+818: writer: 1: ready
+819: writer: 1: writes a value
+820: writer: 1: written
+821: writer: 1: new value
+822: reader: 1: ready
+823: reader: 1: reads a value
+824: reader: 1: read: 1
+825: reader: 1: ready
+826: reader: 1: reads a value
+827: reader: 1: read: 1
+828: writer: 2: ready
+829: writer: 2: writes a value
+830: writer: 2: written
+831: writer: 2: new value
+832: reader: 1: ready
+833: reader: 1: reads a value
+834: reader: 1: read: 2
+835: reader: 1: ready
+836: reader: 1: reads a value
+837: reader: 1: read: 2
+838: reader: 1: ready
+839: reader: 1: reads a value
+840: reader: 1: read: 2
+841: reader: 1: ready
+842: reader: 1: reads a value
+843: reader: 1: read: 2
+844: reader: 2: ready
+845: reader: 2: reads a value
+846: reader: 2: read: 2
+847: reader: 1: ready
+848: reader: 1: reads a value
+849: reader: 1: read: 2
+850: reader: 1: ready
+851: reader: 1: reads a value
+852: reader: 1: read: 2
+853: reader: 3: ready
+854: reader: 3: reads a value
+855: reader: 3: read: 2
+856: reader: 1: ready
+857: reader: 1: reads a value
+858: reader: 1: read: 2
+859: reader: 1: ready
+860: reader: 1: reads a value
+861: reader: 1: read: 2
+862: writer: 1: ready
+863: writer: 1: writes a value
+864: writer: 1: written
+865: writer: 1: new value
+866: reader: 1: ready
+867: reader: 1: reads a value
+868: reader: 1: read: 1
+869: reader: 1: ready
+870: reader: 1: reads a value
+871: reader: 1: read: 1
+872: writer: 2: ready
+873: writer: 2: writes a value
+874: writer: 2: written
+875: writer: 2: new value
+876: reader: 2: ready
+877: reader: 2: reads a value
+878: reader: 2: read: 2
+879: reader: 1: ready
+880: reader: 1: reads a value
+881: reader: 1: read: 2
+882: reader: 1: ready
+883: reader: 1: reads a value
+884: reader: 1: read: 2
+885: reader: 1: ready
+886: reader: 1: reads a value
+887: reader: 1: read: 2
+888: reader: 1: ready
+889: reader: 1: reads a value
+890: reader: 1: read: 2
+891: reader: 1: ready
+892: reader: 1: reads a value
+893: reader: 1: read: 2
+894: reader: 3: ready
+895: reader: 3: reads a value
+896: reader: 3: read: 2
+897: reader: 1: ready
+898: reader: 1: reads a value
+899: reader: 1: read: 2
+900: reader: 2: ready
+901: reader: 2: reads a value
+902: reader: 2: read: 2
+903: reader: 1: ready
+904: reader: 1: reads a value
+905: reader: 1: read: 2
+906: writer: 1: ready
+907: writer: 1: writes a value
+908: writer: 1: written
+909: writer: 1: new value
+910: reader: 1: ready
+911: reader: 1: reads a value
+912: reader: 1: read: 1
+913: reader: 1: ready
+914: reader: 1: reads a value
+915: reader: 1: read: 1
+916: writer: 2: ready
+917: writer: 2: writes a value
+918: writer: 2: written
+919: writer: 2: new value
+920: reader: 1: ready
+921: reader: 1: reads a value
+922: reader: 1: read: 2
+923: reader: 1: ready
+924: reader: 1: reads a value
+925: reader: 1: read: 2
+926: reader: 1: ready
+927: reader: 1: reads a value
+928: reader: 1: read: 2
+929: reader: 2: ready
+930: reader: 2: reads a value
+931: reader: 2: read: 2
+932: reader: 1: ready
+933: reader: 1: reads a value
+934: reader: 1: read: 2
+935: reader: 1: ready
+936: reader: 1: reads a value
+937: reader: 1: read: 2
+938: reader: 3: ready
+939: reader: 3: reads a value
+940: reader: 3: read: 2
+941: reader: 1: ready
+942: reader: 1: reads a value
+943: reader: 1: read: 2
+944: reader: 1: ready
+945: reader: 1: reads a value
+946: reader: 1: read: 2
+947: reader: 1: ready
+948: reader: 1: reads a value
+949: reader: 1: read: 2
+950: writer: 1: ready
+951: writer: 1: writes a value
+952: writer: 1: written
+953: writer: 1: new value
+954: reader: 1: ready
+955: reader: 1: reads a value
+956: reader: 1: read: 1
+957: reader: 2: ready
+958: reader: 2: reads a value
+959: reader: 2: read: 1
+960: writer: 2: ready
+961: writer: 2: writes a value
+962: writer: 2: written
+963: writer: 2: new value
+964: reader: 1: ready
+965: reader: 1: reads a value
+966: reader: 1: read: 2
+967: reader: 1: ready
+968: reader: 1: reads a value
+969: reader: 1: read: 2
+970: reader: 1: ready
+971: reader: 1: reads a value
+972: reader: 1: read: 2
+973: reader: 1: ready
+974: reader: 1: reads a value
+975: reader: 1: read: 2
+976: reader: 3: ready
+977: reader: 3: reads a value
+978: reader: 3: read: 2
+979: reader: 1: ready
+980: reader: 1: reads a value
+981: reader: 1: read: 2
+982: reader: 1: ready
+983: reader: 1: reads a value
+984: reader: 1: read: 2
+985: reader: 2: ready
+986: reader: 2: reads a value
+987: reader: 2: read: 2
+988: reader: 1: ready
+989: reader: 1: reads a value
+990: reader: 1: read: 2
+991: reader: 1: ready
+992: reader: 1: reads a value
+993: reader: 1: read: 2
+994: reader: 1: ready
+995: reader: 1: reads a value
+996: reader: 1: read: 2
+997: writer: 1: ready
+998: writer: 1: writes a value
+999: writer: 1: written
+1000: writer: 1: new value
+1001: writer: 2: ready
+1002: writer: 2: writes a value
+1003: writer: 2: written
+1004: writer: 2: new value
+1005: reader: 1: ready
+1006: reader: 1: reads a value
+1007: reader: 1: read: 2
+1008: reader: 1: ready
+1009: reader: 1: reads a value
+1010: reader: 1: read: 2
+1011: reader: 1: ready
+1012: reader: 1: reads a value
+1013: reader: 1: read: 2
+1014: reader: 2: ready
+1015: reader: 2: reads a value
+1016: reader: 2: read: 2
+1017: reader: 1: ready
+1018: reader: 1: reads a value
+1019: reader: 1: read: 2
+1020: reader: 3: ready
+1021: reader: 3: reads a value
+1022: reader: 3: read: 2
+1023: reader: 1: ready
+1024: reader: 1: reads a value
+1025: reader: 1: read: 2
+1026: reader: 1: ready
+1027: reader: 1: reads a value
+1028: reader: 1: read: 2
+1029: reader: 1: ready
+1030: reader: 1: reads a value
+1031: reader: 1: read: 2
+1032: reader: 1: ready
+1033: reader: 1: reads a value
+1034: reader: 1: read: 2
+1035: reader: 1: ready
+1036: reader: 1: reads a value
+1037: reader: 1: read: 2
+1038: reader: 2: ready
+1039: reader: 2: reads a value
+1040: reader: 2: read: 2
+1041: reader: 1: ready
+1042: writer: 1: ready
+1043: writer: 1: writes a value
+1044: writer: 1: written
+1045: writer: 1: new value
+1046: reader: 1: reads a value
+1047: reader: 1: read: 1
+1048: writer: 2: ready
+1049: writer: 2: writes a value
+1050: writer: 2: written
+1051: writer: 2: new value
+1052: reader: 1: ready
+1053: reader: 1: reads a value
+1054: reader: 1: read: 2
+1055: reader: 1: ready
+1056: reader: 1: reads a value
+1057: reader: 1: read: 2
+1058: reader: 1: ready
+1059: reader: 1: reads a value
+1060: reader: 1: read: 2
+1061: reader: 3: ready
+1062: reader: 3: reads a value
+1063: reader: 3: read: 2
+1064: reader: 1: ready
+1065: reader: 1: reads a value
+1066: reader: 1: read: 2
+1067: reader: 1: ready
+1068: reader: 1: reads a value
+1069: reader: 1: read: 2
+1070: reader: 2: ready
+1071: reader: 2: reads a value
+1072: reader: 2: read: 2
+1073: reader: 1: ready
+1074: reader: 1: reads a value
+1075: reader: 1: read: 2
+1076: reader: 1: ready
+1077: reader: 1: reads a value
+1078: reader: 1: read: 2
+1079: reader: 1: ready
+1080: reader: 1: reads a value
+1081: reader: 1: read: 2
+1082: reader: 1: ready
+1083: reader: 1: reads a value
+1084: reader: 1: read: 2
+1085: writer: 2: ready
+1086: writer: 2: writes a value
+1087: writer: 2: written
+1088: writer: 2: new value
+1089: writer: 1: ready
+1090: writer: 1: writes a value
+1091: writer: 1: written
+1092: writer: 1: new value
+1093: reader: 1: ready
+1094: reader: 1: reads a value
+1095: reader: 1: read: 1
+1096: reader: 1: ready
+1097: reader: 1: reads a value
+1098: reader: 1: read: 1
+1099: reader: 2: ready
+1100: reader: 2: reads a value
+1101: reader: 2: read: 1
+1102: reader: 1: ready
+1103: reader: 1: reads a value
+1104: reader: 3: ready
+1105: reader: 3: reads a value
+1106: reader: 3: read: 1
+1107: reader: 1: read: 1
+1108: reader: 1: ready
+1109: reader: 1: reads a value
+1110: reader: 1: read: 1
+1111: reader: 1: ready
+1112: reader: 1: reads a value
+1113: reader: 1: read: 1
+1114: reader: 1: ready
+1115: reader: 1: reads a value
+1116: reader: 1: read: 1
+1117: reader: 1: ready
+1118: reader: 1: reads a value
+1119: reader: 1: read: 1
+1120: reader: 1: ready
+1121: reader: 1: reads a value
+1122: reader: 1: read: 1
+1123: reader: 2: ready
+1124: reader: 2: reads a value
+1125: reader: 2: read: 1
+1126: reader: 1: ready
+1127: reader: 1: reads a value
+1128: reader: 1: read: 1
+1129: writer: 2: ready
+1130: writer: 2: writes a value
+1131: writer: 2: written
+1132: writer: 2: new value
+1133: reader: 1: ready
+1134: reader: 1: reads a value
+1135: reader: 1: read: 2
+1136: writer: 1: ready
+1137: writer: 1: writes a value
+1138: writer: 1: written
+1139: writer: 1: new value
+1140: reader: 1: ready
+1141: reader: 1: reads a value
+1142: reader: 1: read: 1
+1143: reader: 3: ready
+1144: reader: 3: reads a value
+1145: reader: 3: read: 1
+1146: reader: 1: ready
+1147: reader: 1: reads a value
+1148: reader: 1: read: 1
+1149: reader: 1: ready
+1150: reader: 1: reads a value
+1151: reader: 1: read: 1
+1152: reader: 1: ready
+1153: reader: 1: reads a value
+1154: reader: 1: read: 1
+1155: reader: 2: ready
+1156: reader: 2: reads a value
+1157: reader: 2: read: 1
+1158: reader: 1: ready
+1159: reader: 1: reads a value
+1160: reader: 1: read: 1
+1161: reader: 1: ready
+1162: reader: 1: reads a value
+1163: reader: 1: read: 1
+1164: reader: 1: ready
+1165: reader: 1: reads a value
+1166: reader: 1: read: 1
+1167: reader: 1: ready
+1168: reader: 1: reads a value
+1169: reader: 1: read: 1
+1170: writer: 2: ready
+1171: writer: 2: writes a value
+1172: writer: 2: written
+1173: writer: 2: new value
+1174: reader: 1: ready
+1175: reader: 1: reads a value
+1176: reader: 1: read: 2
+1177: reader: 1: ready
+1178: reader: 1: reads a value
+1179: reader: 1: read: 2
+1180: writer: 1: ready
+1181: writer: 1: writes a value
+1182: writer: 1: written
+1183: writer: 1: new value
+1184: reader: 2: ready
+1185: reader: 2: reads a value
+1186: reader: 2: read: 1
+1187: reader: 3: ready
+1188: reader: 3: reads a value
+1189: reader: 3: read: 1
+1190: reader: 1: ready
+1191: reader: 1: reads a value
+1192: reader: 1: read: 1
+1193: reader: 1: ready
+1194: reader: 1: reads a value
+1195: reader: 1: read: 1
+1196: reader: 1: ready
+1197: reader: 1: reads a value
+1198: reader: 1: read: 1
+1199: reader: 1: ready
+1200: reader: 1: reads a value
+1201: reader: 1: read: 1
+1202: reader: 1: ready
+1203: reader: 1: reads a value
+1204: reader: 1: read: 1
+1205: reader: 1: ready
+1206: reader: 1: reads a value
+1207: reader: 1: read: 1
+1208: reader: 2: ready
+1209: reader: 2: reads a value
+1210: reader: 2: read: 1
+1211: reader: 1: ready
+1212: reader: 1: reads a value
+1213: reader: 1: read: 1
+1214: reader: 1: ready
+1215: reader: 1: reads a value
+1216: reader: 1: read: 1
+1217: writer: 2: ready
+1218: writer: 2: writes a value
+1219: writer: 2: written
+1220: writer: 2: new value
+1221: reader: 1: ready
+1222: reader: 1: reads a value
+1223: reader: 1: read: 2
+1224: reader: 3: ready
+1225: reader: 3: reads a value
+1226: reader: 3: read: 2
+1227: writer: 1: ready
+1228: writer: 1: writes a value
+1229: writer: 1: written
+1230: writer: 1: new value
+1231: reader: 1: ready
+1232: reader: 1: reads a value
+1233: reader: 1: read: 1
+1234: reader: 1: ready
+1235: reader: 1: reads a value
+1236: reader: 1: read: 1
+1237: reader: 1: ready
+1238: reader: 1: reads a value
+1239: reader: 1: read: 1
+1240: reader: 2: ready
+1241: reader: 2: reads a value
+1242: reader: 2: read: 1
+1243: reader: 1: ready
+1244: reader: 1: reads a value
+1245: reader: 1: read: 1
+1246: reader: 1: ready
+1247: reader: 1: reads a value
+1248: reader: 1: read: 1
+1249: reader: 1: ready
+1250: reader: 1: reads a value
+1251: reader: 1: read: 1
+1252: reader: 1: ready
+1253: reader: 1: reads a value
+1254: reader: 1: read: 1
+1255: reader: 1: ready
+1256: reader: 1: reads a value
+1257: reader: 1: read: 1
+1258: writer: 2: ready
+1259: writer: 2: writes a value
+1260: writer: 2: written
+1261: writer: 2: new value
+1262: reader: 3: ready
+1263: reader: 3: reads a value
+1264: reader: 3: read: 2
+1265: reader: 1: ready
+1266: reader: 1: reads a value
+1267: reader: 1: read: 2
+1268: reader: 2: ready
+1269: reader: 2: reads a value
+1270: reader: 2: read: 2
+1271: reader: 1: ready
+1272: reader: 1: reads a value
+1273: reader: 1: read: 2
+1274: writer: 1: ready
+1275: writer: 1: writes a value
+1276: writer: 1: written
+1277: writer: 1: new value
+1278: reader: 1: ready
+1279: reader: 1: reads a value
+1280: reader: 1: read: 1
+1281: reader: 1: ready
+1282: reader: 1: reads a value
+1283: reader: 1: read: 1
+1284: reader: 1: ready
+1285: reader: 1: reads a value
+1286: reader: 1: read: 1
+1287: reader: 1: ready
+1288: reader: 1: reads a value
+1289: reader: 1: read: 1
+1290: reader: 1: ready
+1291: reader: 1: reads a value
+1292: reader: 1: read: 1
+1293: reader: 2: ready
+1294: reader: 2: reads a value
+1295: reader: 2: read: 1
+1296: reader: 1: ready
+1297: reader: 1: reads a value
+1298: reader: 1: read: 1
+1299: reader: 1: ready
+1300: reader: 1: reads a value
+1301: reader: 1: read: 1
+1302: reader: 3: ready
+1303: reader: 3: reads a value
+1304: reader: 3: read: 1
+1305: writer: 2: ready
+1306: writer: 2: writes a value
+1307: writer: 2: written
+1308: writer: 2: new value
+1309: reader: 1: ready
+1310: reader: 1: reads a value
+1311: reader: 1: read: 2
+1312: reader: 1: ready
+1313: reader: 1: reads a value
+1314: reader: 1: read: 2
+1315: reader: 1: ready
+1316: reader: 1: reads a value
+1317: reader: 1: read: 2
+1318: writer: 1: ready
+1319: writer: 1: writes a value
+1320: writer: 1: written
+1321: writer: 1: new value
+1322: reader: 1: ready
+1323: reader: 1: reads a value
+1324: reader: 1: read: 1
+1325: reader: 2: ready
+1326: reader: 2: reads a value
+1327: reader: 2: read: 1
+1328: reader: 1: ready
+1329: reader: 1: reads a value
+1330: reader: 1: read: 1
+1331: reader: 1: ready
+1332: reader: 1: reads a value
+1333: reader: 1: read: 1
+1334: reader: 1: ready
+1335: reader: 1: reads a value
+1336: reader: 1: read: 1
+1337: reader: 1: ready
+1338: reader: 1: reads a value
+1339: reader: 1: read: 1
+1340: reader: 1: ready
+1341: reader: 1: reads a value
+1342: reader: 1: read: 1
+1343: reader: 3: ready
+1344: reader: 3: reads a value
+1345: reader: 3: read: 1
+1346: writer: 2: ready
+1347: writer: 2: writes a value
+1348: writer: 2: written
+1349: writer: 2: new value
+1350: reader: 1: ready
+1351: reader: 1: reads a value
+1352: reader: 1: read: 2
+1353: reader: 2: ready
+1354: reader: 2: reads a value
+1355: reader: 2: read: 2
+1356: reader: 1: ready
+1357: reader: 1: reads a value
+1358: reader: 1: read: 2
+1359: reader: 1: ready
+1360: reader: 1: reads a value
+1361: reader: 1: read: 2
+1362: writer: 1: ready
+1363: writer: 1: writes a value
+1364: writer: 1: written
+1365: writer: 1: new value
+1366: reader: 1: ready
+1367: reader: 1: reads a value
+1368: reader: 1: read: 1
+1369: reader: 1: ready
+1370: reader: 1: reads a value
+1371: reader: 1: read: 1
+1372: reader: 1: ready
+1373: reader: 1: reads a value
+1374: reader: 1: read: 1
+1375: reader: 1: ready
+1376: reader: 1: reads a value
+1377: reader: 1: read: 1
+1378: reader: 2: ready
+1379: reader: 2: reads a value
+1380: reader: 2: read: 1
+1381: reader: 1: ready
+1382: reader: 1: reads a value
+1383: reader: 1: read: 1
+1384: reader: 3: ready
+1385: reader: 3: reads a value
+1386: reader: 3: read: 1
+1387: reader: 1: ready
+1388: reader: 1: reads a value
+1389: reader: 1: read: 1
+1390: reader: 1: ready
+1391: reader: 1: reads a value
+1392: reader: 1: read: 1
+1393: writer: 2: ready
+1394: writer: 2: writes a value
+1395: writer: 2: written
+1396: writer: 2: new value
+1397: reader: 1: ready
+1398: reader: 1: reads a value
+1399: reader: 1: read: 2
+1400: reader: 1: ready
+1401: reader: 1: reads a value
+1402: reader: 1: read: 2
+1403: reader: 1: ready
+1404: reader: 1: reads a value
+1405: reader: 1: read: 2
+1406: reader: 2: ready
+1407: reader: 2: reads a value
+1408: reader: 2: read: 2
+1409: writer: 1: ready
+1410: writer: 1: writes a value
+1411: writer: 1: written
+1412: writer: 1: new value
+1413: reader: 1: ready
+1414: reader: 1: reads a value
+1415: reader: 1: read: 1
+1416: reader: 1: ready
+1417: reader: 1: reads a value
+1418: reader: 1: read: 1
+1419: reader: 1: ready
+1420: reader: 1: reads a value
+1421: reader: 1: read: 1
+1422: reader: 1: ready
+1423: reader: 1: reads a value
+1424: reader: 1: read: 1
+1425: reader: 3: ready
+1426: reader: 3: reads a value
+1427: reader: 3: read: 1
+1428: reader: 1: ready
+1429: reader: 1: reads a value
+1430: reader: 1: read: 1
+1431: reader: 1: ready
+1432: reader: 1: reads a value
+1433: reader: 1: read: 1
+1434: reader: 2: ready
+1435: reader: 2: reads a value
+1436: reader: 2: read: 1
+1437: writer: 2: ready
+1438: writer: 2: writes a value
+1439: writer: 2: written
+1440: writer: 2: new value
+1441: reader: 1: ready
+1442: reader: 1: reads a value
+1443: reader: 1: read: 2
+1444: reader: 1: ready
+1445: reader: 1: reads a value
+1446: reader: 1: read: 2
+1447: reader: 1: ready
+1448: reader: 1: reads a value
+1449: reader: 1: read: 2
+1450: reader: 1: ready
+1451: reader: 1: reads a value
+1452: reader: 1: read: 2
+1453: writer: 1: ready
+1454: writer: 1: writes a value
+1455: writer: 1: written
+1456: writer: 1: new value
+1457: reader: 1: ready
+1458: reader: 1: reads a value
+1459: reader: 1: read: 1
+1460: reader: 1: ready
+1461: reader: 1: reads a value
+1462: reader: 1: read: 1
+1463: reader: 2: ready
+1464: reader: 2: reads a value
+1465: reader: 2: read: 1
+1466: reader: 1: ready
+1467: reader: 1: reads a value
+1468: reader: 1: read: 1
+1469: reader: 3: ready
+1470: reader: 3: reads a value
+1471: reader: 3: read: 1
+1472: reader: 1: ready
+1473: reader: 1: reads a value
+1474: reader: 1: read: 1
+1475: reader: 1: ready
+1476: reader: 1: reads a value
+1477: reader: 1: read: 1
+1478: writer: 2: ready
+1479: writer: 2: writes a value
+1480: writer: 2: written
+1481: writer: 2: new value
+1482: reader: 1: ready
+1483: reader: 1: reads a value
+1484: reader: 1: read: 2
+1485: reader: 1: ready
+1486: reader: 1: reads a value
+1487: reader: 1: read: 2
+1488: reader: 1: ready
+1489: reader: 1: reads a value
+1490: reader: 1: read: 2
+1491: reader: 2: ready
+1492: reader: 2: reads a value
+1493: reader: 2: read: 2
+1494: reader: 1: ready
+1495: reader: 1: reads a value
+1496: reader: 1: read: 2
+1497: reader: 1: ready
+1498: writer: 1: ready
+1499: writer: 1: writes a value
+1500: writer: 1: written
+1501: writer: 1: new value
+1502: reader: 1: reads a value
+1503: reader: 1: read: 1
+1504: reader: 1: ready
+1505: reader: 1: reads a value
+1506: reader: 1: read: 1
+1507: reader: 3: ready
+1508: reader: 3: reads a value
+1509: reader: 3: read: 1
+1510: reader: 1: ready
+1511: reader: 1: reads a value
+1512: reader: 1: read: 1
+1513: reader: 1: ready
+1514: reader: 1: reads a value
+1515: reader: 1: read: 1
+1516: reader: 1: ready
+1517: reader: 1: reads a value
+1518: reader: 1: read: 1
+1519: reader: 2: ready
+1520: reader: 2: reads a value
+1521: reader: 2: read: 1
+1522: writer: 2: ready
+1523: writer: 2: writes a value
+1524: writer: 2: written
+1525: writer: 2: new value
+1526: reader: 1: ready
+1527: reader: 1: reads a value
+1528: reader: 1: read: 2
+1529: reader: 1: ready
+1530: reader: 1: reads a value
+1531: reader: 1: read: 2
+1532: reader: 1: ready
+1533: reader: 1: reads a value
+1534: reader: 1: read: 2
+1535: reader: 1: ready
+1536: reader: 1: reads a value
+1537: reader: 1: read: 2
+1538: reader: 1: ready
+1539: reader: 1: reads a value
+1540: reader: 1: read: 2
+1541: writer: 1: ready
+1542: writer: 1: writes a value
+1543: writer: 1: written
+1544: writer: 1: new value
+1545: reader: 1: ready
+1546: reader: 1: reads a value
+1547: reader: 1: read: 1
+1548: reader: 2: ready
+1549: reader: 2: reads a value
+1550: reader: 2: read: 1
+1551: reader: 3: ready
+1552: reader: 3: reads a value
+1553: reader: 3: read: 1
+1554: reader: 1: ready
+1555: reader: 1: reads a value
+1556: reader: 1: read: 1
+1557: reader: 1: ready
+1558: reader: 1: reads a value
+1559: reader: 1: read: 1
+1560: reader: 1: ready
+1561: reader: 1: reads a value
+1562: reader: 1: read: 1
+1563: reader: 1: ready
+1564: reader: 1: reads a value
+1565: reader: 1: read: 1
+1566: writer: 2: ready
+1567: writer: 2: writes a value
+1568: writer: 2: written
+1569: writer: 2: new value
+1570: reader: 1: ready
+1571: reader: 1: reads a value
+1572: reader: 1: read: 2
+1573: reader: 1: ready
+1574: reader: 1: reads a value
+1575: reader: 1: read: 2
+1576: reader: 2: ready
+1577: reader: 2: reads a value
+1578: reader: 2: read: 2
+1579: reader: 1: ready
+1580: reader: 1: reads a value
+1581: reader: 1: read: 2
+1582: reader: 1: ready
+1583: reader: 1: reads a value
+1584: reader: 1: read: 2
+1585: reader: 1: ready
+1586: reader: 1: reads a value
+1587: reader: 1: read: 2
+1588: reader: 3: ready
+1589: reader: 3: reads a value
+1590: reader: 3: read: 2
+1591: writer: 1: ready
+1592: writer: 1: writes a value
+1593: writer: 1: written
+1594: writer: 1: new value
+1595: reader: 1: ready
+1596: reader: 1: reads a value
+1597: reader: 1: read: 1
+1598: reader: 1: ready
+1599: reader: 1: reads a value
+1600: reader: 1: read: 1
+1601: reader: 1: ready
+1602: reader: 1: reads a value
+1603: reader: 1: read: 1
+1604: reader: 2: ready
+1605: reader: 2: reads a value
+1606: reader: 2: read: 1
+1607: reader: 1: ready
+1608: reader: 1: reads a value
+1609: reader: 1: read: 1
+1610: writer: 2: ready
+1611: writer: 2: writes a value
+1612: writer: 2: written
+1613: writer: 2: new value
+1614: reader: 1: ready
+1615: reader: 1: reads a value
+1616: reader: 1: read: 2
+1617: reader: 1: ready
+1618: reader: 1: reads a value
+1619: reader: 1: read: 2
+1620: reader: 1: ready
+1621: reader: 1: reads a value
+1622: reader: 1: read: 2
+1623: reader: 1: ready
+1624: reader: 1: reads a value
+1625: reader: 1: read: 2
+1626: reader: 3: ready
+1627: reader: 3: reads a value
+1628: reader: 3: read: 2
+1629: reader: 1: ready
+1630: reader: 1: reads a value
+1631: reader: 1: read: 2
+1632: reader: 2: ready
+1633: reader: 2: reads a value
+1634: reader: 2: read: 2
+1635: reader: 1: ready
+1636: reader: 1: reads a value
+1637: reader: 1: read: 2
+1638: writer: 1: ready
+1639: writer: 1: writes a value
+1640: writer: 1: written
+1641: writer: 1: new value
+1642: reader: 1: ready
+1643: reader: 1: reads a value
+1644: reader: 1: read: 1
+1645: reader: 1: ready
+1646: reader: 1: reads a value
+1647: reader: 1: read: 1
+1648: reader: 1: ready
+1649: reader: 1: reads a value
+1650: reader: 1: read: 1
+1651: writer: 2: ready
+1652: writer: 2: writes a value
+1653: writer: 2: written
+1654: writer: 2: new value
+1655: reader: 1: ready
+1656: reader: 1: reads a value
+1657: reader: 1: read: 2
+1658: reader: 1: ready
+1659: reader: 1: reads a value
+1660: reader: 1: read: 2
+1661: reader: 2: ready
+1662: reader: 2: reads a value
+1663: reader: 2: read: 2
+1664: reader: 1: ready
+1665: reader: 1: reads a value
+1666: reader: 1: read: 2
+1667: reader: 1: ready
+1668: reader: 1: reads a value
+1669: reader: 1: read: 2
+1670: reader: 3: ready
+1671: reader: 3: reads a value
+1672: reader: 3: read: 2
+1673: reader: 1: ready
+1674: reader: 1: reads a value
+1675: reader: 1: read: 2
+1676: reader: 1: ready
+1677: reader: 1: reads a value
+1678: reader: 1: read: 2
+1679: writer: 1: ready
+1680: writer: 1: writes a value
+1681: writer: 1: written
+1682: writer: 1: new value
+1683: reader: 1: ready
+1684: reader: 1: reads a value
+1685: reader: 1: read: 1
+1686: reader: 1: ready
+1687: reader: 1: reads a value
+1688: reader: 1: read: 1
+1689: reader: 2: ready
+1690: reader: 2: reads a value
+1691: reader: 2: read: 1
+1692: reader: 1: ready
+1693: reader: 1: reads a value
+1694: reader: 1: read: 1
+1695: writer: 2: ready
+1696: writer: 2: writes a value
+1697: writer: 2: written
+1698: writer: 2: new value
+1699: reader: 1: ready
+1700: reader: 1: reads a value
+1701: reader: 1: read: 2
+1702: reader: 1: ready
+1703: reader: 1: reads a value
+1704: reader: 1: read: 2
+1705: reader: 1: ready
+1706: reader: 1: reads a value
+1707: reader: 1: read: 2
+1708: reader: 1: ready
+1709: reader: 1: reads a value
+1710: reader: 1: read: 2
+1711: reader: 3: ready
+1712: reader: 3: reads a value
+1713: reader: 3: read: 2
+1714: reader: 1: ready
+1715: reader: 1: reads a value
+1716: reader: 1: read: 2
+1717: reader: 2: ready
+1718: reader: 2: reads a value
+1719: reader: 2: read: 2
+1720: reader: 1: ready
+1721: reader: 1: reads a value
+1722: reader: 1: read: 2
+1723: reader: 1: ready
+1724: reader: 1: reads a value
+1725: reader: 1: read: 2
+1726: writer: 1: ready
+1727: writer: 1: writes a value
+1728: writer: 1: written
+1729: writer: 1: new value
+1730: reader: 1: ready
+1731: reader: 1: reads a value
+1732: reader: 1: read: 1
+1733: reader: 1: ready
+1734: reader: 1: reads a value
+1735: reader: 1: read: 1
+1736: reader: 1: ready
+1737: reader: 1: reads a value
+1738: reader: 1: read: 1
+1739: writer: 2: ready
+1740: writer: 2: writes a value
+1741: writer: 2: written
+1742: writer: 2: new value
+1743: reader: 1: ready
+1744: reader: 1: reads a value
+1745: reader: 1: read: 2
+1746: reader: 2: ready
+1747: reader: 2: reads a value
+1748: reader: 2: read: 2
+1749: reader: 1: ready
+1750: reader: 1: reads a value
+1751: reader: 1: read: 2
+1752: reader: 1: ready
+1753: reader: 1: reads a value
+1754: reader: 1: read: 2
+1755: reader: 3: ready
+1756: reader: 3: reads a value
+1757: reader: 3: read: 2
+1758: reader: 1: ready
+1759: reader: 1: reads a value
+1760: reader: 1: read: 2
+1761: reader: 1: ready
+1762: reader: 1: reads a value
+1763: reader: 1: read: 2
+1764: reader: 1: ready
+1765: reader: 1: reads a value
+1766: reader: 1: read: 2
+1767: reader: 1: ready
+1768: reader: 1: reads a value
+1769: reader: 1: read: 2
+1770: reader: 2: ready
+1771: reader: 2: reads a value
+1772: reader: 2: read: 2
+1773: writer: 1: ready
+1774: writer: 1: writes a value
+1775: writer: 1: written
+1776: writer: 1: new value
+1777: reader: 1: ready
+1778: reader: 1: reads a value
+1779: reader: 1: read: 1
+1780: reader: 1: ready
+1781: reader: 1: reads a value
+1782: reader: 1: read: 1
+1783: writer: 2: ready
+1784: writer: 2: writes a value
+1785: writer: 2: written
+1786: writer: 2: new value
+1787: reader: 1: ready
+1788: reader: 1: reads a value
+1789: reader: 1: read: 2
+1790: reader: 1: ready
+1791: reader: 1: reads a value
+1792: reader: 1: read: 2
+1793: reader: 3: ready
+1794: reader: 3: reads a value
+1795: reader: 3: read: 2
+1796: reader: 1: ready
+1797: reader: 1: reads a value
+1798: reader: 1: read: 2
+1799: reader: 1: ready
+1800: reader: 1: reads a value
+1801: reader: 1: read: 2
+1802: reader: 2: ready
+1803: reader: 2: reads a value
+1804: reader: 2: read: 2
+1805: reader: 1: ready
+1806: reader: 1: reads a value
+1807: reader: 1: read: 2
+1808: reader: 1: ready
+1809: reader: 1: reads a value
+1810: reader: 1: read: 2
+1811: reader: 1: ready
+1812: reader: 1: reads a value
+1813: reader: 1: read: 2
+1814: reader: 1: ready
+1815: writer: 1: ready
+1816: writer: 1: writes a value
+1817: writer: 1: written
+1818: writer: 1: new value
+1819: reader: 1: reads a value
+1820: reader: 1: read: 1
+1821: reader: 1: ready
+1822: reader: 1: reads a value
+1823: reader: 1: read: 1
+1824: writer: 2: ready
+1825: writer: 2: writes a value
+1826: writer: 2: written
+1827: writer: 2: new value
+1828: reader: 1: ready
+1829: reader: 1: reads a value
+1830: reader: 1: read: 2
+1831: reader: 2: ready
+1832: reader: 2: reads a value
+1833: reader: 2: read: 2
+1834: reader: 1: ready
+1835: reader: 1: reads a value
+1836: reader: 1: read: 2
+1837: reader: 3: ready
+1838: reader: 3: reads a value
+1839: reader: 3: read: 2
+1840: reader: 1: ready
+1841: reader: 1: reads a value
+1842: reader: 1: read: 2
+1843: reader: 1: ready
+1844: reader: 1: reads a value
+1845: reader: 1: read: 2
+1846: reader: 1: ready
+1847: reader: 1: reads a value
+1848: reader: 1: read: 2
+1849: reader: 1: ready
+1850: reader: 1: reads a value
+1851: reader: 1: read: 2
+1852: reader: 1: ready
+1853: reader: 1: reads a value
+1854: reader: 1: read: 2
+1855: reader: 2: ready
+1856: reader: 2: reads a value
+1857: reader: 2: read: 2
+1858: reader: 1: ready
+1859: reader: 1: reads a value
+1860: reader: 1: read: 2
+1861: writer: 1: ready
+1862: writer: 1: writes a value
+1863: writer: 1: written
+1864: writer: 1: new value
+1865: reader: 1: ready
+1866: reader: 1: reads a value
+1867: reader: 1: read: 1
+1868: reader: 1: ready
+1869: reader: 1: reads a value
+1870: reader: 1: read: 1
+1871: writer: 2: ready
+1872: writer: 2: writes a value
+1873: writer: 2: written
+1874: writer: 2: new value
+1875: reader: 1: ready
+1876: reader: 1: reads a value
+1877: reader: 1: read: 2
+1878: reader: 3: ready
+1879: reader: 3: reads a value
+1880: reader: 3: read: 2
+1881: reader: 1: ready
+1882: reader: 1: reads a value
+1883: reader: 1: read: 2
+1884: reader: 1: ready
+1885: reader: 1: reads a value
+1886: reader: 1: read: 2
+1887: reader: 2: ready
+1888: reader: 2: reads a value
+1889: reader: 2: read: 2
+1890: reader: 1: ready
+1891: reader: 1: reads a value
+1892: reader: 1: read: 2
+1893: reader: 1: ready
+1894: reader: 1: reads a value
+1895: reader: 1: read: 2
+1896: reader: 1: ready
+1897: reader: 1: reads a value
+1898: reader: 1: read: 2
+1899: reader: 1: ready
+1900: reader: 1: reads a value
+1901: reader: 1: read: 2
+1902: reader: 1: ready
+1903: reader: 1: reads a value
+1904: reader: 1: read: 2
+1905: writer: 1: ready
+1906: writer: 1: writes a value
+1907: writer: 1: written
+1908: writer: 1: new value
+1909: reader: 1: ready
+1910: reader: 1: reads a value
+1911: reader: 1: read: 1
+1912: reader: 2: ready
+1913: writer: 2: ready
+1914: writer: 2: writes a value
+1915: writer: 2: written
+1916: writer: 2: new value
+1917: reader: 2: reads a value
+1918: reader: 2: read: 2
+1919: reader: 3: ready
+1920: reader: 3: reads a value
+1921: reader: 3: read: 2
+1922: reader: 1: ready
+1923: reader: 1: reads a value
+1924: reader: 1: read: 2
+1925: reader: 1: ready
+1926: reader: 1: reads a value
+1927: reader: 1: read: 2
+1928: reader: 1: ready
+1929: reader: 1: reads a value
+1930: reader: 1: read: 2
+1931: reader: 1: ready
+1932: reader: 1: reads a value
+1933: reader: 1: read: 2
+1934: reader: 1: ready
+1935: reader: 1: reads a value
+1936: reader: 1: read: 2
+1937: reader: 1: ready
+1938: reader: 1: reads a value
+1939: reader: 1: read: 2
+1940: reader: 2: ready
+1941: reader: 2: reads a value
+1942: reader: 2: read: 2
+1943: reader: 1: ready
+1944: reader: 1: reads a value
+1945: reader: 1: read: 2
+1946: reader: 1: ready
+1947: reader: 1: reads a value
+1948: reader: 1: read: 2
+1949: reader: 1: ready
+1950: reader: 1: reads a value
+1951: reader: 1: read: 2
+1952: writer: 1: ready
+1953: writer: 1: writes a value
+1954: writer: 1: written
+1955: writer: 1: new value
+1956: writer: 2: ready
+1957: writer: 2: writes a value
+1958: writer: 2: written
+1959: writer: 2: new value
+1960: reader: 3: ready
+1961: reader: 3: reads a value
+1962: reader: 3: read: 2
+1963: reader: 1: ready
+1964: reader: 1: reads a value
+1965: reader: 1: read: 2
+1966: reader: 1: ready
+1967: reader: 1: reads a value
+1968: reader: 1: read: 2
+1969: reader: 1: ready
+1970: reader: 1: reads a value
+1971: reader: 1: read: 2
+1972: reader: 2: ready
+1973: reader: 2: reads a value
+1974: reader: 2: read: 2
+1975: reader: 1: ready
+1976: reader: 1: reads a value
+1977: reader: 1: read: 2
+1978: reader: 1: ready
+1979: reader: 1: reads a value
+1980: reader: 1: read: 2
+1981: reader: 1: ready
+1982: reader: 1: reads a value
+1983: reader: 1: read: 2
+1984: reader: 1: ready
+1985: reader: 1: reads a value
+1986: reader: 1: read: 2
+1987: reader: 1: ready
+1988: reader: 1: reads a value
+1989: reader: 1: read: 2
+1990: reader: 1: ready
+1991: reader: 1: reads a value
+1992: reader: 1: read: 2
+1993: reader: 3: ready
+1994: reader: 3: reads a value
+1995: reader: 3: read: 2
+1996: reader: 2: ready
+1997: reader: 2: reads a value
+1998: reader: 2: read: 2
+1999: writer: 2: ready
+2000: writer: 2: writes a value
+2001: writer: 2: written
+2002: writer: 2: new value
+2003: writer: 1: ready
+2004: writer: 1: writes a value
+2005: writer: 1: written
+2006: writer: 1: new value
+2007: reader: 1: ready
+2008: reader: 1: reads a value
+2009: reader: 1: read: 1
+2010: reader: 1: ready
+2011: reader: 1: reads a value
+2012: reader: 1: read: 1
+2013: reader: 1: ready
+2014: reader: 1: reads a value
+2015: reader: 1: read: 1
+2016: reader: 1: ready
+2017: reader: 1: reads a value
+2018: reader: 1: read: 1
+2019: reader: 1: ready
+2020: reader: 1: reads a value
+2021: reader: 1: read: 1
+2022: reader: 1: ready
+2023: reader: 1: reads a value
+2024: reader: 1: read: 1
+2025: reader: 2: ready
+2026: reader: 2: reads a value
+2027: reader: 2: read: 1
+2028: reader: 1: ready
+2029: reader: 1: reads a value
+2030: reader: 1: read: 1
+2031: reader: 1: ready
+2032: reader: 1: reads a value
+2033: reader: 1: read: 1
+2034: reader: 1: ready
+2035: reader: 1: reads a value
+2036: reader: 1: read: 1
+2037: reader: 3: ready
+2038: reader: 3: reads a value
+2039: reader: 3: read: 1
+2040: reader: 1: ready
+2041: writer: 2: ready
+2042: writer: 2: writes a value
+2043: writer: 2: written
+2044: writer: 2: new value
+2045: reader: 1: reads a value
+2046: reader: 1: read: 2
+2047: writer: 1: ready
+2048: writer: 1: writes a value
+2049: writer: 1: written
+2050: writer: 1: new value
+2051: reader: 1: ready
+2052: reader: 1: reads a value
+2053: reader: 1: read: 1
+2054: reader: 1: ready
+2055: reader: 1: reads a value
+2056: reader: 1: read: 1
+2057: reader: 2: ready
+2058: reader: 2: reads a value
+2059: reader: 2: read: 1
+2060: reader: 1: ready
+2061: reader: 1: reads a value
+2062: reader: 1: read: 1
+2063: reader: 1: ready
+2064: reader: 1: reads a value
+2065: reader: 1: read: 1
+2066: reader: 1: ready
+2067: reader: 1: reads a value
+2068: reader: 1: read: 1
+2069: reader: 1: ready
+2070: reader: 1: reads a value
+2071: reader: 1: read: 1
+2072: reader: 1: ready
+2073: reader: 1: reads a value
+2074: reader: 1: read: 1
+2075: reader: 3: ready
+2076: reader: 3: reads a value
+2077: reader: 3: read: 1
+2078: reader: 1: ready
+2079: reader: 1: reads a value
+2080: reader: 1: read: 1
+2081: reader: 2: ready
+2082: reader: 2: reads a value
+2083: reader: 2: read: 1
+2084: reader: 1: ready
+2085: reader: 1: reads a value
+2086: reader: 1: read: 1
+2087: writer: 2: ready
+2088: writer: 2: writes a value
+2089: writer: 2: written
+2090: writer: 2: new value
+2091: reader: 1: ready
+2092: reader: 1: reads a value
+2093: reader: 1: read: 2
+2094: writer: 1: ready
+2095: writer: 1: writes a value
+2096: writer: 1: written
+2097: writer: 1: new value
+2098: reader: 1: ready
+2099: reader: 1: reads a value
+2100: reader: 1: read: 1
+2101: reader: 1: ready
+2102: reader: 1: reads a value
+2103: reader: 1: read: 1
+2104: reader: 1: ready
+2105: reader: 1: reads a value
+2106: reader: 1: read: 1
+2107: reader: 1: ready
+2108: reader: 1: reads a value
+2109: reader: 1: read: 1
+2110: reader: 2: ready
+2111: reader: 2: reads a value
+2112: reader: 2: read: 1
+2113: reader: 1: ready
+2114: reader: 1: reads a value
+2115: reader: 1: read: 1
+2116: reader: 1: ready
+2117: reader: 1: reads a value
+2118: reader: 1: read: 1
+2119: reader: 3: ready
+2120: reader: 3: reads a value
+2121: reader: 3: read: 1
+2122: reader: 1: ready
+2123: reader: 1: reads a value
+2124: reader: 1: read: 1
+2125: reader: 1: ready
+2126: reader: 1: reads a value
+2127: reader: 1: read: 1
+2128: writer: 2: ready
+2129: writer: 2: writes a value
+2130: writer: 2: written
+2131: writer: 2: new value
+2132: reader: 1: ready
+2133: reader: 1: reads a value
+2134: reader: 1: read: 2
+2135: writer: 1: ready
+2136: writer: 1: writes a value
+2137: writer: 1: written
+2138: reader: 1: ready
+2139: reader: 1: reads a value
+2140: reader: 1: read: 1
+2141: writer: 1: new value
+2142: reader: 2: ready
+2143: reader: 2: reads a value
+2144: reader: 2: read: 1
+2145: reader: 1: ready
+2146: reader: 1: reads a value
+2147: reader: 1: read: 1
+2148: reader: 1: ready
+2149: reader: 1: reads a value
+2150: reader: 1: read: 1
+2151: reader: 1: ready
+2152: reader: 1: reads a value
+2153: reader: 1: read: 1
+2154: reader: 1: ready
+2155: reader: 1: reads a value
+2156: reader: 1: read: 1
+2157: reader: 1: ready
+2158: reader: 1: reads a value
+2159: reader: 1: read: 1
+2160: reader: 3: ready
+2161: reader: 3: reads a value
+2162: reader: 3: read: 1
+2163: reader: 1: ready
+2164: reader: 1: reads a value
+2165: reader: 1: read: 1
+2166: reader: 2: ready
+2167: reader: 2: reads a value
+2168: reader: 2: read: 1
+2169: reader: 1: ready
+2170: reader: 1: reads a value
+2171: reader: 1: read: 1
+2172: writer: 2: ready
+2173: writer: 2: writes a value
+2174: writer: 2: written
+2175: writer: 2: new value
+2176: reader: 1: ready
+2177: reader: 1: reads a value
+2178: reader: 1: read: 2
+2179: reader: 1: ready
+2180: reader: 1: reads a value
+2181: reader: 1: read: 2
+2182: writer: 1: ready
+2183: writer: 1: writes a value
+2184: writer: 1: written
+2185: writer: 1: new value
+2186: reader: 1: ready
+2187: reader: 1: reads a value
+2188: reader: 1: read: 1
+2189: reader: 1: ready
+2190: reader: 1: reads a value
+2191: reader: 1: read: 1
+2192: reader: 1: ready
+2193: reader: 1: reads a value
+2194: reader: 1: read: 1
+2195: reader: 2: ready
+2196: reader: 2: reads a value
+2197: reader: 2: read: 1
+2198: reader: 1: ready
+2199: reader: 1: reads a value
+2200: reader: 1: read: 1
+2201: reader: 3: ready
+2202: reader: 3: reads a value
+2203: reader: 3: read: 1
+2204: reader: 1: ready
+2205: reader: 1: reads a value
+2206: reader: 1: read: 1
+2207: reader: 1: ready
+2208: reader: 1: reads a value
+2209: reader: 1: read: 1
+2210: reader: 1: ready
+2211: reader: 1: reads a value
+2212: reader: 1: read: 1
+2213: reader: 1: ready
+2214: reader: 1: reads a value
+2215: reader: 1: read: 1
+2216: writer: 2: ready
+2217: writer: 2: writes a value
+2218: writer: 2: written
+2219: writer: 2: new value
+2220: reader: 1: ready
+2221: reader: 1: reads a value
+2222: reader: 1: read: 2
+2223: reader: 2: ready
+2224: reader: 2: reads a value
+2225: reader: 2: read: 2
+2226: reader: 1: ready
+2227: reader: 1: reads a value
+2228: reader: 1: read: 2
+2229: writer: 1: ready
+2230: writer: 1: writes a value
+2231: writer: 1: written
+2232: writer: 1: new value
+2233: reader: 1: ready
+2234: reader: 1: reads a value
+2235: reader: 1: read: 1
+2236: reader: 1: ready
+2237: reader: 1: reads a value
+2238: reader: 1: read: 1
+2239: reader: 1: ready
+2240: reader: 1: reads a value
+2241: reader: 1: read: 1
+2242: reader: 3: ready
+2243: reader: 3: reads a value
+2244: reader: 3: read: 1
+2245: reader: 1: ready
+2246: reader: 1: reads a value
+2247: reader: 1: read: 1
+2248: reader: 1: ready
+2249: reader: 1: reads a value
+2250: reader: 1: read: 1
+2251: reader: 2: ready
+2252: reader: 2: reads a value
+2253: reader: 2: read: 1
+2254: reader: 1: ready
+2255: reader: 1: reads a value
+2256: reader: 1: read: 1
+2257: reader: 1: ready
+2258: reader: 1: reads a value
+2259: reader: 1: read: 1
+2260: writer: 2: ready
+2261: writer: 2: writes a value
+2262: writer: 2: written
+2263: writer: 2: new value
+2264: reader: 1: ready
+2265: reader: 1: reads a value
+2266: reader: 1: read: 2
+2267: reader: 1: ready
+2268: reader: 1: reads a value
+2269: reader: 1: read: 2
+2270: reader: 1: ready
+2271: reader: 1: reads a value
+2272: reader: 1: read: 2
+2273: writer: 1: ready
+2274: writer: 1: writes a value
+2275: writer: 1: written
+2276: writer: 1: new value
+2277: reader: 1: ready
+2278: reader: 1: reads a value
+2279: reader: 1: read: 1
+2280: reader: 2: ready
+2281: reader: 2: reads a value
+2282: reader: 2: read: 1
+2283: reader: 1: ready
+2284: reader: 1: reads a value
+2285: reader: 1: read: 1
+2286: reader: 3: ready
+2287: reader: 3: reads a value
+2288: reader: 3: read: 1
+2289: reader: 1: ready
+2290: reader: 1: reads a value
+2291: reader: 1: read: 1
+2292: reader: 1: ready
+2293: reader: 1: reads a value
+2294: reader: 1: read: 1
+2295: reader: 1: ready
+2296: reader: 1: reads a value
+2297: reader: 1: read: 1
+2298: reader: 1: ready
+2299: reader: 1: reads a value
+2300: reader: 1: read: 1
+2301: writer: 2: ready
+2302: writer: 2: writes a value
+2303: writer: 2: written
+2304: writer: 2: new value
+2305: reader: 1: ready
+2306: reader: 1: reads a value
+2307: reader: 1: read: 2
+2308: reader: 2: ready
+2309: reader: 2: reads a value
+2310: reader: 2: read: 2
+2311: reader: 1: ready
+2312: reader: 1: reads a value
+2313: reader: 1: read: 2
+2314: reader: 1: ready
+2315: reader: 1: reads a value
+2316: reader: 1: read: 2
+2317: writer: 1: ready
+2318: writer: 1: writes a value
+2319: writer: 1: written
+2320: writer: 1: new value
+2321: reader: 1: ready
+2322: reader: 1: reads a value
+2323: reader: 1: read: 1
+2324: reader: 3: ready
+2325: reader: 3: reads a value
+2326: reader: 3: read: 1
+2327: reader: 1: ready
+2328: reader: 1: reads a value
+2329: reader: 1: read: 1
+2330: reader: 1: ready
+2331: reader: 1: reads a value
+2332: reader: 1: read: 1
+2333: reader: 1: ready
+2334: reader: 1: reads a value
+2335: reader: 1: read: 1
+2336: reader: 2: ready
+2337: reader: 2: reads a value
+2338: reader: 2: read: 1
+2339: reader: 1: ready
+2340: reader: 1: reads a value
+2341: reader: 1: read: 1
+2342: reader: 1: ready
+2343: reader: 1: reads a value
+2344: reader: 1: read: 1
+2345: writer: 2: ready
+2346: writer: 2: writes a value
+2347: writer: 2: written
+2348: writer: 2: new value
+2349: reader: 1: ready
+2350: reader: 1: reads a value
+2351: reader: 1: read: 2
+2352: reader: 1: ready
+2353: reader: 1: reads a value
+2354: reader: 1: read: 2
+2355: reader: 1: ready
+2356: reader: 1: reads a value
+2357: reader: 1: read: 2
+2358: reader: 1: ready
+2359: reader: 1: reads a value
+2360: reader: 1: read: 2
+2361: reader: 2: ready
+2362: reader: 2: reads a value
+2363: reader: 2: read: 2
+2364: reader: 3: ready
+2365: writer: 1: ready
+2366: writer: 1: writes a value
+2367: writer: 1: written
+2368: writer: 1: new value
+2369: reader: 3: reads a value
+2370: reader: 3: read: 1
+2371: reader: 1: ready
+2372: reader: 1: reads a value
+2373: reader: 1: read: 1
+2374: reader: 1: ready
+2375: reader: 1: reads a value
+2376: reader: 1: read: 1
+2377: reader: 1: ready
+2378: reader: 1: reads a value
+2379: reader: 1: read: 1
+2380: reader: 1: ready
+2381: reader: 1: reads a value
+2382: reader: 1: read: 1
+2383: reader: 1: ready
+2384: reader: 1: reads a value
+2385: reader: 1: read: 1
+2386: reader: 1: ready
+2387: reader: 1: reads a value
+2388: reader: 1: read: 1
+2389: writer: 2: ready
+2390: writer: 2: writes a value
+2391: writer: 2: written
+2392: writer: 2: new value
+2393: reader: 2: ready
+2394: reader: 2: reads a value
+2395: reader: 2: read: 2
+2396: reader: 1: ready
+2397: reader: 1: reads a value
+2398: reader: 1: read: 2
+2399: reader: 1: ready
+2400: reader: 1: reads a value
+2401: reader: 1: read: 2
+2402: reader: 1: ready
+2403: reader: 1: reads a value
+2404: reader: 1: read: 2
+2405: reader: 3: ready
+2406: reader: 3: reads a value
+2407: reader: 3: read: 2
+2408: reader: 1: ready
+2409: reader: 1: reads a value
+2410: reader: 1: read: 2
+2411: writer: 1: ready
+2412: writer: 1: writes a value
+2413: writer: 1: written
+2414: writer: 1: new value
+2415: reader: 1: ready
+2416: reader: 1: reads a value
+2417: reader: 1: read: 1
+2418: reader: 1: ready
+2419: reader: 1: reads a value
+2420: reader: 1: read: 1
+2421: reader: 2: ready
+2422: reader: 2: reads a value
+2423: reader: 2: read: 1
+2424: reader: 1: ready
+2425: reader: 1: reads a value
+2426: reader: 1: read: 1
+2427: reader: 1: ready
+2428: reader: 1: reads a value
+2429: reader: 1: read: 1
+2430: reader: 1: ready
+2431: reader: 1: reads a value
+2432: reader: 1: read: 1
+2433: writer: 2: ready
+2434: writer: 2: writes a value
+2435: writer: 2: written
+2436: writer: 2: new value
+2437: reader: 1: ready
+2438: reader: 1: reads a value
+2439: reader: 1: read: 2
+2440: reader: 1: ready
+2441: reader: 1: reads a value
+2442: reader: 1: read: 2
+2443: reader: 1: ready
+2444: reader: 1: reads a value
+2445: reader: 1: read: 2
+2446: reader: 3: ready
+2447: reader: 3: reads a value
+2448: reader: 3: read: 2
+2449: reader: 2: ready
+2450: reader: 2: reads a value
+2451: reader: 2: read: 2
+2452: reader: 1: ready
+2453: reader: 1: reads a value
+2454: reader: 1: read: 2
+2455: reader: 1: ready
+2456: writer: 1: ready
+2457: writer: 1: writes a value
+2458: writer: 1: written
+2459: writer: 1: new value
+2460: reader: 1: reads a value
+2461: reader: 1: read: 1
+2462: reader: 1: ready
+2463: reader: 1: reads a value
+2464: reader: 1: read: 1
+2465: reader: 1: ready
+2466: reader: 1: reads a value
+2467: reader: 1: read: 1
+2468: reader: 1: ready
+2469: reader: 1: reads a value
+2470: reader: 1: read: 1
+2471: reader: 1: ready
+2472: reader: 1: reads a value
+2473: reader: 1: read: 1
+2474: reader: 2: ready
+2475: reader: 2: reads a value
+2476: reader: 2: read: 1
+2477: writer: 2: ready
+2478: writer: 2: writes a value
+2479: writer: 2: written
+2480: writer: 2: new value
+2481: reader: 1: ready
+2482: reader: 1: reads a value
+2483: reader: 1: read: 2
+2484: reader: 1: ready
+2485: reader: 1: reads a value
+2486: reader: 1: read: 2
+2487: reader: 3: ready
+2488: reader: 3: reads a value
+2489: reader: 3: read: 2
+2490: reader: 1: ready
+2491: reader: 1: reads a value
+2492: reader: 1: read: 2
+2493: reader: 1: ready
+2494: reader: 1: reads a value
+2495: reader: 1: read: 2
+2496: reader: 1: ready
+2497: reader: 1: reads a value
+2498: reader: 1: read: 2
+2499: writer: 1: ready
+2500: writer: 1: writes a value
+2501: writer: 1: written
+2502: writer: 1: new value
+2503: reader: 1: ready
+2504: reader: 1: reads a value
+2505: reader: 1: read: 1
+2506: reader: 2: ready
+2507: reader: 2: reads a value
+2508: reader: 2: read: 1
+2509: reader: 1: ready
+2510: reader: 1: reads a value
+2511: reader: 1: read: 1
+2512: reader: 1: ready
+2513: reader: 1: reads a value
+2514: reader: 1: read: 1
+2515: reader: 1: ready
+2516: reader: 1: reads a value
+2517: reader: 1: read: 1
+2518: writer: 2: ready
+2519: writer: 2: writes a value
+2520: writer: 2: written
+2521: writer: 2: new value
+2522: reader: 1: ready
+2523: reader: 1: reads a value
+2524: reader: 1: read: 2
+2525: reader: 1: ready
+2526: reader: 1: reads a value
+2527: reader: 1: read: 2
+2528: reader: 3: ready
+2529: reader: 3: reads a value
+2530: reader: 3: read: 2
+2531: reader: 1: ready
+2532: reader: 1: reads a value
+2533: reader: 1: read: 2
+2534: reader: 2: ready
+2535: reader: 2: reads a value
+2536: reader: 2: read: 2
+2537: reader: 1: ready
+2538: reader: 1: reads a value
+2539: reader: 1: read: 2
+2540: reader: 1: ready
+2541: reader: 1: reads a value
+2542: reader: 1: read: 2
+2543: reader: 1: ready
+2544: reader: 1: reads a value
+2545: reader: 1: read: 2
+2546: writer: 1: ready
+2547: writer: 1: writes a value
+2548: writer: 1: written
+2549: writer: 1: new value
+2550: reader: 1: ready
+2551: reader: 1: reads a value
+2552: reader: 1: read: 1
+2553: reader: 1: ready
+2554: reader: 1: reads a value
+2555: reader: 1: read: 1
+2556: reader: 1: ready
+2557: reader: 1: reads a value
+2558: reader: 1: read: 1
+2559: reader: 2: ready
+2560: reader: 2: reads a value
+2561: reader: 2: read: 1
+2562: reader: 1: ready
+2563: reader: 1: reads a value
+2564: reader: 1: read: 1
+2565: writer: 2: ready
+2566: writer: 2: writes a value
+2567: writer: 2: written
+2568: writer: 2: new value
+2569: reader: 1: ready
+2570: reader: 1: reads a value
+2571: reader: 1: read: 2
+2572: reader: 3: ready
+2573: reader: 3: reads a value
+2574: reader: 3: read: 2
+2575: reader: 1: ready
+2576: reader: 1: reads a value
+2577: reader: 1: read: 2
+2578: reader: 1: ready
+2579: reader: 1: reads a value
+2580: reader: 1: read: 2
+2581: reader: 1: ready
+2582: reader: 1: reads a value
+2583: reader: 1: read: 2
+2584: reader: 1: ready
+2585: reader: 1: reads a value
+2586: reader: 1: read: 2
+2587: reader: 2: ready
+2588: reader: 2: reads a value
+2589: reader: 2: read: 2
+2590: reader: 1: ready
+2591: reader: 1: reads a value
+2592: reader: 1: read: 2
+2593: writer: 1: ready
+2594: writer: 1: writes a value
+2595: writer: 1: written
+2596: writer: 1: new value
+2597: reader: 1: ready
+2598: reader: 1: reads a value
+2599: reader: 1: read: 1
+2600: reader: 1: ready
+2601: reader: 1: reads a value
+2602: reader: 1: read: 1
+2603: reader: 1: ready
+2604: reader: 1: reads a value
+2605: reader: 1: read: 1
+2606: writer: 2: ready
+2607: writer: 2: writes a value
+2608: writer: 2: written
+2609: writer: 2: new value
+2610: reader: 3: ready
+2611: reader: 3: reads a value
+2612: reader: 3: read: 2
+2613: reader: 1: ready
+2614: reader: 1: reads a value
+2615: reader: 1: read: 2
+2616: reader: 1: ready
+2617: reader: 1: reads a value
+2618: reader: 1: read: 2
+2619: reader: 2: ready
+2620: reader: 2: reads a value
+2621: reader: 2: read: 2
+2622: reader: 1: ready
+2623: reader: 1: reads a value
+2624: reader: 1: read: 2
+2625: reader: 1: ready
+2626: reader: 1: reads a value
+2627: reader: 1: read: 2
+2628: reader: 1: ready
+2629: reader: 1: reads a value
+2630: reader: 1: read: 2
+2631: reader: 1: ready
+2632: reader: 1: reads a value
+2633: reader: 1: read: 2
+2634: writer: 1: ready
+2635: writer: 1: writes a value
+2636: writer: 1: written
+2637: writer: 1: new value
+2638: reader: 1: ready
+2639: reader: 1: reads a value
+2640: reader: 1: read: 1
+2641: reader: 1: ready
+2642: reader: 1: reads a value
+2643: reader: 1: read: 1
+2644: reader: 2: ready
+2645: reader: 2: reads a value
+2646: reader: 2: read: 1
+2647: reader: 1: ready
+2648: reader: 1: reads a value
+2649: reader: 1: read: 1
+2650: reader: 3: ready
+2651: reader: 3: reads a value
+2652: reader: 3: read: 1
+2653: writer: 2: ready
+2654: writer: 2: writes a value
+2655: writer: 2: written
+2656: writer: 2: new value
+2657: reader: 1: ready
+2658: reader: 1: reads a value
+2659: reader: 1: read: 2
+2660: reader: 1: ready
+2661: reader: 1: reads a value
+2662: reader: 1: read: 2
+2663: reader: 1: ready
+2664: reader: 1: reads a value
+2665: reader: 1: read: 2
+2666: reader: 1: ready
+2667: reader: 1: reads a value
+2668: reader: 1: read: 2
+2669: reader: 1: ready
+2670: reader: 1: reads a value
+2671: reader: 1: read: 2
+2672: reader: 2: ready
+2673: reader: 2: reads a value
+2674: reader: 2: read: 2
+2675: reader: 1: ready
+2676: reader: 1: reads a value
+2677: reader: 1: read: 2
+2678: reader: 1: ready
+2679: reader: 1: reads a value
+2680: reader: 1: read: 2
+2681: writer: 1: ready
+2682: writer: 1: writes a value
+2683: writer: 1: written
+2684: writer: 1: new value
+2685: reader: 1: ready
+2686: reader: 1: reads a value
+2687: reader: 1: read: 1
+2688: reader: 1: ready
+2689: reader: 1: reads a value
+2690: reader: 1: read: 1
+2691: reader: 3: ready
+2692: reader: 3: reads a value
+2693: reader: 3: read: 1
+2694: reader: 1: ready
+2695: reader: 1: reads a value
+2696: reader: 1: read: 1
+2697: writer: 2: ready
+2698: writer: 2: writes a value
+2699: writer: 2: written
+2700: writer: 2: new value
+2701: reader: 1: ready
+2702: reader: 1: reads a value
+2703: reader: 1: read: 2
+2704: reader: 2: ready
+2705: reader: 2: reads a value
+2706: reader: 2: read: 2
+2707: reader: 1: ready
+2708: reader: 1: reads a value
+2709: reader: 1: read: 2
+2710: reader: 1: ready
+2711: reader: 1: reads a value
+2712: reader: 1: read: 2
+2713: reader: 1: ready
+2714: reader: 1: reads a value
+2715: reader: 1: read: 2
+2716: reader: 1: ready
+2717: reader: 1: reads a value
+2718: reader: 1: read: 2
+2719: reader: 1: ready
+2720: reader: 1: reads a value
+2721: reader: 1: read: 2
+2722: reader: 1: ready
+2723: reader: 1: reads a value
+2724: reader: 1: read: 2
+2725: writer: 1: ready
+2726: writer: 1: writes a value
+2727: writer: 1: written
+2728: writer: 1: new value
+2729: reader: 2: ready
+2730: reader: 2: reads a value
+2731: reader: 2: read: 1
+2732: reader: 1: ready
+2733: reader: 1: reads a value
+2734: reader: 1: read: 1
+2735: reader: 3: ready
+2736: reader: 3: reads a value
+2737: reader: 3: read: 1
+2738: reader: 1: ready
+2739: reader: 1: reads a value
+2740: reader: 1: read: 1
+2741: writer: 2: ready
+2742: writer: 2: writes a value
+2743: writer: 2: written
+2744: writer: 2: new value
+2745: reader: 1: ready
+2746: reader: 1: reads a value
+2747: reader: 1: read: 2
+2748: reader: 1: ready
+2749: reader: 1: reads a value
+2750: reader: 1: read: 2
+2751: reader: 1: ready
+2752: reader: 1: reads a value
+2753: reader: 1: read: 2
+2754: reader: 1: ready
+2755: reader: 1: reads a value
+2756: reader: 1: read: 2
+2757: reader: 2: ready
+2758: reader: 2: reads a value
+2759: reader: 2: read: 2
+2760: reader: 1: ready
+2761: reader: 1: reads a value
+2762: reader: 1: read: 2
+2763: reader: 1: ready
+2764: reader: 1: reads a value
+2765: reader: 1: read: 2
+2766: reader: 1: ready
+2767: reader: 1: reads a value
+2768: reader: 1: read: 2
+2769: reader: 3: ready
+2770: reader: 3: reads a value
+2771: reader: 3: read: 2
+2772: reader: 1: ready
+2773: reader: 1: reads a value
+2774: reader: 1: read: 2
+2775: writer: 1: ready
+2776: writer: 1: writes a value
+2777: writer: 1: written
+2778: writer: 1: new value
+2779: reader: 1: ready
+2780: reader: 1: reads a value
+2781: reader: 1: read: 1
+2782: writer: 2: ready
+2783: writer: 2: writes a value
+2784: writer: 2: written
+2785: writer: 2: new value
+2786: reader: 1: ready
+2787: reader: 1: reads a value
+2788: reader: 1: read: 2
+2789: reader: 2: ready
+2790: reader: 2: reads a value
+2791: reader: 2: read: 2
+2792: reader: 1: ready
+2793: reader: 1: reads a value
+2794: reader: 1: read: 2
+2795: reader: 1: ready
+2796: reader: 1: reads a value
+2797: reader: 1: read: 2
+2798: reader: 1: ready
+2799: reader: 1: reads a value
+2800: reader: 1: read: 2
+2801: reader: 1: ready
+2802: reader: 1: reads a value
+2803: reader: 1: read: 2
+2804: reader: 1: ready
+2805: reader: 1: reads a value
+2806: reader: 1: read: 2
+2807: reader: 1: ready
+2808: reader: 1: reads a value
+2809: reader: 1: read: 2
+2810: reader: 2: ready
+2811: reader: 2: reads a value
+2812: reader: 2: read: 2
+2813: reader: 3: ready
+2814: reader: 3: reads a value
+2815: reader: 3: read: 2
+2816: reader: 1: ready
+2817: reader: 1: reads a value
+2818: reader: 1: read: 2
+2819: writer: 1: ready
+2820: writer: 1: writes a value
+2821: writer: 1: written
+2822: writer: 1: new value
+2823: reader: 1: ready
+2824: reader: 1: reads a value
+2825: reader: 1: read: 1
+2826: writer: 2: ready
+2827: writer: 2: writes a value
+2828: writer: 2: written
+2829: writer: 2: new value
+2830: reader: 1: ready
+2831: reader: 1: reads a value
+2832: reader: 1: read: 2
+2833: reader: 1: ready
+2834: reader: 1: reads a value
+2835: reader: 1: read: 2
+2836: reader: 1: ready
+2837: reader: 1: reads a value
+2838: reader: 1: read: 2
+2839: reader: 1: ready
+2840: reader: 1: reads a value
+2841: reader: 1: read: 2
+2842: reader: 2: ready
+2843: reader: 2: reads a value
+2844: reader: 2: read: 2
+2845: reader: 1: ready
+2846: reader: 1: reads a value
+2847: reader: 1: read: 2
+2848: reader: 1: ready
+2849: reader: 1: reads a value
+2850: reader: 1: read: 2
+2851: reader: 1: ready
+2852: reader: 1: reads a value
+2853: reader: 1: read: 2
+2854: reader: 3: ready
+2855: reader: 3: reads a value
+2856: reader: 3: read: 2
+2857: reader: 1: ready
+2858: reader: 1: reads a value
+2859: reader: 1: read: 2
+2860: reader: 1: ready
+2861: reader: 1: reads a value
+2862: reader: 1: read: 2
+2863: writer: 1: ready
+2864: writer: 1: writes a value
+2865: writer: 1: written
+2866: writer: 1: new value
+2867: reader: 1: ready
+2868: reader: 1: reads a value
+2869: reader: 1: read: 1
+2870: writer: 2: ready
+2871: writer: 2: writes a value
+2872: writer: 2: written
+2873: writer: 2: new value
+2874: reader: 2: ready
+2875: reader: 2: reads a value
+2876: reader: 2: read: 2
+2877: reader: 1: ready
+2878: reader: 1: reads a value
+2879: reader: 1: read: 2
+2880: reader: 1: ready
+2881: reader: 1: reads a value
+2882: reader: 1: read: 2
+2883: reader: 1: ready
+2884: reader: 1: reads a value
+2885: reader: 1: read: 2
+2886: reader: 1: ready
+2887: reader: 1: reads a value
+2888: reader: 1: read: 2
+2889: reader: 1: ready
+2890: reader: 1: reads a value
+2891: reader: 1: read: 2
+2892: reader: 3: ready
+2893: reader: 3: reads a value
+2894: reader: 3: read: 2
+2895: reader: 1: ready
+2896: reader: 1: reads a value
+2897: reader: 1: read: 2
+2898: reader: 2: ready
+2899: reader: 2: reads a value
+2900: reader: 2: read: 2
+2901: reader: 1: ready
+2902: reader: 1: reads a value
+2903: reader: 1: read: 2
+2904: reader: 1: ready
+2905: reader: 1: reads a value
+2906: reader: 1: read: 2
+2907: reader: 1: ready
+2908: reader: 1: reads a value
+2909: reader: 1: read: 2
+2910: writer: 1: ready
+2911: writer: 1: writes a value
+2912: writer: 1: written
+2913: writer: 1: new value
+2914: writer: 2: ready
+2915: writer: 2: writes a value
+2916: writer: 2: written
+2917: writer: 2: new value
+2918: reader: 1: ready
+2919: reader: 1: reads a value
+2920: reader: 1: read: 2
+2921: reader: 1: ready
+2922: reader: 1: reads a value
+2923: reader: 1: read: 2
+2924: reader: 1: ready
+2925: reader: 1: reads a value
+2926: reader: 1: read: 2
+2927: reader: 2: ready
+2928: reader: 2: reads a value
+2929: reader: 2: read: 2
+2930: reader: 1: ready
+2931: reader: 1: reads a value
+2932: reader: 1: read: 2
+2933: reader: 1: ready
+2934: reader: 1: reads a value
+2935: reader: 1: read: 2
+2936: reader: 3: ready
+2937: reader: 3: reads a value
+2938: reader: 3: read: 2
+2939: reader: 1: ready
+2940: reader: 1: reads a value
+2941: reader: 1: read: 2
+2942: reader: 1: ready
+2943: reader: 1: reads a value
+2944: reader: 1: read: 2
+2945: reader: 1: ready
+2946: reader: 1: reads a value
+2947: reader: 1: read: 2
+2948: reader: 1: ready
+2949: reader: 1: reads a value
+2950: reader: 1: read: 2
+2951: reader: 2: ready
+2952: reader: 2: reads a value
+2953: reader: 2: read: 2
+2954: writer: 2: ready
+2955: writer: 2: writes a value
+2956: writer: 2: written
+2957: writer: 2: new value
+2958: writer: 1: ready
+2959: writer: 1: writes a value
+2960: writer: 1: written
+2961: writer: 1: new value
+2962: reader: 1: ready
+2963: reader: 1: reads a value
+2964: reader: 1: read: 1
+2965: reader: 1: ready
+2966: reader: 1: reads a value
+2967: reader: 1: read: 1
+2968: reader: 1: ready
+2969: reader: 1: reads a value
+2970: reader: 1: read: 1
+2971: reader: 1: ready
+2972: reader: 1: reads a value
+2973: reader: 1: read: 1
+2974: reader: 1: ready
+2975: reader: 1: reads a value
+2976: reader: 1: read: 1
+2977: reader: 3: ready
+2978: reader: 3: reads a value
+2979: reader: 3: read: 1
+2980: reader: 1: ready
+2981: reader: 1: reads a value
+2982: reader: 1: read: 1
+2983: reader: 2: ready
+2984: reader: 2: reads a value
+2985: reader: 2: read: 1
+2986: reader: 1: ready
+2987: reader: 1: reads a value
+2988: reader: 1: read: 1
+2989: reader: 1: ready
+2990: reader: 1: reads a value
+2991: reader: 1: read: 1
+2992: reader: 1: ready
+2993: reader: 1: reads a value
+2994: reader: 1: read: 1
+2995: writer: 2: ready
+2996: writer: 2: writes a value
+2997: writer: 2: written
+2998: writer: 2: new value
+2999: reader: 1: ready
+3000: reader: 1: reads a value
+3001: reader: 1: read: 2
+3002: writer: 1: ready
+3003: writer: 1: writes a value
+3004: writer: 1: written
+3005: writer: 1: new value
+3006: reader: 1: ready
+3007: reader: 1: reads a value
+3008: reader: 1: read: 1
+3009: reader: 1: ready
+3010: reader: 1: reads a value
+3011: reader: 1: read: 1
+3012: reader: 2: ready
+3013: reader: 2: reads a value
+3014: reader: 2: read: 1
+3015: reader: 1: ready
+3016: reader: 1: reads a value
+3017: reader: 1: read: 1
+3018: reader: 1: ready
+3019: reader: 1: reads a value
+3020: reader: 1: read: 1
+3021: reader: 3: ready
+3022: reader: 3: reads a value
+3023: reader: 3: read: 1
+3024: reader: 1: ready
+3025: reader: 1: reads a value
+3026: reader: 1: read: 1
+3027: reader: 1: ready
+3028: reader: 1: reads a value
+3029: reader: 1: read: 1
+3030: reader: 1: ready
+3031: reader: 1: reads a value
+3032: reader: 1: read: 1
+3033: reader: 1: ready
+3034: reader: 1: reads a value
+3035: reader: 1: read: 1
+3036: reader: 2: ready
+3037: reader: 2: reads a value
+3038: reader: 2: read: 1
+3039: reader: 1: ready
+3040: reader: 1: reads a value
+3041: reader: 1: read: 1
+3042: writer: 2: ready
+3043: writer: 2: writes a value
+3044: writer: 2: written
+3045: writer: 2: new value
+3046: reader: 1: ready
+3047: reader: 1: reads a value
+3048: reader: 1: read: 2
+3049: writer: 1: ready
+3050: writer: 1: writes a value
+3051: writer: 1: written
+3052: writer: 1: new value
+3053: reader: 1: ready
+3054: reader: 1: reads a value
+3055: reader: 1: read: 1
+3056: reader: 1: ready
+3057: reader: 1: reads a value
+3058: reader: 1: read: 1
+3059: reader: 3: ready
+3060: reader: 3: reads a value
+3061: reader: 3: read: 1
+3062: reader: 1: ready
+3063: reader: 1: reads a value
+3064: reader: 1: read: 1
+3065: reader: 1: ready
+3066: reader: 1: reads a value
+3067: reader: 1: read: 1
+3068: reader: 2: ready
+3069: reader: 2: reads a value
+3070: reader: 2: read: 1
+3071: reader: 1: ready
+3072: reader: 1: reads a value
+3073: reader: 1: read: 1
+3074: reader: 1: ready
+3075: reader: 1: reads a value
+3076: reader: 1: read: 1
+3077: reader: 1: ready
+3078: reader: 1: reads a value
+3079: reader: 1: read: 1
+3080: reader: 1: ready
+3081: reader: 1: reads a value
+3082: reader: 1: read: 1
+3083: writer: 2: ready
+3084: writer: 2: writes a value
+3085: writer: 2: written
+3086: writer: 2: new value
+3087: reader: 1: ready
+3088: reader: 1: reads a value
+3089: reader: 1: read: 2
+3090: reader: 1: ready
+3091: reader: 1: reads a value
+3092: reader: 1: read: 2
+3093: writer: 1: ready
+3094: writer: 1: writes a value
+3095: writer: 1: written
+3096: writer: 1: new value
+3097: reader: 2: ready
+3098: reader: 2: reads a value
+3099: reader: 2: read: 1
+3100: reader: 1: ready
+3101: reader: 1: reads a value
+3102: reader: 1: read: 1
+3103: reader: 3: ready
+3104: reader: 3: reads a value
+3105: reader: 3: read: 1
+3106: reader: 1: ready
+3107: reader: 1: reads a value
+3108: reader: 1: read: 1
+3109: reader: 1: ready
+3110: reader: 1: reads a value
+3111: reader: 1: read: 1
+3112: reader: 1: ready
+3113: reader: 1: reads a value
+3114: reader: 1: read: 1
+3115: reader: 1: ready
+3116: reader: 1: reads a value
+3117: reader: 1: read: 1
+3118: reader: 1: ready
+3119: reader: 1: reads a value
+3120: reader: 1: read: 1
+3121: reader: 2: ready
+3122: reader: 2: reads a value
+3123: reader: 2: read: 1
+3124: reader: 1: ready
+3125: reader: 1: reads a value
+3126: reader: 1: read: 1
+3127: writer: 2: ready
+3128: writer: 2: writes a value
+3129: writer: 2: written
+3130: writer: 2: new value
+3131: reader: 1: ready
+3132: reader: 1: reads a value
+3133: reader: 1: read: 2
+3134: reader: 1: ready
+3135: reader: 1: reads a value
+3136: reader: 1: read: 2
+3137: writer: 1: ready
+3138: writer: 1: writes a value
+3139: writer: 1: written
+3140: writer: 1: new value
+3141: reader: 1: ready
+3142: reader: 1: reads a value
+3143: reader: 1: read: 1
+3144: reader: 3: ready
+3145: reader: 3: reads a value
+3146: reader: 3: read: 1
+3147: reader: 1: ready
+3148: reader: 1: reads a value
+3149: reader: 1: read: 1
+3150: reader: 1: ready
+3151: reader: 1: reads a value
+3152: reader: 1: read: 1
+3153: reader: 2: ready
+3154: reader: 2: reads a value
+3155: reader: 2: read: 1
+3156: reader: 1: ready
+3157: reader: 1: reads a value
+3158: reader: 1: read: 1
+3159: reader: 1: ready
+3160: reader: 1: reads a value
+3161: reader: 1: read: 1
+3162: reader: 1: ready
+3163: reader: 1: reads a value
+3164: reader: 1: read: 1
+3165: reader: 1: ready
+3166: reader: 1: reads a value
+3167: reader: 1: read: 1
+3168: reader: 1: ready
+3169: writer: 2: ready
+3170: writer: 2: writes a value
+3171: writer: 2: written
+3172: writer: 2: new value
+3173: reader: 1: reads a value
+3174: reader: 1: read: 2
+3175: reader: 1: ready
+3176: reader: 1: reads a value
+3177: reader: 1: read: 2
+3178: reader: 2: ready
+3179: reader: 2: reads a value
+3180: reader: 2: read: 2
+3181: reader: 3: ready
+3182: reader: 3: reads a value
+3183: reader: 3: read: 2
+3184: reader: 1: ready
+3185: reader: 1: reads a value
+3186: reader: 1: read: 2
+3187: writer: 1: ready
+3188: writer: 1: writes a value
+3189: writer: 1: written
+3190: writer: 1: new value
+3191: reader: 1: ready
+3192: reader: 1: reads a value
+3193: reader: 1: read: 1
+3194: reader: 1: ready
+3195: reader: 1: reads a value
+3196: reader: 1: read: 1
+3197: reader: 1: ready
+3198: reader: 1: reads a value
+3199: reader: 1: read: 1
+3200: reader: 1: ready
+3201: reader: 1: reads a value
+3202: reader: 1: read: 1
+3203: reader: 1: ready
+3204: reader: 1: reads a value
+3205: reader: 1: read: 1
+3206: reader: 2: ready
+3207: reader: 2: reads a value
+3208: reader: 2: read: 1
+3209: reader: 1: ready
+3210: reader: 1: reads a value
+3211: reader: 1: read: 1
+3212: reader: 1: ready
+3213: reader: 1: reads a value
+3214: reader: 1: read: 1
+3215: writer: 2: ready
+3216: writer: 2: writes a value
+3217: writer: 2: written
+3218: writer: 2: new value
+3219: reader: 1: ready
+3220: reader: 1: reads a value
+3221: reader: 1: read: 2
+3222: reader: 3: ready
+3223: reader: 3: reads a value
+3224: reader: 3: read: 2
+3225: reader: 1: ready
+3226: reader: 1: reads a value
+3227: reader: 1: read: 2
+3228: reader: 1: ready
+3229: reader: 1: reads a value
+3230: reader: 1: read: 2
+3231: writer: 1: ready
+3232: writer: 1: writes a value
+3233: writer: 1: written
+3234: writer: 1: new value
+3235: reader: 1: ready
+3236: reader: 1: reads a value
+3237: reader: 1: read: 1
+3238: reader: 2: ready
+3239: reader: 2: reads a value
+3240: reader: 2: read: 1
+3241: reader: 1: ready
+3242: reader: 1: reads a value
+3243: reader: 1: read: 1
+3244: reader: 1: ready
+3245: reader: 1: reads a value
+3246: reader: 1: read: 1
+3247: reader: 1: ready
+3248: reader: 1: reads a value
+3249: reader: 1: read: 1
+3250: reader: 1: ready
+3251: reader: 1: reads a value
+3252: reader: 1: read: 1
+3253: reader: 1: ready
+3254: reader: 1: reads a value
+3255: reader: 1: read: 1
+3256: writer: 2: ready
+3257: writer: 2: writes a value
+3258: writer: 2: written
+3259: writer: 2: new value
+3260: reader: 1: ready
+3261: reader: 1: reads a value
+3262: reader: 1: read: 2
+3263: reader: 3: ready
+3264: reader: 3: reads a value
+3265: reader: 3: read: 2
+3266: reader: 2: ready
+3267: reader: 2: reads a value
+3268: reader: 2: read: 2
+3269: reader: 1: ready
+3270: reader: 1: reads a value
+3271: reader: 1: read: 2
+3272: reader: 1: ready
+3273: reader: 1: reads a value
+3274: reader: 1: read: 2
+3275: writer: 1: ready
+3276: writer: 1: writes a value
+3277: writer: 1: written
+3278: writer: 1: new value
+3279: reader: 1: ready
+3280: reader: 1: reads a value
+3281: reader: 1: read: 1
+3282: reader: 1: ready
+3283: reader: 1: reads a value
+3284: reader: 1: read: 1
+3285: reader: 1: ready
+3286: reader: 1: reads a value
+3287: reader: 1: read: 1
+3288: reader: 1: ready
+3289: reader: 1: reads a value
+3290: reader: 1: read: 1
+3291: reader: 2: ready
+3292: reader: 2: reads a value
+3293: reader: 2: read: 1
+3294: reader: 1: ready
+3295: reader: 1: reads a value
+3296: reader: 1: read: 1
+3297: reader: 1: ready
+3298: reader: 1: reads a value
+3299: reader: 1: read: 1
+3300: writer: 2: ready
+3301: writer: 2: writes a value
+3302: writer: 2: written
+3303: writer: 2: new value
+3304: reader: 3: ready
+3305: reader: 3: reads a value
+3306: reader: 3: read: 2
+3307: reader: 1: ready
+3308: reader: 1: reads a value
+3309: reader: 1: read: 2
+3310: reader: 1: ready
+3311: reader: 1: reads a value
+3312: reader: 1: read: 2
+3313: reader: 1: ready
+3314: reader: 1: reads a value
+3315: reader: 1: read: 2
+3316: reader: 1: ready
+3317: reader: 1: reads a value
+3318: reader: 1: read: 2
+3319: reader: 2: ready
+3320: reader: 2: reads a value
+3321: reader: 2: read: 2
+3322: writer: 1: ready
+3323: writer: 1: writes a value
+3324: writer: 1: written
+3325: writer: 1: new value
+3326: reader: 1: ready
+3327: reader: 1: reads a value
+3328: reader: 1: read: 1
+3329: reader: 1: ready
+3330: reader: 1: reads a value
+3331: reader: 1: read: 1
+3332: reader: 1: ready
+3333: reader: 1: reads a value
+3334: reader: 1: read: 1
+3335: reader: 1: ready
+3336: reader: 1: reads a value
+3337: reader: 1: read: 1
+3338: reader: 1: ready
+3339: reader: 1: reads a value
+3340: reader: 1: read: 1
+3341: reader: 3: ready
+3342: reader: 3: reads a value
+3343: reader: 3: read: 1
+3344: writer: 2: ready
+3345: writer: 2: writes a value
+3346: writer: 2: written
+3347: writer: 2: new value
+3348: reader: 1: ready
+3349: reader: 1: reads a value
+3350: reader: 1: read: 2
+3351: reader: 2: ready
+3352: reader: 2: reads a value
+3353: reader: 2: read: 2
+3354: reader: 1: ready
+3355: reader: 1: reads a value
+3356: reader: 1: read: 2
+3357: reader: 1: ready
+3358: reader: 1: reads a value
+3359: reader: 1: read: 2
+3360: reader: 1: ready
+3361: reader: 1: reads a value
+3362: reader: 1: read: 2
+3363: reader: 1: ready
+3364: writer: 1: ready
+3365: writer: 1: writes a value
+3366: writer: 1: written
+3367: writer: 1: new value
+3368: reader: 1: reads a value
+3369: reader: 1: read: 1
+3370: reader: 1: ready
+3371: reader: 1: reads a value
+3372: reader: 1: read: 1
+3373: reader: 1: ready
+3374: reader: 1: reads a value
+3375: reader: 1: read: 1
+3376: reader: 2: ready
+3377: reader: 2: reads a value
+3378: reader: 2: read: 1
+3379: reader: 1: ready
+3380: reader: 1: reads a value
+3381: reader: 1: read: 1
+3382: reader: 3: ready
+3383: reader: 3: reads a value
+3384: reader: 3: read: 1
+3385: reader: 1: ready
+3386: reader: 1: reads a value
+3387: reader: 1: read: 1
+3388: writer: 2: ready
+3389: writer: 2: writes a value
+3390: writer: 2: written
+3391: writer: 2: new value
+3392: reader: 1: ready
+3393: reader: 1: reads a value
+3394: reader: 1: read: 2
+3395: reader: 1: ready
+3396: reader: 1: reads a value
+3397: reader: 1: read: 2
+3398: reader: 1: ready
+3399: reader: 1: reads a value
+3400: reader: 1: read: 2
+3401: reader: 1: ready
+3402: reader: 1: reads a value
+3403: reader: 1: read: 2
+3404: reader: 2: ready
+3405: reader: 2: reads a value
+3406: reader: 2: read: 2
+3407: reader: 1: ready
+3408: reader: 1: reads a value
+3409: reader: 1: read: 2
+3410: writer: 1: ready
+3411: writer: 1: writes a value
+3412: writer: 1: written
+3413: writer: 1: new value
+3414: reader: 1: ready
+3415: reader: 1: reads a value
+3416: reader: 1: read: 1
+3417: reader: 1: ready
+3418: reader: 1: reads a value
+3419: reader: 1: read: 1
+3420: reader: 1: ready
+3421: reader: 1: reads a value
+3422: reader: 1: read: 1
+3423: reader: 3: ready
+3424: reader: 3: reads a value
+3425: reader: 3: read: 1
+3426: reader: 1: ready
+3427: reader: 1: reads a value
+3428: reader: 1: read: 1
+3429: writer: 2: ready
+3430: writer: 2: writes a value
+3431: writer: 2: written
+3432: writer: 2: new value
+3433: reader: 1: ready
+3434: reader: 1: reads a value
+3435: reader: 1: read: 2
+3436: reader: 2: ready
+3437: reader: 2: reads a value
+3438: reader: 2: read: 2
+3439: reader: 1: ready
+3440: reader: 1: reads a value
+3441: reader: 1: read: 2
+3442: reader: 1: ready
+3443: reader: 1: reads a value
+3444: reader: 1: read: 2
+3445: reader: 1: ready
+3446: reader: 1: reads a value
+3447: reader: 1: read: 2
+3448: reader: 1: ready
+3449: reader: 1: reads a value
+3450: reader: 1: read: 2
+3451: reader: 1: ready
+3452: reader: 1: reads a value
+3453: reader: 1: read: 2
+3454: writer: 1: ready
+3455: writer: 1: writes a value
+3456: writer: 1: written
+3457: writer: 1: new value
+3458: reader: 1: ready
+3459: reader: 1: reads a value
+3460: reader: 1: read: 1
+3461: reader: 2: ready
+3462: reader: 2: reads a value
+3463: reader: 2: read: 1
+3464: reader: 1: ready
+3465: reader: 1: reads a value
+3466: reader: 1: read: 1
+3467: reader: 3: ready
+3468: reader: 3: reads a value
+3469: reader: 3: read: 1
+3470: reader: 1: ready
+3471: reader: 1: reads a value
+3472: reader: 1: read: 1
+3473: reader: 1: ready
+3474: reader: 1: reads a value
+3475: reader: 1: read: 1
+3476: writer: 2: ready
+3477: writer: 2: writes a value
+3478: writer: 2: written
+3479: writer: 2: new value
+3480: reader: 1: ready
+3481: reader: 1: reads a value
+3482: reader: 1: read: 2
+3483: reader: 1: ready
+3484: reader: 1: reads a value
+3485: reader: 1: read: 2
+3486: reader: 1: ready
+3487: reader: 1: reads a value
+3488: reader: 2: ready
+3489: reader: 2: reads a value
+3490: reader: 2: read: 2
+3491: reader: 1: read: 2
+3492: reader: 1: ready
+3493: reader: 1: reads a value
+3494: reader: 1: read: 2
+3495: reader: 1: ready
+3496: reader: 1: reads a value
+3497: reader: 1: read: 2
+3498: writer: 1: ready
+3499: writer: 1: writes a value
+3500: writer: 1: written
+3501: writer: 1: new value
+3502: reader: 1: ready
+3503: reader: 1: reads a value
+3504: reader: 1: read: 1
+3505: reader: 3: ready
+3506: reader: 3: reads a value
+3507: reader: 3: read: 1
+3508: reader: 1: ready
+3509: reader: 1: reads a value
+3510: reader: 1: read: 1
+3511: reader: 1: ready
+3512: reader: 1: reads a value
+3513: reader: 1: read: 1
+3514: reader: 2: ready
+3515: reader: 2: reads a value
+3516: reader: 2: read: 1
+3517: reader: 1: ready
+3518: reader: 1: reads a value
+3519: reader: 1: read: 1
+3520: writer: 2: ready
+3521: writer: 2: writes a value
+3522: writer: 2: written
+3523: writer: 2: new value
+3524: reader: 1: ready
+3525: reader: 1: reads a value
+3526: reader: 1: read: 2
+3527: reader: 1: ready
+3528: reader: 1: reads a value
+3529: reader: 1: read: 2
+3530: reader: 1: ready
+3531: reader: 1: reads a value
+3532: reader: 1: read: 2
+3533: reader: 1: ready
+3534: reader: 1: reads a value
+3535: reader: 1: read: 2
+3536: reader: 1: ready
+3537: reader: 1: reads a value
+3538: reader: 1: read: 2
+3539: reader: 2: ready
+3540: reader: 2: reads a value
+3541: reader: 2: read: 2
+3542: reader: 1: ready
+3543: reader: 1: reads a value
+3544: reader: 1: read: 2
+3545: reader: 3: ready
+3546: reader: 3: reads a value
+3547: reader: 3: read: 2
+3548: writer: 1: ready
+3549: writer: 1: writes a value
+3550: writer: 1: written
+3551: writer: 1: new value
+3552: reader: 1: ready
+3553: reader: 1: reads a value
+3554: reader: 1: read: 1
+3555: reader: 1: ready
+3556: reader: 1: reads a value
+3557: reader: 1: read: 1
+3558: reader: 1: ready
+3559: reader: 1: reads a value
+3560: reader: 1: read: 1
+3561: writer: 2: ready
+3562: writer: 2: writes a value
+3563: writer: 2: written
+3564: writer: 2: new value
+3565: reader: 1: ready
+3566: reader: 1: reads a value
+3567: reader: 1: read: 2
+3568: reader: 1: ready
+3569: reader: 1: reads a value
+3570: reader: 1: read: 2
+3571: reader: 2: ready
+3572: reader: 2: reads a value
+3573: reader: 2: read: 2
+3574: reader: 1: ready
+3575: reader: 1: reads a value
+3576: reader: 1: read: 2
+3577: reader: 1: ready
+3578: reader: 1: reads a value
+3579: reader: 1: read: 2
+3580: reader: 1: ready
+3581: reader: 1: reads a value
+3582: reader: 1: read: 2
+3583: reader: 1: ready
+3584: reader: 1: reads a value
+3585: reader: 1: read: 2
+3586: reader: 3: ready
+3587: reader: 3: reads a value
+3588: reader: 3: read: 2
+3589: reader: 1: ready
+3590: reader: 1: reads a value
+3591: reader: 1: read: 2
+3592: writer: 1: ready
+3593: writer: 1: writes a value
+3594: writer: 1: written
+3595: writer: 1: new value
+3596: reader: 1: ready
+3597: reader: 1: reads a value
+3598: reader: 1: read: 1
+3599: reader: 2: ready
+3600: reader: 2: reads a value
+3601: reader: 2: read: 1
+3602: reader: 1: ready
+3603: reader: 1: reads a value
+3604: reader: 1: read: 1
+3605: writer: 2: ready
+3606: writer: 2: writes a value
+3607: writer: 2: written
+3608: writer: 2: new value
+3609: reader: 1: ready
+3610: reader: 1: reads a value
+3611: reader: 1: read: 2
+3612: reader: 1: ready
+3613: reader: 1: reads a value
+3614: reader: 1: read: 2
+3615: reader: 1: ready
+3616: reader: 1: reads a value
+3617: reader: 1: read: 2
+3618: reader: 1: ready
+3619: reader: 1: reads a value
+3620: reader: 1: read: 2
+3621: reader: 1: ready
+3622: reader: 1: reads a value
+3623: reader: 1: read: 2
+3624: reader: 3: ready
+3625: reader: 3: reads a value
+3626: reader: 3: read: 2
+3627: reader: 2: ready
+3628: reader: 2: reads a value
+3629: reader: 2: read: 2
+3630: reader: 1: ready
+3631: reader: 1: reads a value
+3632: reader: 1: read: 2
+3633: reader: 1: ready
+3634: reader: 1: reads a value
+3635: reader: 1: read: 2
+3636: writer: 1: ready
+3637: writer: 1: writes a value
+3638: writer: 1: written
+3639: writer: 1: new value
+3640: reader: 1: ready
+3641: reader: 1: reads a value
+3642: reader: 1: read: 1
+3643: reader: 1: ready
+3644: reader: 1: reads a value
+3645: reader: 1: read: 1
+3646: reader: 1: ready
+3647: reader: 1: reads a value
+3648: reader: 1: read: 1
+3649: writer: 2: ready
+3650: writer: 2: writes a value
+3651: writer: 2: written
+3652: writer: 2: new value
+3653: reader: 1: ready
+3654: reader: 1: reads a value
+3655: reader: 1: read: 2
+3656: reader: 2: ready
+3657: reader: 2: reads a value
+3658: reader: 2: read: 2
+3659: reader: 1: ready
+3660: reader: 1: reads a value
+3661: reader: 1: read: 2
+3662: reader: 1: ready
+3663: reader: 1: reads a value
+3664: reader: 1: read: 2
+3665: reader: 1: ready
+3666: reader: 1: reads a value
+3667: reader: 1: read: 2
+3668: reader: 3: ready
+3669: reader: 3: reads a value
+3670: reader: 3: read: 2
+3671: reader: 1: ready
+3672: reader: 1: reads a value
+3673: reader: 1: read: 2
+3674: reader: 1: ready
+3675: reader: 1: reads a value
+3676: reader: 1: read: 2
+3677: reader: 1: ready
+3678: reader: 1: reads a value
+3679: reader: 1: read: 2
+3680: writer: 1: ready
+3681: writer: 1: writes a value
+3682: writer: 1: written
+3683: writer: 1: new value
+3684: reader: 2: ready
+3685: reader: 2: reads a value
+3686: reader: 2: read: 1
+3687: reader: 1: ready
+3688: reader: 1: reads a value
+3689: reader: 1: read: 1
+3690: reader: 1: ready
+3691: reader: 1: reads a value
+3692: reader: 1: read: 1
+3693: writer: 2: ready
+3694: writer: 2: writes a value
+3695: writer: 2: written
+3696: writer: 2: new value
+3697: reader: 1: ready
+3698: reader: 1: reads a value
+3699: reader: 1: read: 2
+3700: reader: 1: ready
+3701: reader: 1: reads a value
+3702: reader: 1: read: 2
+3703: reader: 1: ready
+3704: reader: 1: reads a value
+3705: reader: 1: read: 2
+3706: reader: 1: ready
+3707: reader: 1: reads a value
+3708: reader: 1: read: 2
+3709: reader: 3: ready
+3710: reader: 3: reads a value
+3711: reader: 3: read: 2
+3712: reader: 2: ready
+3713: reader: 2: reads a value
+3714: reader: 2: read: 2
+3715: reader: 1: ready
+3716: reader: 1: reads a value
+3717: reader: 1: read: 2
+3718: reader: 1: ready
+3719: reader: 1: reads a value
+3720: reader: 1: read: 2
+3721: reader: 1: ready
+3722: reader: 1: reads a value
+3723: reader: 1: read: 2
+3724: reader: 1: ready
+3725: reader: 1: reads a value
+3726: reader: 1: read: 2
+3727: writer: 1: ready
+3728: writer: 1: writes a value
+3729: writer: 1: written
+3730: writer: 1: new value
+3731: reader: 1: ready
+3732: reader: 1: reads a value
+3733: reader: 1: read: 1
+3734: writer: 2: ready
+3735: writer: 2: writes a value
+3736: writer: 2: written
+3737: writer: 2: new value
+3738: reader: 1: ready
+3739: reader: 1: reads a value
+3740: reader: 1: read: 2
+3741: reader: 2: ready
+3742: reader: 2: reads a value
+3743: reader: 2: read: 2
+3744: reader: 1: ready
+3745: reader: 1: reads a value
+3746: reader: 1: read: 2
+3747: reader: 1: ready
+3748: reader: 1: reads a value
+3749: reader: 1: read: 2
+3750: reader: 3: ready
+3751: reader: 3: reads a value
+3752: reader: 3: read: 2
+3753: reader: 1: ready
+3754: reader: 1: reads a value
+3755: reader: 1: read: 2
+3756: reader: 1: ready
+3757: reader: 1: reads a value
+3758: reader: 1: read: 2
+3759: reader: 1: ready
+3760: reader: 1: reads a value
+3761: reader: 1: read: 2
+3762: reader: 1: ready
+3763: reader: 1: reads a value
+3764: reader: 1: read: 2
+3765: reader: 2: ready
+3766: reader: 2: reads a value
+3767: reader: 2: read: 2
+3768: reader: 1: ready
+3769: reader: 1: reads a value
+3770: reader: 1: read: 2
+3771: reader: 1: ready
+3772: reader: 1: reads a value
+3773: writer: 1: ready
+3774: reader: 1: read: 2
+3775: writer: 1: writes a value
+3776: writer: 1: written
+3777: writer: 1: new value
+3778: writer: 2: ready
+3779: writer: 2: writes a value
+3780: writer: 2: written
+3781: writer: 2: new value
+3782: reader: 1: ready
+3783: reader: 1: reads a value
+3784: reader: 1: read: 2
+3785: reader: 1: ready
+3786: reader: 1: reads a value
+3787: reader: 1: read: 2
+3788: reader: 1: ready
+3789: reader: 1: reads a value
+3790: reader: 1: read: 2
+3791: reader: 3: ready
+3792: reader: 3: reads a value
+3793: reader: 3: read: 2
+3794: reader: 1: ready
+3795: reader: 1: reads a value
+3796: reader: 1: read: 2
+3797: reader: 2: ready
+3798: reader: 2: reads a value
+3799: reader: 2: read: 2
+3800: reader: 1: ready
+3801: reader: 1: reads a value
+3802: reader: 1: read: 2
+3803: reader: 1: ready
+3804: reader: 1: reads a value
+3805: reader: 1: read: 2
+3806: reader: 1: ready
+3807: reader: 1: reads a value
+3808: reader: 1: read: 2
+3809: reader: 1: ready
+3810: reader: 1: reads a value
+3811: reader: 1: read: 2
+3812: reader: 1: ready
+3813: reader: 1: reads a value
+3814: reader: 1: read: 2
+3815: writer: 1: ready
+3816: writer: 1: writes a value
+3817: writer: 1: written
+3818: writer: 1: new value
+3819: reader: 1: ready
+3820: reader: 1: reads a value
+3821: reader: 1: read: 1
+3822: writer: 2: ready
+3823: writer: 2: writes a value
+3824: writer: 2: written
+3825: writer: 2: new value
+3826: reader: 2: ready
+3827: reader: 2: reads a value
+3828: reader: 2: read: 2
+3829: reader: 1: ready
+3830: reader: 1: reads a value
+3831: reader: 1: read: 2
+3832: reader: 1: ready
+3833: reader: 1: reads a value
+3834: reader: 1: read: 2
+3835: reader: 3: ready
+3836: reader: 3: reads a value
+3837: reader: 3: read: 2
+3838: reader: 1: ready
+3839: reader: 1: reads a value
+3840: reader: 1: read: 2
+3841: reader: 1: ready
+3842: reader: 1: reads a value
+3843: reader: 1: read: 2
+3844: reader: 1: ready
+3845: reader: 1: reads a value
+3846: reader: 1: read: 2
+3847: reader: 1: ready
+3848: reader: 1: reads a value
+3849: reader: 1: read: 2
+3850: reader: 2: ready
+3851: reader: 2: reads a value
+3852: reader: 2: read: 2
+3853: reader: 1: ready
+3854: reader: 1: reads a value
+3855: reader: 1: read: 2
+3856: reader: 1: ready
+3857: reader: 1: reads a value
+3858: reader: 1: read: 2
+3859: reader: 1: ready
+3860: reader: 1: reads a value
+3861: reader: 1: read: 2
+3862: writer: 1: ready
+3863: writer: 1: writes a value
+3864: writer: 1: written
+3865: writer: 1: new value
+3866: writer: 2: ready
+3867: writer: 2: writes a value
+3868: writer: 2: written
+3869: writer: 2: new value
+3870: reader: 1: ready
+3871: reader: 1: reads a value
+3872: reader: 1: read: 2
+3873: reader: 3: ready
+3874: reader: 3: reads a value
+3875: reader: 3: read: 2
+3876: reader: 1: ready
+3877: reader: 1: reads a value
+3878: reader: 1: read: 2
+3879: reader: 1: ready
+3880: reader: 1: reads a value
+3881: reader: 1: read: 2
+3882: reader: 2: ready
+3883: reader: 2: reads a value
+3884: reader: 2: read: 2
+3885: reader: 1: ready
+3886: reader: 1: reads a value
+3887: reader: 1: read: 2
+3888: reader: 1: ready
+3889: reader: 1: reads a value
+3890: reader: 1: read: 2
+3891: reader: 1: ready
+3892: reader: 1: reads a value
+3893: reader: 1: read: 2
+3894: reader: 1: ready
+3895: reader: 1: reads a value
+3896: reader: 1: read: 2
+3897: reader: 1: ready
+3898: reader: 1: reads a value
+3899: reader: 1: read: 2
+3900: reader: 1: ready
+3901: reader: 1: reads a value
+3902: reader: 1: read: 2
+3903: writer: 2: ready
+3904: writer: 2: writes a value
+3905: writer: 2: written
+3906: writer: 2: new value
+3907: reader: 2: ready
+3908: reader: 2: reads a value
+3909: reader: 2: read: 2
+3910: reader: 1: ready
+3911: writer: 1: ready
+3912: writer: 1: writes a value
+3913: writer: 1: written
+3914: writer: 1: new value
+3915: reader: 1: reads a value
+3916: reader: 1: read: 1
+3917: reader: 3: ready
+3918: reader: 3: reads a value
+3919: reader: 3: read: 1
+3920: reader: 1: ready
+3921: reader: 1: reads a value
+3922: reader: 1: read: 1
+3923: reader: 1: ready
+3924: reader: 1: reads a value
+3925: reader: 1: read: 1
+3926: reader: 1: ready
+3927: reader: 1: reads a value
+3928: reader: 1: read: 1
+3929: reader: 1: ready
+3930: reader: 1: reads a value
+3931: reader: 1: read: 1
+3932: reader: 1: ready
+3933: reader: 1: reads a value
+3934: reader: 1: read: 1
+3935: reader: 2: ready
+3936: reader: 2: reads a value
+3937: reader: 2: read: 1
+3938: reader: 1: ready
+3939: reader: 1: reads a value
+3940: reader: 1: read: 1
+3941: reader: 1: ready
+3942: reader: 1: reads a value
+3943: reader: 1: read: 1
+3944: reader: 1: ready
+3945: reader: 1: reads a value
+3946: reader: 1: read: 1
+3947: writer: 2: ready
+3948: writer: 2: writes a value
+3949: writer: 2: written
+3950: writer: 2: new value
+3951: reader: 1: ready
+3952: reader: 1: reads a value
+3953: reader: 1: read: 2
+3954: reader: 3: ready
+3955: reader: 3: reads a value
+3956: reader: 3: read: 2
+3957: writer: 1: ready
+3958: writer: 1: writes a value
+3959: writer: 1: written
+3960: writer: 1: new value
+3961: reader: 1: ready
+3962: reader: 1: reads a value
+3963: reader: 1: read: 1
+3964: reader: 1: ready
+3965: reader: 1: reads a value
+3966: reader: 1: read: 1
+3967: reader: 2: ready
+3968: reader: 2: reads a value
+3969: reader: 2: read: 1
+3970: reader: 1: ready
+3971: reader: 1: reads a value
+3972: reader: 1: read: 1
+3973: reader: 1: ready
+3974: reader: 1: reads a value
+3975: reader: 1: read: 1
+3976: reader: 1: ready
+3977: reader: 1: reads a value
+3978: reader: 1: read: 1
+3979: reader: 1: ready
+3980: reader: 1: reads a value
+3981: reader: 1: read: 1
+3982: reader: 1: ready
+3983: reader: 1: reads a value
+3984: reader: 1: read: 1
+3985: reader: 1: ready
+3986: reader: 1: reads a value
+3987: reader: 1: read: 1
+3988: reader: 2: ready
+3989: reader: 2: reads a value
+3990: reader: 2: read: 1
+3991: reader: 3: ready
+3992: reader: 3: reads a value
+3993: reader: 3: read: 1
+3994: reader: 1: ready
+3995: reader: 1: reads a value
+3996: reader: 1: read: 1
+3997: writer: 2: ready
+3998: writer: 2: writes a value
+3999: writer: 2: written
+4000: writer: 2: new value
+4001: reader: 1: ready
+4002: reader: 1: reads a value
+4003: reader: 1: read: 2
+4004: writer: 1: ready
+4005: writer: 1: writes a value
+4006: writer: 1: written
+4007: writer: 1: new value
+4008: reader: 1: ready
+4009: reader: 1: reads a value
+4010: reader: 1: read: 1
+4011: reader: 1: ready
+4012: reader: 1: reads a value
+4013: reader: 1: read: 1
+4014: reader: 1: ready
+4015: reader: 1: reads a value
+4016: reader: 1: read: 1
+4017: reader: 1: ready
+4018: reader: 1: reads a value
+4019: reader: 1: read: 1
+4020: reader: 2: ready
+4021: reader: 2: reads a value
+4022: reader: 2: read: 1
+4023: reader: 1: ready
+4024: reader: 1: reads a value
+4025: reader: 1: read: 1
+4026: reader: 1: ready
+4027: reader: 1: reads a value
+4028: reader: 1: read: 1
+4029: reader: 1: ready
+4030: reader: 1: reads a value
+4031: reader: 1: read: 1
+4032: reader: 3: ready
+4033: reader: 3: reads a value
+4034: reader: 3: read: 1
+4035: reader: 1: ready
+4036: reader: 1: reads a value
+4037: reader: 1: read: 1
+4038: writer: 2: ready
+4039: writer: 2: writes a value
+4040: writer: 2: written
+4041: writer: 2: new value
+4042: reader: 1: ready
+4043: reader: 1: reads a value
+4044: reader: 1: read: 2
+4045: reader: 1: ready
+4046: reader: 1: reads a value
+4047: reader: 1: read: 2
+4048: writer: 1: ready
+4049: writer: 1: writes a value
+4050: writer: 1: written
+4051: writer: 1: new value
+4052: reader: 2: ready
+4053: reader: 2: reads a value
+4054: reader: 2: read: 1
+4055: reader: 1: ready
+4056: reader: 1: reads a value
+4057: reader: 1: read: 1
+4058: reader: 1: ready
+4059: reader: 1: reads a value
+4060: reader: 1: read: 1
+4061: reader: 1: ready
+4062: reader: 1: reads a value
+4063: reader: 1: read: 1
+4064: reader: 1: ready
+4065: reader: 1: reads a value
+4066: reader: 1: read: 1
+4067: reader: 1: ready
+4068: reader: 1: reads a value
+4069: reader: 1: read: 1
+4070: reader: 1: ready
+4071: reader: 1: reads a value
+4072: reader: 1: read: 1
+4073: reader: 3: ready
+4074: reader: 3: reads a value
+4075: reader: 3: read: 1
+4076: reader: 2: ready
+4077: reader: 2: reads a value
+4078: reader: 2: read: 1
+4079: reader: 1: ready
+4080: reader: 1: reads a value
+4081: reader: 1: read: 1
+4082: writer: 2: ready
+4083: writer: 2: writes a value
+4084: writer: 2: written
+4085: writer: 2: new value
+4086: reader: 1: ready
+4087: reader: 1: reads a value
+4088: reader: 1: read: 2
+4089: reader: 1: ready
+4090: reader: 1: reads a value
+4091: reader: 1: read: 2
+4092: writer: 1: ready
+4093: writer: 1: writes a value
+4094: writer: 1: written
+4095: writer: 1: new value
+4096: reader: 1: ready
+4097: reader: 1: reads a value
+4098: reader: 1: read: 1
+4099: reader: 1: ready
+4100: reader: 1: reads a value
+4101: reader: 1: read: 1
+4102: reader: 1: ready
+4103: reader: 1: reads a value
+4104: reader: 1: read: 1
+4105: reader: 2: ready
+4106: reader: 2: reads a value
+4107: reader: 2: read: 1
+4108: reader: 1: ready
+4109: reader: 1: reads a value
+4110: reader: 1: read: 1
+4111: reader: 1: ready
+4112: reader: 1: reads a value
+4113: reader: 1: read: 1
+4114: reader: 1: ready
+4115: reader: 1: reads a value
+4116: reader: 1: read: 1
+4117: reader: 3: ready
+4118: reader: 3: reads a value
+4119: reader: 3: read: 1
+4120: reader: 1: ready
+4121: reader: 1: reads a value
+4122: reader: 1: read: 1
+4123: writer: 2: ready
+4124: writer: 2: writes a value
+4125: writer: 2: written
+4126: writer: 2: new value
+4127: reader: 1: ready
+4128: reader: 1: reads a value
+4129: reader: 1: read: 2
+4130: reader: 1: ready
+4131: reader: 1: reads a value
+4132: reader: 1: read: 2
+4133: reader: 2: ready
+4134: reader: 2: reads a value
+4135: reader: 2: read: 2
+4136: reader: 1: ready
+4137: reader: 1: reads a value
+4138: reader: 1: read: 2
+4139: writer: 1: ready
+4140: writer: 1: writes a value
+4141: writer: 1: written
+4142: writer: 1: new value
+4143: reader: 1: ready
+4144: reader: 1: reads a value
+4145: reader: 1: read: 1
+4146: reader: 1: ready
+4147: reader: 1: reads a value
+4148: reader: 1: read: 1
+4149: reader: 1: ready
+4150: reader: 1: reads a value
+4151: reader: 1: read: 1
+4152: reader: 1: ready
+4153: reader: 1: reads a value
+4154: reader: 1: read: 1
+4155: reader: 3: ready
+4156: reader: 3: reads a value
+4157: reader: 3: read: 1
+4158: reader: 1: ready
+4159: reader: 1: reads a value
+4160: reader: 1: read: 1
+4161: reader: 2: ready
+4162: reader: 2: reads a value
+4163: reader: 2: read: 1
+4164: reader: 1: ready
+4165: reader: 1: reads a value
+4166: reader: 1: read: 1
+4167: reader: 1: ready
+4168: reader: 1: reads a value
+4169: reader: 1: read: 1
+4170: writer: 2: ready
+4171: writer: 2: writes a value
+4172: writer: 2: written
+4173: writer: 2: new value
+4174: reader: 1: ready
+4175: reader: 1: reads a value
+4176: reader: 1: read: 2
+4177: reader: 1: ready
+4178: reader: 1: reads a value
+4179: reader: 1: read: 2
+4180: reader: 1: ready
+4181: reader: 1: reads a value
+4182: reader: 1: read: 2
+4183: writer: 1: ready
+4184: writer: 1: writes a value
+4185: writer: 1: written
+4186: writer: 1: new value
+4187: reader: 1: ready
+4188: reader: 1: reads a value
+4189: reader: 1: read: 1
+4190: reader: 2: ready
+4191: reader: 2: reads a value
+4192: reader: 2: read: 1
+4193: reader: 1: ready
+4194: reader: 1: reads a value
+4195: reader: 1: read: 1
+4196: reader: 1: ready
+4197: reader: 1: reads a value
+4198: reader: 1: read: 1
+4199: reader: 3: ready
+4200: reader: 3: reads a value
+4201: reader: 3: read: 1
+4202: reader: 1: ready
+4203: reader: 1: reads a value
+4204: reader: 1: read: 1
+4205: reader: 1: ready
+4206: reader: 1: reads a value
+4207: reader: 1: read: 1
+4208: reader: 1: ready
+4209: reader: 1: reads a value
+4210: reader: 1: read: 1
+4211: writer: 2: ready
+4212: writer: 2: writes a value
+4213: writer: 2: written
+4214: writer: 2: new value
+4215: reader: 1: ready
+4216: reader: 1: reads a value
+4217: reader: 1: read: 2
+4218: reader: 2: ready
+4219: reader: 2: reads a value
+4220: reader: 2: read: 2
+4221: reader: 1: ready
+4222: reader: 1: reads a value
+4223: reader: 1: read: 2
+4224: reader: 1: ready
+4225: reader: 1: reads a value
+4226: reader: 1: read: 2
+4227: writer: 1: ready
+4228: writer: 1: writes a value
+4229: writer: 1: written
+4230: writer: 1: new value
+4231: reader: 1: ready
+4232: reader: 1: reads a value
+4233: reader: 1: read: 1
+4234: reader: 1: ready
+4235: reader: 1: reads a value
+4236: reader: 1: read: 1
+4237: reader: 1: ready
+4238: reader: 1: reads a value
+4239: reader: 1: read: 1
+4240: reader: 3: ready
+4241: reader: 3: reads a value
+4242: reader: 3: read: 1
+4243: reader: 1: ready
+4244: reader: 1: reads a value
+4245: reader: 1: read: 1
+4246: reader: 2: ready
+4247: reader: 2: reads a value
+4248: reader: 2: read: 1
+4249: reader: 1: ready
+4250: reader: 1: reads a value
+4251: reader: 1: read: 1
+4252: reader: 1: ready
+4253: reader: 1: reads a value
+4254: reader: 1: read: 1
+4255: writer: 2: ready
+4256: writer: 2: writes a value
+4257: writer: 2: written
+4258: writer: 2: new value
+4259: reader: 1: ready
+4260: reader: 1: reads a value
+4261: reader: 1: read: 2
+4262: reader: 1: ready
+4263: reader: 1: reads a value
+4264: reader: 1: read: 2
+4265: reader: 1: ready
+4266: reader: 1: reads a value
+4267: reader: 1: read: 2
+4268: reader: 1: ready
+4269: reader: 1: reads a value
+4270: reader: 1: read: 2
+4271: writer: 1: ready
+4272: writer: 1: writes a value
+4273: writer: 1: written
+4274: writer: 1: new value
+4275: reader: 2: ready
+4276: reader: 2: reads a value
+4277: reader: 2: read: 1
+4278: reader: 1: ready
+4279: reader: 1: reads a value
+4280: reader: 1: read: 1
+4281: reader: 3: ready
+4282: reader: 3: reads a value
+4283: reader: 3: read: 1
+4284: reader: 1: ready
+4285: reader: 1: reads a value
+4286: reader: 1: read: 1
+4287: reader: 1: ready
+4288: reader: 1: reads a value
+4289: reader: 1: read: 1
+4290: reader: 1: ready
+4291: reader: 1: reads a value
+4292: reader: 1: read: 1
+4293: reader: 1: ready
+4294: reader: 1: reads a value
+4295: reader: 1: read: 1
+4296: reader: 1: ready
+4297: writer: 2: ready
+4298: writer: 2: writes a value
+4299: writer: 2: written
+4300: writer: 2: new value
+4301: reader: 1: reads a value
+4302: reader: 1: read: 2
+4303: reader: 2: ready
+4304: reader: 2: reads a value
+4305: reader: 2: read: 2
+4306: reader: 1: ready
+4307: reader: 1: reads a value
+4308: reader: 1: read: 2
+4309: reader: 1: ready
+4310: reader: 1: reads a value
+4311: reader: 1: read: 2
+4312: reader: 1: ready
+4313: reader: 1: reads a value
+4314: reader: 1: read: 2
+4315: reader: 1: ready
+4316: reader: 1: reads a value
+4317: reader: 1: read: 2
+4318: writer: 1: ready
+4319: writer: 1: writes a value
+4320: writer: 1: written
+4321: writer: 1: new value
+4322: reader: 3: ready
+4323: reader: 3: reads a value
+4324: reader: 3: read: 1
+4325: reader: 1: ready
+4326: reader: 1: reads a value
+4327: reader: 1: read: 1
+4328: reader: 1: ready
+4329: reader: 1: reads a value
+4330: reader: 1: read: 1
+4331: reader: 2: ready
+4332: reader: 2: reads a value
+4333: reader: 2: read: 1
+4334: reader: 1: ready
+4335: reader: 1: reads a value
+4336: reader: 1: read: 1
+4337: reader: 1: ready
+4338: reader: 1: reads a value
+4339: reader: 1: read: 1
+4340: reader: 1: ready
+4341: reader: 1: reads a value
+4342: reader: 1: read: 1
+4343: writer: 2: ready
+4344: writer: 2: writes a value
+4345: writer: 2: written
+4346: reader: 1: ready
+4347: reader: 1: reads a value
+4348: reader: 1: read: 2
+4349: reader: 1: ready
+4350: reader: 1: reads a value
+4351: reader: 1: read: 2
+4352: reader: 1: ready
+4353: reader: 1: reads a value
+4354: reader: 1: read: 2
+4355: reader: 2: ready
+4356: reader: 2: reads a value
+4357: reader: 2: read: 2
+4358: reader: 1: ready
+4359: reader: 1: reads a value
+4360: reader: 1: read: 2
+4361: reader: 3: ready
+4362: reader: 3: reads a value
+4363: reader: 3: read: 2
+4364: reader: 1: ready
+4365: writer: 1: ready
+4366: writer: 1: writes a value
+4367: writer: 1: written
+4368: writer: 1: new value
+4369: reader: 1: reads a value
+4370: reader: 1: read: 1
+4371: reader: 1: ready
+4372: reader: 1: reads a value
+4373: reader: 1: read: 1
+4374: reader: 1: ready
+4375: reader: 1: reads a value
+4376: reader: 1: read: 1
+4377: reader: 1: ready
+4378: reader: 1: reads a value
+4379: reader: 1: read: 1
+4380: reader: 1: ready
+4381: reader: 1: reads a value
+4382: reader: 1: read: 1
+4383: reader: 2: ready
+4384: reader: 2: reads a value
+4385: reader: 2: read: 1
+4386: reader: 1: ready
+4387: reader: 1: reads a value
+4388: reader: 1: read: 1
+4389: reader: 1: ready
+4390: reader: 1: reads a value
+4391: reader: 1: read: 1
+4392: reader: 1: ready
+4393: reader: 1: reads a value
+4394: reader: 1: read: 1
+4395: reader: 3: ready
+4396: reader: 3: reads a value
+4397: reader: 3: read: 1
+4398: reader: 1: ready
+4399: reader: 1: reads a value
+4400: reader: 1: read: 1
+4401: reader: 1: ready
+4402: reader: 1: reads a value
+4403: reader: 1: read: 1
+4404: writer: 1: ready
+4405: writer: 1: writes a value
+4406: writer: 1: written
+4407: writer: 1: new value
+4408: reader: 1: ready
+4409: reader: 1: reads a value
+4410: reader: 1: read: 1
+4411: reader: 2: ready
+4412: reader: 2: reads a value
+4413: reader: 2: read: 1
+4414: reader: 1: ready
+4415: reader: 1: reads a value
+4416: reader: 1: read: 1
+4417: reader: 1: ready
+4418: reader: 1: reads a value
+4419: reader: 1: read: 1
+4420: reader: 1: ready
+4421: reader: 1: reads a value
+4422: reader: 1: read: 1
+4423: reader: 1: ready
+4424: reader: 1: reads a value
+4425: reader: 1: read: 1
+4426: reader: 1: ready
+4427: reader: 1: reads a value
+4428: reader: 1: read: 1
+4429: reader: 1: ready
+4430: reader: 1: reads a value
+4431: reader: 1: read: 1
+4432: reader: 2: ready
+4433: reader: 2: reads a value
+4434: reader: 2: read: 1
+4435: reader: 3: ready
+4436: reader: 3: reads a value
+4437: reader: 3: read: 1
+4438: reader: 1: ready
+4439: reader: 1: reads a value
+4440: reader: 1: read: 1
+4441: reader: 1: ready
+4442: reader: 1: reads a value
+4443: reader: 1: read: 1
+4444: reader: 1: ready
+4445: reader: 1: reads a value
+4446: reader: 1: read: 1
+4447: writer: 1: ready
+4448: writer: 1: writes a value
+4449: writer: 1: written
+4450: writer: 1: new value
+4451: reader: 1: ready
+4452: reader: 1: reads a value
+4453: reader: 1: read: 1
+4454: reader: 1: ready
+4455: reader: 1: reads a value
+4456: reader: 1: read: 1
+4457: reader: 1: ready
+4458: reader: 1: reads a value
+4459: reader: 1: read: 1
+4460: reader: 2: ready
+4461: reader: 2: reads a value
+4462: reader: 2: read: 1
+4463: reader: 1: ready
+4464: reader: 1: reads a value
+4465: reader: 1: read: 1
+4466: reader: 1: ready
+4467: reader: 1: reads a value
+4468: reader: 1: read: 1
+4469: reader: 1: ready
+4470: reader: 1: reads a value
+4471: reader: 1: read: 1
+4472: reader: 3: ready
+4473: reader: 3: reads a value
+4474: reader: 3: read: 1
+4475: reader: 1: ready
+4476: reader: 1: reads a value
+4477: reader: 1: read: 1
+4478: reader: 1: ready
+4479: reader: 1: reads a value
+4480: reader: 1: read: 1
+4481: reader: 1: ready
+4482: reader: 1: reads a value
+4483: reader: 1: read: 1
+4484: reader: 2: ready
+4485: reader: 2: reads a value
+4486: reader: 2: read: 1
+4487: reader: 1: ready
+4488: reader: 1: reads a value
+4489: reader: 1: read: 1
+4490: writer: 1: ready
+4491: writer: 1: writes a value
+4492: writer: 1: written
+4493: writer: 1: new value
+4494: reader: 1: ready
+4495: reader: 1: reads a value
+4496: reader: 1: read: 1
+4497: reader: 1: ready
+4498: reader: 1: reads a value
+4499: reader: 1: read: 1
+4500: reader: 1: ready
+4501: reader: 1: reads a value
+4502: reader: 1: read: 1
+4503: reader: 1: ready
+4504: reader: 1: reads a value
+4505: reader: 1: read: 1
+4506: reader: 1: ready
+4507: reader: 1: reads a value
+4508: reader: 1: read: 1
+4509: reader: 3: ready
+4510: reader: 3: reads a value
+4511: reader: 3: read: 1
+4512: reader: 2: ready
+4513: reader: 2: reads a value
+4514: reader: 2: read: 1
+4515: reader: 1: ready
+4516: reader: 1: reads a value
+4517: reader: 1: read: 1
+4518: reader: 1: ready
+4519: reader: 1: reads a value
+4520: reader: 1: read: 1
+4521: reader: 1: ready
+4522: reader: 1: reads a value
+4523: reader: 1: read: 1
+4524: reader: 1: ready
+4525: reader: 1: reads a value
+4526: reader: 1: read: 1
+4527: reader: 1: ready
+4528: writer: 1: ready
+4529: writer: 1: writes a value
+4530: writer: 1: written
+4531: reader: 1: reads a value
+4532: reader: 1: read: 1
+4533: reader: 1: ready
+4534: reader: 1: reads a value
+4535: reader: 1: read: 0
+4536: reader: 2: ready
+4537: reader: 2: reads a value
+4538: reader: 2: read: 0
+4539: reader: 3: ready
+4540: reader: 3: reads a value
+4541: reader: 3: read: 0

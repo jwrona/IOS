@@ -1,0 +1,193 @@
+#!/usr/bin/env python3
+
+import sys
+import re
+
+print("IOS2 test (C) Milan Falesnik")
+
+if len(sys.argv) != 2:
+	print("arg")
+	exit(1)
+
+fileName = sys.argv[1]
+
+data = {}
+data["writer"] = {}
+data["reader"] = {}
+
+try:
+	file = open(fileName, "r", encoding="utf-8")
+except IOError:
+	print("file")
+	exit(1)
+
+#actionRe = re.compile("^([0-9]+): (reader|writer): ([0-9]+): (.*?)$")
+actionRe = re.compile("^([0-9]+): (reader|writer): ([0-9]+): (ready|new value|writes a value|written|reads a value|read: -?[0-9]+)$")
+
+actions = []
+
+print("> Nacitani souboru do pameti a kontrola validity radku")
+for line in file:
+	m = actionRe.match(line)
+	if m == None:
+		sys.stderr.write("Radek '%s' neodpovida spravnemu zapisu\n" % line.rstrip())
+		exit(1)
+	group = m.groups()
+	actions.append(group)
+	action = [group[0], group[3]]
+	if group[2] not in data[group[1]]:
+		data[group[1]][group[2]] = []
+	
+	data[group[1]][group[2]].append(action)
+
+file.close()
+
+print("> Format (snad) OK")
+
+numWriters = len(data["writer"])
+print("Pocet pisaru: %d" % len(data["writer"]))
+print("Pocet ctenaru: %d" % len(data["reader"]))
+cycles = None
+print("-----------------\nTestovani samotnych procesu")
+for i in data["writer"]:
+	print("Pisar c. %d" % int(i))
+	writer = {}
+	writer["new value"] = 0
+	writer["ready"] = 0
+	writer["writes a value"] = 0
+	writer["written"] = 0
+	try:
+		for j in data["writer"][i]:
+			writer[j[1]] += 1
+	except KeyError as e:
+		print("Neznam cinnost '%s'!" % e.args)
+		exit(1)
+	
+	if not (writer["new value"] == writer["ready"] == writer["writes a value"] == writer["written"]):
+		sys.stderr.write("Nevyvazeny pomer operaci u pisare c. %d\n" % int(i))
+		exit(1)
+	
+	print("> Balance OK!")
+	if cycles == None:
+		cycles = writer["new value"]
+		print("! Detekovano %d cyklu, beru to jako referencni hodnotu!" % cycles)
+	
+	if cycles != writer["new value"]:
+		sys.stderr.write("U pisare c. %d asi chybi cykly. Ma jich byt %d, ale nalezeno jen %d!\n" % (int(i),cycles, writer["new value"]))
+		exit(1)
+	
+	print("> Kontroluji posloupnost operaci ...")
+	
+	lastLine = "written"
+	lastAction = 0
+	for action in data["writer"][i]:
+		if int(action[0]) <= lastAction:
+			sys.stderr.write("U akce c. %d je problem s poradim. (%d -> %d ?????)\n" % (int(action[0]),lastAction, int(action[0]) ))
+			exit(1)
+		
+		if (action[1] == "new value" and lastLine != "written") or (action[1] == "ready" and lastLine != "new value") or (action[1] == "writes a value" and lastLine != "ready") or (action[1] == "written" and lastLine != "writes a value"):
+			sys.stderr.write("U akce c. %d nesouhlasi poradi akci (%s -> %s ?????)\n" % (int(action[0]), lastLine, action[1]))
+			exit(1)
+		
+		lastLine = action[1]
+		lastAction = int(action[0])
+	print("> Posloupnost operaci se zda byti korektni ...")
+		
+	
+# Rebuild pole
+a = []
+for action in actions:
+	a.append([action[1], int(action[2]), action[3]])
+
+
+print("Kontrola podminky 1 na konci stranky IOS")
+print("'mezi writes a value a written procesu pisare nesmi byt zadny z nasledujicich vypisu: writes a value, written, reads a value a read: X'")
+
+# Tvorba indexu, kde je writes a value
+WaV = []
+for i in range(len(a)):
+	if re.match("writes a value", a[i][2]) != None:
+		WaV.append(i)
+# Samotne prochazeni pole
+for i in WaV:
+	wrid = a[i][1]
+	finished = False
+	
+	while not finished:
+		i += 1
+		if a[i][1] == wrid and re.match("written", a[i][2]):
+			finished = True
+		elif re.match("writes a value", a[i][2]) != None or re.match("written", a[i][2]) != None or re.match("reads a value", a[i][2]) != None or re.match("read: -?[0-9]+", a[i][2]) != None:
+			finished = True
+			sys.stderr.write("pisar c. %d si asi nezamkl semafory, takze mu tam nekdo okolo akce %d delal neplechu -> %s\n" % (wrid, i, str(a[i])))
+			exit(1)
+			
+	
+print("> Podminka 1 (snad) OK!")
+
+print("Kontrola podminka c. 2 na konci stranky IOS")
+print("'mezi reads a value a read: X procesu ctenare nesmi byt zadny z nasledujicich vypisu z procesu pisaru: writes a value a written'")
+
+# Tvorba indexu, kde je reads a value
+RaV = []
+for i in range(len(a)):
+	if re.match("reads a value", a[i][2]) != None:
+		RaV.append(i)
+# Samotne prochazeni pole
+for i in RaV:
+	rid = a[i][1]
+	finished = False
+	
+	while not finished:
+		i += 1
+		if a[i][1] == rid and re.match("read: -?[0-9]+", a[i][2]):
+			finished = True
+		elif re.match("writes a value", a[i][2]) != None or re.match("written", a[i][2]) != None:
+			finished = True
+			sys.stderr.write("> Čtenar c. %d cte nekde okolo akce %d pod rukama pisari c. %d. Tytyty!\n" % (rid, i, a[i][1], ))
+			exit(1)
+
+print("> Podminka 2 (snad) OK")
+
+print("> Test konzistence dat")
+
+def sortHelper(key):
+	return int(key[0])
+
+def allzero(array):
+	for field in array:
+		if field != 0:
+			return False
+	return True
+
+actions.sort(key=sortHelper)
+sharedMemory = -1
+whoLastChanged = 0
+whoLastRead = 0
+writers = []
+afterFinish = False
+for x in range(numWriters):
+	writers.append(cycles)
+	
+for action in actions:
+	if action[3] == "written":
+		sharedMemory = int(action[2])
+		whoLastChanged = int(action[2])
+		writers[whoLastChanged-1] -= 1
+		
+	
+	if re.match("read: -?[0-9]+", action[3]) != None:
+		
+		readerRead = int(re.sub("read: (-?[0-9]+)", "\\1", action[3]))
+		if readerRead != sharedMemory:
+			sys.stderr.write("Akce c. %d - nekonzistence! Čtenar c. %d precetl %d, ale mel by spravne precist %d!\n" % (int(action[0]), int(action[2]), readerRead, sharedMemory))
+			if afterFinish:
+				sys.stderr.write(" je to ale po ukonceni posledniho pisare, takze jeste hlavni program nemusel stihnout zapsat nulu! (to tu asi nebudu schopen detekovat)\n")
+			else:
+				exit(1)
+
+		if allzero(writers):
+			afterFinish = True
+			sharedMemory = 0
+		
+print("Snad dobre")

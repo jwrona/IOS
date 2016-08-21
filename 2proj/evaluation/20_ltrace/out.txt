@@ -1,0 +1,26 @@
+1: writer: 1: new value
+2: writer: 2: new value
+3: reader: 1: ready
+4: reader: 2: ready
+5: reader: 3: ready
+6: reader: 1: reads a value
+7: reader: 1: read: -1
+8: reader: 3: reads a value
+9: reader: 2: reads a value
+10: reader: 3: read: -1
+11: reader: 2: read: -1
+12: writer: 2: ready
+13: writer: 1: ready
+14: writer: 2: writes a value
+15: writer: 2: written
+16: writer: 1: writes a value
+17: writer: 1: written
+18: reader: 3: ready
+19: reader: 3: reads a value
+20: reader: 2: ready
+21: reader: 1: ready
+22: reader: 3: read: 0
+23: reader: 2: reads a value
+24: reader: 2: read: 0
+25: reader: 1: reads a value
+26: reader: 1: read: 0

@@ -1,0 +1,1 @@
+../readerWriter 2 3 15 10 10 out.txt <stdin >stdout 2>stderr; echo $? >errcode

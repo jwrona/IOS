@@ -1,0 +1,35 @@
+13:celkem bodu za projekt
+#-- rucni uprava hodnoceni ----------------------------
+-0:uprava Makefile vyucujicim
+#-- hodnoceni jednotlivych testu ----------------------
+= test: make
+gcc -std=gnu99 -Wall -Wextra -Werror -pedantic -o readerWriter proj2.c -lrt -pthread
+: make OK
+= test synchronization
+0: chyba v cislovani akci
+2: posloupnost writer ok
+2: posloupnost reader ok
+2: synchronizace zapisu a cteni ok
+0: 05_: chyba pri cteni hodnot z pameti (viz test.log)
+= test synchronization 2
+1: counter ok
+2: posloupnost writer ok
+2: posloupnost reader ok
+2: synchronizace zapisu a cteni ok
+2: cteni spravnych hodnot z pameti ok
+= test deadlock
+5: test deadlock OK
+= test resources
+1: pocet procesu ok
+1: pocet volani wait (waitpid) ok
+0: 23_shm: chybne uvolnovani sdilene pameti
+1: nepojmenovane semafory se rusi
+1: soubor korektne uzavren
+1: procesy uklizeny
+= test errors
+1: navratovy kod pri uspesnem ukonceni 0
+1: navratovy kod pri chybe je 2 (OK)
+: 33_perror: perror pouzit
+#------------------------------------------------------
+27:celkove score (max pro hodnoceni 32)
+13:celkem bodu za projekt

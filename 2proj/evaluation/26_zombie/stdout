@@ -1,0 +1,43 @@
+1: writer: 1: new value
+2: writer: 1: ready
+3: writer: 1: writes a value
+4: writer: 1: written
+5: writer: 1: new value
+6: writer: 1: ready
+7: writer: 1: writes a value
+8: writer: 1: written
+9: writer: 1: new value
+10: writer: 1: ready
+11: writer: 1: writes a value
+12: writer: 1: written
+13: writer: 1: new value
+14: writer: 1: ready
+15: writer: 1: writes a value
+16: writer: 1: written
+17: writer: 1: new value
+18: writer: 1: ready
+19: writer: 1: writes a value
+20: writer: 1: written
+21: writer: 1: new value
+22: writer: 1: ready
+23: writer: 1: writes a value
+24: writer: 1: written
+25: writer: 1: new value
+26: writer: 1: ready
+27: writer: 1: writes a value
+28: writer: 1: written
+29: writer: 1: new value
+30: writer: 1: ready
+31: writer: 1: writes a value
+32: writer: 1: written
+33: writer: 1: new value
+34: writer: 1: ready
+35: writer: 1: writes a value
+36: writer: 1: written
+37: writer: 1: new value
+38: writer: 1: ready
+39: writer: 1: writes a value
+40: writer: 1: written
+41: reader: 1: ready
+42: reader: 1: reads a value
+43: reader: 1: read: 0
