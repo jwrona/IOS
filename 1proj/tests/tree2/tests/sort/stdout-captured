@@ -1,0 +1,41 @@
+sort (GNU coreutils) 8.5
+Copyright (C) 2010 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>.
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Mike Haertel and Paul Eggert.
+.
+..
+.a
+.a~
+.b
+.b~
+a
+a.b
+a.bc
+a.bc~
+a.b~
+a~
+b
+b~
+gcc-c++-10.8.12-0.7rc2.fc9.tar.bz2.~1~
+gcc-c++-10.fc9.tar.gz.~1~
+gcc-c++-10.fc9.tar.gz.~2~
+glibc-2-0.1.beta1.fc10.rpm
+glibc-common-11-0.6rc2.ebuild
+glibc-common-11b.ebuild
+glibc-common-5-0.2.beta2.fc9.ebuild
+glibc-common-5-0.2b.deb
+libstdc++-0.5.8.11-0.7rc2.fc10.tar.gz
+libstdc++-4.10.4.20040204svn.rpm
+libstdc++-4a.fc8.tar.gz
+libstdc++-devel-3.fc8.ebuild
+libstdc++-devel-3a.fc9.tar.gz
+libstdc++-devel-8.6.2-0.4b.fc8
+libstdc++-devel-8.fc8.deb
+nss_ldap-1-0.2b.fc9.tar.bz2
+nss_ldap-1-0.6rc2.fc8.tar.gz
+nss_ldap-1.0-0.1a.tar.gz
+nss_ldap-10.11.8.6.20040204cvs.fc10.ebuild
+nss_ldap-10beta1.fc8.tar.gz

@@ -1,0 +1,62 @@
+$ ./runtests.sh ./tree >/dev/null; printf "EC = %d\n" $?
+Usage: ./runtests.sh [-vtrsc] TEST_DIR [regex]
+
+    -v  validate tree
+    -t  run tests
+    -r  report results
+    -s  synchronize expected results
+    -c  clear generated files
+
+    It is mandatory to supply at least one option.
+EC = 2
+
+$ ./runtests.sh -v tree; printf "EC = %d\n" $?
+./runtests.sh: directories and other files mixed in: .
+./runtests.sh: extra line in ./tests/sort/status-expected
+./runtests.sh: not a number in ./tests/sort/status-expected
+EC = 1
+
+$ ./runtests.sh -v tree trivial; printf "EC = %d\n" $?
+EC = 0
+
+$ ./runtests.sh -st ./tree/tests sort 2>/dev/null; printf "EC = %d\n" $?
+EC = 1
+
+$ (./runtests.sh -t ./tree/tests 'sort|trivial/[^k]'; printf "EC = %d\n" $?) | cat
+sort: [1;32mOK[0m
+trivial/false: [1;32mOK[0m
+trivial/true: [1;32mOK[0m
+EC = 0
+
+$ ./runtests.sh -crtv ./tree/tests sort >/dev/null; printf "EC = %d\n" $?
+sort: [1;32mOK[0m
+EC = 0
+
+$ (./runtests.sh -r -t ./tree/tests; printf "EC = %d\n" $?) | cat
+expensive/sleep/0.00: [1;32mOK[0m
+expensive/sleep/0.25: [1;32mOK[0m
+expensive/sleep/0.50: [1;32mOK[0m
+expensive/sleep/0.75: [1;32mOK[0m
+expensive/sleep/1.00: [1;32mOK[0m
+expensive/sleep/1.25: [1;32mOK[0m
+expensive/sleep/1.50: [1;32mOK[0m
+expensive/sleep/1.75: [1;32mOK[0m
+expensive/sleep/2.00: [1;32mOK[0m
+sort: [1;32mOK[0m
+trivial/false: [1;32mOK[0m
+trivial/known-to-fail: [1;31mFAILED[0m
+trivial/true: [1;32mOK[0m
+expensive/sleep/0.00: OK
+expensive/sleep/0.25: OK
+expensive/sleep/0.50: OK
+expensive/sleep/0.75: OK
+expensive/sleep/1.00: OK
+expensive/sleep/1.25: OK
+expensive/sleep/1.50: OK
+expensive/sleep/1.75: OK
+expensive/sleep/2.00: OK
+sort: OK
+trivial/false: OK
+trivial/known-to-fail: FAILED
+trivial/true: OK
+EC = 1

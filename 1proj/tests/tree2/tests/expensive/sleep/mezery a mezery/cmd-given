@@ -1,0 +1,6 @@
+#!/bin/sh
+sleep 0.00
+read line
+echo "tohle bylo na stdin: "$line""
+echo "Ja jsem errrrorr!" >&2
+return 1

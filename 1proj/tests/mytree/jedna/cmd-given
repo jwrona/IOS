@@ -1,0 +1,8 @@
+#!/bin/bash
+
+read line
+echo "tohle bylo na stdin: "$line""
+
+echo "Ahoj, ja jsem cmd-given! (stdout)"
+echo "Tohle davam na stderr!" >&2
+exit 0
